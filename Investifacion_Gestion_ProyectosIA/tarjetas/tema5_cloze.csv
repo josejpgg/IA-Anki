@@ -1,0 +1,10 @@
+Un proyecto es un esfuerzo {{c1::temporal}} para crear un producto o servicio único.;Definición esencial.
+El ciclo de vida del software abarca desde la {{c1::concepción}} hasta la {{c2::retirada}}.;Extensión completa.
+El modelo en cascada dificulta la detección {{c1::temprana}} de errores.;Limitación clave.
+El modelo iterativo e incremental permite entregar {{c1::valor}} en cada iteración.;Ventaja principal.
+La gestión ágil es útil cuando los requisitos son {{c1::cambiantes}}.;Contexto ideal.
+En proyectos de ciencia de datos, el modelo debe ser {{c1::reevaluado}} tras el despliegue.;Particularidad clave.
+El despliegue integrado implica incluir el {{c1::modelo entrenado}} y el framework en la aplicación.;Despliegue autocontenido.
+MLOps incluye prácticas como {{c1::integración continua}}, {{c2::control de versiones}} y {{c3::gestión de configuración}}.;Herramientas clave.
+La clasificación de proyectos IA puede basarse en la {{c1::naturaleza de la capacidad desarrollada}}.;Criterio general.
+El mantenimiento pertenece a la fase {{c1::operativa}}, no al proyecto.;Diferenciación conceptual.

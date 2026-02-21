@@ -1,0 +1,21 @@
+¿Para qué se utilizan los modelos de lenguaje en PLN?;Intuición: Sirven como motor predictivo dentro de otras aplicaciones. Técnica: Se utilizan en tareas como reconocimiento de voz y traducción automática.
+¿Un modelo de lenguaje puede funcionar sin datos previos?;Intuición: No puede aprender sin ejemplos. Técnica: Requiere datos de entrenamiento para estimar probabilidades.
+¿Los modelos de lenguaje solo pueden modelar secuencias cortas?;Intuición: No necesariamente, depende del modelo. Técnica: No están limitados exclusivamente a secuencias cortas.
+¿Cómo se calcula P(grande | el gato es) si C(el gato es grande)=20 y C(el gato es)=100?;Intuición: Se divide lo específico entre lo general. Técnica: 20/100 = 0.2.
+¿Qué mide la perplejidad en un modelo de lenguaje?;Intuición: Cuánto se “sorprende” el modelo ante los datos. Técnica: Es una métrica de evaluación intrínseca del modelo.
+¿Un valor alto de perplejidad indica mejor modelo?;Intuición: No, más sorpresa implica peor ajuste. Técnica: Valores menores de perplejidad indican mejor modelo.
+¿Cuál es la diferencia entre evaluación intrínseca y extrínseca?;Intuición: Intrínseca evalúa el modelo aislado, extrínseca dentro de una aplicación real. Técnica: Intrínseca usa métricas como perplejidad; extrínseca evalúa rendimiento en tareas como traducción.
+¿Por qué los unigramas generan secuencias menos fieles al corpus?;Intuición: Porque ignoran el contexto. Técnica: Los n-gramas de bajo orden pierden información secuencial.
+¿Qué ocurre al usar n-gramas de orden alto?;Intuición: Capturan más contexto pero requieren más datos. Técnica: Modelan dependencias más largas pero aumentan la dispersión de datos.
+¿Cómo se manejan palabras desconocidas en un modelo de lenguaje?;Intuición: Se sustituyen por un símbolo especial durante entrenamiento. Técnica: Se define un vocabulario cerrado y se mapean palabras raras a UNK en entrenamiento.
+¿Por qué el vocabulario debe definirse durante entrenamiento y no en test?;Intuición: Porque el modelo debe aprender la probabilidad de lo desconocido. Técnica: Las palabras raras del entrenamiento se convierten en UNK para estimar su probabilidad.
+¿Cómo se calcula el suavizado de Laplace para un bigrama?;Intuición: Se suma uno para evitar probabilidades cero. Técnica: (C + 1) / (N + V).
+Calcula P(amigo | buen) con Laplace si C=20, N=100, V=250.;Intuición: Ajuste leve sobre la frecuencia real. Técnica: (20+1)/(100+250)=21/350≈0.06.
+¿Cómo se calcula el suavizado add-k?;Intuición: Se suma una constante mayor que uno para distribuir más probabilidad. Técnica: (C + k) / (N + kV).
+Calcula P(amigo | buen) con add-k (k=5) si C=20, N=100, V=250.;Intuición: Se reparte más masa entre todas las palabras. Técnica: (20+5)/(100+5·250)=25/1300≈0.019.
+¿Qué hace el suavizado backoff cuando un bigrama no aparece?;Intuición: Retrocede a un modelo más simple. Técnica: Utiliza la probabilidad unigram.
+¿Qué es un modelo de representación vectorial?;Intuición: Una forma matemática de representar textos como puntos en un espacio. Técnica: Representación algebraica de textos en un espacio vectorial.
+¿Qué permite el espacio vectorial en NLP?;Intuición: Medir qué tan parecidos son dos textos. Técnica: Calcular similitud matemática entre vectores.
+¿Qué caracteriza al modelo Bag-of-Words?;Intuición: Cuenta palabras pero ignora orden. Técnica: No conserva información de orden ni sintaxis.
+¿Bag-of-Words usa solo representación binaria?;Intuición: No, puede usar diferentes ponderaciones. Técnica: Puede emplear frecuencias o TF-IDF, no solo valores binarios.
+Trampa frecuente: ¿Backoff utiliza directamente la frecuencia del bigrama inexistente?;Intuición: No, no puede usar algo que no existe. Técnica: Recurre a un modelo de menor orden como el unigram.

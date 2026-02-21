@@ -1,0 +1,100 @@
+Pregunta 1
+Enunciado: ¿Cuáles son los dos tipos de recursos principales en la gestión de proyectos de IA?
+Alternativas:
+A. Recursos materiales y económicos.
+B. Recursos humanos y financieros.
+C. Recursos materiales y humanos.
+D. Recursos técnicos y logísticos.
+Respuestas correctas:
+C
+Explicación: Los recursos principales en proyectos de IA son los materiales y los humanos, ya que incluyen la infraestructura tecnológica y los profesionales implicados. Ambos son esenciales para el desarrollo y ejecución del proyecto.
+Pregunta 2
+Enunciado: ¿Por qué la gestión de recursos es esencial en proyectos de IA?
+Alternativas:
+A. Solo para reducir costos.
+B. Para garantizar la eficiencia y el éxito del proyecto, cumplir objetivos y mitigar riesgos.
+C. Únicamente para asegurar el cumplimiento de las regulaciones y estándares éticos.
+D. Solo para optimizar el uso de recursos materiales.
+Respuestas correctas:
+B
+Explicación: La gestión de recursos permite asignar y optimizar adecuadamente los medios disponibles, asegurando la eficiencia y el cumplimiento de objetivos. Además, contribuye a mitigar riesgos asociados al proyecto.
+Pregunta 3
+Enunciado: ¿Qué incluyen los recursos materiales en proyectos de IA?
+Alternativas:
+A. Hardware, software y talento especializado.
+B. Hardware, software y datos.
+C. Datos y talento especializado.
+D. Hardware, software y financiación.
+Respuestas correctas:
+B
+Explicación: Los recursos materiales en proyectos de IA comprenden hardware, software y datos, elementos fundamentales para desarrollar y mantener soluciones de inteligencia artificial. Estos componentes constituyen la base técnica del proyecto.
+Pregunta 4
+Enunciado: ¿Cuál es una diferencia clave entre los proyectos de software tradicionales y los proyectos de IA en cuanto a habilidades y conocimientos requeridos?
+Alternativas:
+A. Los proyectos de IA requieren menos habilidades matemáticas que los proyectos de software tradicionales.
+B. Los profesionales de IA necesitan habilidades en aprendizaje automático y ciencia de datos, mientras que los desarrolladores de software no necesariamente.
+C. Los profesionales de IA no necesitan conocimientos especializados en un dominio específico.
+D. Los desarrolladores de software deben abordar consideraciones éticas y legales adicionales en comparación con los profesionales de IA.
+Respuestas correctas:
+B
+Explicación: Los profesionales de IA requieren competencias en aprendizaje automático y ciencia de datos, ya que trabajan directamente con modelos y análisis de información. Estas habilidades no siempre son necesarias en el desarrollo de software tradicional.
+Pregunta 5
+Enunciado: ¿Cuál es una de las razones por las que la gestión de recursos es esencial en proyectos de IA?
+Alternativas:
+A. La IA es un campo en constante evolución y requiere adaptarse rápidamente a cambios tecnológicos con perfiles capacitados.
+B. La gestión de recursos solo se enfoca en la administración de recursos humanos.
+C. La gestión de recursos no es relevante en proyectos de IA, ya que estos proyectos no requieren inversiones significativas.
+D. La gestión de recursos en proyectos de IA solo se enfoca en el cumplimiento de plazos y presupuestos.
+Respuestas correctas:
+A
+Explicación: La IA evoluciona rápidamente, por lo que es necesario contar con perfiles actualizados y adaptables a los cambios tecnológicos. La gestión adecuada de recursos humanos y materiales resulta clave en este contexto dinámico.
+Pregunta 6
+Enunciado: ¿Cuál es la principal ventaja de las GPU en proyectos de inteligencia artificial?
+Alternativas:
+A. Mayor capacidad para ejecutar tareas de propósito general.
+B. Menor cantidad de núcleos.
+C. Mayor capacidad para el procesamiento paralelo.
+D. Menor eficiencia energética.
+Respuestas correctas:
+C
+Explicación: Las GPU destacan por su capacidad de procesamiento paralelo, lo que permite ejecutar múltiples cálculos simultáneamente. Esta característica acelera significativamente el entrenamiento e inferencia de modelos de IA, especialmente en aprendizaje profundo.
+Pregunta 7
+Enunciado: ¿Cuáles son las dos categorías principales de infraestructuras para proyectos de IA?
+Alternativas:
+A. Hardware y software.
+B. En la nube y on-premise.
+C. GPU y TPU.
+D. CPU y GPU.
+Respuestas correctas:
+B
+Explicación: Las infraestructuras para proyectos de IA se clasifican principalmente en soluciones en la nube y on-premise. Esta distinción determina dónde se almacenan y procesan los datos y afecta a aspectos como escalabilidad, seguridad y coste.
+Pregunta 8
+Enunciado: ¿Qué aspectos son cruciales a considerar al seleccionar la infraestructura hardware para proyectos de IA?
+Alternativas:
+A. Escalabilidad y mantenimiento.
+B. Diseño y estilo.
+C. Tamaño y peso.
+D. Marca y precio.
+Respuestas correctas:
+A
+Explicación: La escalabilidad permite adaptar la infraestructura a necesidades cambiantes, mientras que el mantenimiento asegura un funcionamiento óptimo a lo largo del tiempo. Ambos factores son determinantes en la sostenibilidad del proyecto.
+Pregunta 9
+Enunciado: ¿Cuál es el rol principal del científico de datos en un proyecto de IA?
+Alternativas:
+A. Implementar soluciones de almacenamiento de datos.
+B. Crear aplicaciones y herramientas.
+C. Diseñar, desarrollar e implementar algoritmos de aprendizaje automático.
+D. Explorar y analizar los datos, aplicar técnicas estadísticas y de aprendizaje automático, y desarrollar modelos predictivos y prescriptivos.
+Respuestas correctas:
+D
+Explicación: El científico de datos explora y analiza datos, aplica técnicas estadísticas y de aprendizaje automático y desarrolla modelos predictivos y prescriptivos. Su función es extraer valor de los datos para apoyar la toma de decisiones.
+Pregunta 10
+Enunciado: ¿Cuál es una de las medidas clave para proteger los datos en reposo y en tránsito en proyectos de IA?
+Alternativas:
+A. Utilizar contraseñas débiles y de fácil acceso.
+B. Cifrar los datos.
+C. Compartir datos sensibles sin restricciones.
+D. Ignorar la segmentación de red y las zonas de seguridad.
+Respuestas correctas:
+B
+Explicación: El cifrado de datos en reposo y en tránsito protege la información frente a accesos no autorizados y manipulaciones. Esta medida garantiza que solo usuarios y sistemas autorizados puedan acceder a datos sensibles.

@@ -1,0 +1,114 @@
+Pregunta 1
+Enunciado: Indica las afirmaciones correctas sobre el problema de la ambigüedad en el análisis sintáctico:
+Alternativas:
+A. Solo afecta a un grupo reducido de analizadores sintácticos.
+B. Se debe a un mal diseño de la gramática en la que aparecen múltiples reglas para una misma frase analizada.
+C. Se da cuando el analizador sintáctico encuentra varios árboles sintácticos válidos y no es capaz de decidir cuál es el mejor.
+D. Se puede resolver a posteriori una vez efectuado el análisis sintáctico.
+Respuestas correctas:
+C
+D
+Explicación: La ambigüedad sintáctica surge cuando existen varios árboles válidos para una misma oración y el analizador no puede decidir automáticamente cuál es el mejor. Es un problema general del PLN y puede abordarse en fases posteriores al análisis sintáctico.
+Pregunta 2
+Enunciado: Indica las afirmaciones correctas sobre los métodos para el análisis sintáctico basados en programación dinámica:
+Alternativas:
+A. Tratan el problema de la ambigüedad estructural.
+B. Buscan soluciones óptimas a subproblemas que permiten encontrar la solución al problema en su conjunto.
+C. Devuelven un único resultado para el análisis sintáctico.
+D. Los posibles árboles sintácticos debidos a la ambigüedad estructural se representan como subproblemas.
+Respuestas correctas:
+A
+B
+Explicación: Los métodos basados en programación dinámica abordan la ambigüedad estructural y se fundamentan en la resolución óptima de subproblemas para construir la solución global. No garantizan un único resultado debido a la ambigüedad y los subproblemas no equivalen directamente a árboles completos alternativos.
+Pregunta 3
+Enunciado: Indica las afirmaciones correctas sobre el algoritmo de Cocke-Kasami-Younger (CKY):
+Alternativas:
+A. Está basado en programación dinámica.
+B. Puede incluir probabilidades para cada árbol sintáctico.
+C. Utiliza una gramática libre de contexto.
+D. Utiliza una gramática del tipo Chomsky Normal Form (CNF).
+Respuestas correctas:
+A
+D
+Explicación: El algoritmo CKY se basa en programación dinámica y opera sobre gramáticas en forma normal de Chomsky (CNF). La inclusión de probabilidades corresponde a la variante probabilística del algoritmo.
+Pregunta 4
+Enunciado: Indica las afirmaciones correctas sobre una gramática CNF:
+Alternativas:
+A. Las reglas solo pueden tener a la derecha dos símbolos no terminales o un símbolo terminal.
+B. Cualquier gramática libre de contexto se podrá transformar en una gramática CNF.
+C. Una regla en una gramática libre de contexto que mezcle símbolos terminales y no terminales se podrá transformar al formato CNF como una única regla con un símbolo comodín.
+D. Las reglas unitarias en una gramática libre de contexto se podrán transformar al formato CNF reescribiendo la parte derecha de estas reglas originales con el lado derecho de todas aquellas reglas no unitarias.
+Respuestas correctas:
+A
+B
+D
+Explicación: En CNF las reglas se restringen a dos no terminales o un terminal en el lado derecho y cualquier CFG puede transformarse a este formato. Las reglas mixtas generan varias reglas en CNF, no una única con símbolo comodín.
+Pregunta 5
+Enunciado: Indica las afirmaciones correctas sobre el funcionamiento del algoritmo CKY:
+Alternativas:
+A. Para rellenar la celda [i,j] de la matriz, el algoritmo considera si los contenidos de una celda en la fila i y una celda en la columna j pueden ser combinados de modo que se cumpla alguna de las reglas de la gramática.
+B. El algoritmo rellena la matriz triangular superior operando por columnas de abajo a arriba y de izquierda a derecha.
+C. Una celda de la matriz puede contener varios posibles análisis sintácticos alternativos para la oración.
+D. Para devolver un único análisis sintáctico se debe elegir de entre los símbolos presentes en la celda [0,n] de la matriz uno que represente la oración, por ejemplo S u O dependiendo del vocabulario utilizado en la gramática, y recuperar de forma recursiva sus constituyentes sintácticos.
+Respuestas correctas:
+B
+D
+Explicación: CKY rellena la matriz triangular superior siguiendo un orden sistemático por columnas y permite recuperar el análisis seleccionando el símbolo inicial en la celda superior y reconstruyendo sus constituyentes. No combina cualquier celda arbitrariamente y, según la evaluación, cada celda contiene un único valor.
+Pregunta 6
+Enunciado: Indica las afirmaciones correctas sobre la matriz de análisis sintáctico en el algoritmo CKY:
+Alternativas:
+A. Para una frase de longitud n, se trabaja con una matriz de dimensión n x n.
+B. Cada celda [i, j] de esta matriz contiene el conjunto de símbolos no terminales que representan todos los constituyentes sintácticos que abarcan posiciones de entrada desde i hasta j.
+C. La superdiagonal en la matriz contiene las categorías gramaticales para cada una de las palabras de la oración.
+D. Las subsiguientes diagonales por encima de la superdiagonal contienen los constituyentes sintácticos para los diferentes tramos de longitud creciente en la oración.
+Respuestas correctas:
+B
+C
+D
+Explicación: La matriz de CKY almacena en cada celda los no terminales que cubren un tramo concreto de la oración; la superdiagonal contiene las categorías léxicas y las diagonales superiores representan constituyentes de mayor longitud. No se utiliza la matriz completa sino su parte triangular superior.
+Pregunta 7
+Enunciado: Indica las afirmaciones correctas sobre la fase de reconocimiento sintáctico del algoritmo CKY:
+Alternativas:
+A. El algoritmo aplicado en esta fase permite obtener un único árbol sintáctico.
+B. Cada nodo del árbol sintáctico tiene exactamente dos hijos.
+C. La estructura de un árbol sintáctico se puede codificar como una matriz de dos dimensiones.
+D. El algoritmo aplicado en esta fase se puede modificar para convertirlo en un analizador sintáctico.
+Respuestas correctas:
+C
+D
+Explicación: La estructura del análisis puede representarse mediante una matriz bidimensional y el algoritmo puede extenderse para realizar análisis completos. No garantiza un único árbol y no todos los nodos tienen necesariamente dos hijos.
+Pregunta 8
+Enunciado: Indica las afirmaciones correctas sobre los analizadores sintácticos probabilistas:
+Alternativas:
+A. Buscan el árbol sintáctico más probable para una oración maximizando la probabilidad de dicho árbol.
+B. Tienen como objetivo producir el análisis sintáctico más probable para una oración.
+C. Calculan la probabilidad de cada interpretación del análisis sintáctico para una oración y escogen la más probable.
+D. Calculan la probabilidad de un árbol sintáctico de una oración a partir de las probabilidades de las reglas involucradas en el análisis de la oración.
+Respuestas correctas:
+A
+B
+Explicación: Los analizadores probabilistas buscan el árbol o análisis más probable para una oración.
+Observaciones: En el texto proporcionado no se indica explícitamente si las opciones C y D son correctas o incorrectas, por lo que no puede determinarse con certeza su validez a partir de la información disponible.
+Pregunta 9
+Enunciado: Indica las afirmaciones correctas sobre el cálculo de la probabilidad asociada a una regla representada en una gramática libre de contexto:
+Alternativas:
+A. Si no se dispone de un corpus de frases analizadas sintácticamente, no se puede calcular dicha probabilidad.
+B. Si se dispone de un treebank, se recuenta el número de veces que se expande un símbolo no terminal y se normaliza.
+C. Si no se dispone de un treebank, pero sí se dispone de un analizador sintáctico no probabilístico, se analiza sintácticamente el corpus de frases con el analizador y si estas no son ambiguas se recuenta el número de veces que se aplica cada regla y se normaliza.
+D. Si no se dispone de un treebank, se estiman las probabilidades con un algoritmo basado en Expectation Maximization, donde se parte de unas probabilidades que se van ajustando iterativamente hasta que se dé el criterio de convergencia.
+Respuestas correctas:
+B
+C
+D
+Explicación: Las probabilidades pueden estimarse a partir de un treebank mediante recuento y normalización, generarse con un analizador no probabilístico si no hay ambigüedad o estimarse mediante algoritmos como Expectation Maximization. Por tanto, no es imprescindible disponer de un corpus previamente anotado.
+Pregunta 10
+Enunciado: Indica las afirmaciones correctas sobre el algoritmo CKY probabilístico:
+Alternativas:
+A. Extiende el algoritmo CKY añadiendo información sobre la probabilidad de que se cumpla cada regla.
+B. En la conversión de las reglas de una gramática libre de contexto al formato CNF, las probabilidades de las reglas permanecen constantes.
+C. Crea una matriz cuadrada con tantas celdas como la longitud de la frase y una dimensión adicional del tamaño del número de símbolos no terminales.
+D. El valor de cada una de las celdas de la matriz se corresponde con la probabilidad de cada constituyente o símbolo no terminal para cada palabra.
+Respuestas correctas:
+A
+D
+Explicación: El CKY probabilístico amplía el algoritmo clásico incorporando probabilidades asociadas a las reglas y almacena en la matriz las probabilidades de los constituyentes no terminales. En la conversión a CNF es necesario reajustar probabilidades y la matriz utilizada es triangular, no cuadrada completa.

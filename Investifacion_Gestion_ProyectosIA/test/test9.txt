@@ -1,0 +1,101 @@
+Pregunta 1
+Enunciado: La capacidad de generalización de un algoritmo de machine learning viene determinado por:
+Alternativas:
+A. Las máquinas no son capaces de aprender, solo repiten patrones previamente almacenados. Es solo una ilusión de que están aprendiendo.
+B. El sesgo que introduce en el aprendizaje.
+C. Su capacidad para adaptarse a los datos de entrenamiento.
+D. A su similitud con la forma que tiene el cerebro de aprender.
+Respuestas correctas:
+B
+Explicación: La capacidad de generalización está determinada por el sesgo introducido en el aprendizaje, que permite abstraer patrones aplicables a nuevos casos. Este sesgo controla el equilibrio entre ajuste a los datos y capacidad de extrapolación.
+Pregunta 2
+Enunciado: Los algoritmos de machine learning pueden ser de los siguientes tipos:
+Alternativas:
+A. Supervisado, individual y multivariante.
+B. No supervisado, supervisado y clústering.
+C. No supervisado, supervisado y por refuerzo.
+D. Por refuerzo, clústering y supervisado.
+Respuestas correctas:
+C
+Explicación: Los principales tipos de aprendizaje automático son supervisado, no supervisado y por refuerzo. Las demás opciones incluyen categorías que no constituyen tipologías formales equivalentes.
+Pregunta 3
+Enunciado: El aprendizaje supervisado se caracteriza por:
+Alternativas:
+A. Usar la solución de cada ejemplo como parte del aprendizaje.
+B. No conocer la solución de los ejemplos para realizar el aprendizaje.
+C. Usar o supervisado, supervisado y por refuerzo.
+D. Por refuerzo, clústering y supervisado.
+Respuestas correctas:
+A
+Explicación: En el aprendizaje supervisado se dispone de ejemplos etiquetados cuya solución forma parte del proceso de entrenamiento. El modelo aprende a partir de la correspondencia entre entradas y salidas conocidas.
+Pregunta 4
+Enunciado: El aprendizaje por refuerzo se caracteriza por:
+Alternativas:
+A. No necesitar a un instructor que guíe el entrenamiento.
+B. Usar el feedback del entorno como guía para saber si la acción realizada es la correcta.
+C. Seleccionar de forma aleatoria la siguiente acción con base en el feedback acumulado.
+D. Todas las anteriores son correctas.
+Respuestas correctas:
+B
+Explicación: El aprendizaje por refuerzo se basa en el uso del feedback del entorno, generalmente en forma de recompensa, para actualizar la política de decisión. El agente aprende evaluando las consecuencias de sus acciones.
+Observaciones: La opción A puede resultar parcialmente cierta, pero la característica definitoria es el uso explícito de la señal de recompensa del entorno.
+Pregunta 5
+Enunciado: Un problema de clasificación es un problema donde:
+Alternativas:
+A. La variable dependiente es discreta y finita.
+B. Es continua e infinita.
+C. Es discreta e infinita.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+A
+Explicación: En un problema de clasificación, la variable dependiente pertenece a un conjunto discreto y finito de categorías. El objetivo es asignar cada ejemplo a una de esas clases.
+Pregunta 6
+Enunciado: ¿Cuál de estas afirmaciones es cierta sobre K-NN?
+Alternativas:
+A. Es un algoritmo de aprendizaje no supervisado que busca almacenar estados antiguos y su solución para recuperarlas posteriormente.
+B. Es un algoritmo de aprendizaje supervisado que busca almacenar estados antiguos y su solución para recuperarlas posteriormente.
+C. Es un algoritmo de aprendizaje no supervisado que agrupa a los ejemplos por proximidad formando clúster.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+B
+Explicación: K-NN es un algoritmo supervisado que almacena ejemplos etiquetados y utiliza los más cercanos para predecir nuevas instancias. Su funcionamiento se basa en la similitud entre ejemplos.
+Pregunta 7
+Enunciado: ¿Cuál de estas afirmaciones es cierta sobre los árboles de decisión?
+Alternativas:
+A. Es un algoritmo no supervisado que permite crear reglas.
+B. Segmenta el problema con aproximaciones no lineales.
+C. Es un algoritmo de caja negra.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+D
+Explicación: Los árboles de decisión son algoritmos supervisados, generan separaciones lineales mediante hiperplanos y se consideran modelos de caja blanca. Por ello, ninguna de las afirmaciones anteriores es correcta.
+Pregunta 8
+Enunciado: ¿Cuál de estas afirmaciones es cierta sobre las redes de neuronas?
+Alternativas:
+A. Es un algoritmo de aprendizaje supervisado muy resistente al ruido.
+B. Es un algoritmo de caja negra.
+C. Sirve para clasificación y para regresión.
+D. Todas las anteriores son correctas.
+Respuestas correctas:
+D
+Explicación: Las redes neuronales pueden utilizarse para clasificación y regresión, suelen considerarse modelos de caja negra y pueden mostrar robustez frente al ruido en los datos. Por tanto, todas las afirmaciones son correctas.
+Pregunta 9
+Enunciado: ¿Cuál de estas afirmaciones es cierta sobre el aprendizaje por refuerzo?
+Alternativas:
+A. Utiliza la función de refuerzo que le proporciona el entorno para actualizar la política.
+B. Solo se almacena el último feedback recibido.
+C. El aprendizaje por refuerzo profundo sustituye la función de recompensa por una red de neuronas.
+D. Todas las anteriores son correctas.
+Respuestas correctas:
+A
+Explicación: El aprendizaje por refuerzo emplea la señal de recompensa del entorno para actualizar la política del agente. En el aprendizaje profundo por refuerzo, lo que se aproxima con redes neuronales es la función de valor o la política, no la recompensa.
+Pregunta 10
+Enunciado: ¿Cuál de estas afirmaciones es cierta sobre el k-means?
+Alternativas:
+A. K-means agrupa con base en la distancia de un centroide que se le proporciona como ejemplo.
+B. K-means agrupa con base en la distancia de un centroide que se va calculando en cada iteración como la media de las muestras clasificadas.
+C. K-means agrupa con base en la distancia de un centroide que se va calculando en cada iteración como el elemento más alejado de los elementos del grupo.
+D. Todas las anteriores son falsas.
+Respuestas correctas:
+B
+Explicación: K-means actualiza iterativamente los centroides calculando la media de las muestras asignadas a cada clúster. Este proceso continúa hasta la convergencia de los centroides.

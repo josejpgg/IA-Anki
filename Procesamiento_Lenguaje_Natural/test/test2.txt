@@ -1,0 +1,110 @@
+Pregunta 1
+Enunciado: El principio de composición:
+Alternativas:
+A. Indica que la representación del significado de una frase se puede obtener desde la composición del significado de las palabras que la constituyen.
+B. Indica que la representación del significado de un documento se puede obtener desde la composición de las frases que lo forman.
+C. Indica que la representación del significado de una palabra está relacionada con su morfología.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+A
+B
+Explicación: El principio de composición establece que el significado de una unidad lingüística compleja puede obtenerse a partir del significado de sus componentes y de su combinación. No se refiere a la morfología de una palabra de manera aislada.
+Pregunta 2
+Enunciado: Indica cuál de estas afirmaciones es correcta:
+Alternativas:
+A. El principio de composición es suficiente para representar el significado de cualquier texto.
+B. La perspectiva distribucional indica que todas las palabras tienen el mismo peso en la representación del significado de un texto.
+C. El aspecto secuencial muestra cómo es irrelevante el orden de las palabras para la construcción del significado de un texto.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+D
+Explicación: El principio de composición no es suficiente para capturar todo el significado de un texto, ya que puede perder información como el orden de las palabras o la estructura sintáctica. La perspectiva distribucional no asigna el mismo peso a todas las palabras y el orden secuencial sí es relevante en la construcción del significado.
+Pregunta 3
+Enunciado: Indica cuál de estas afirmaciones es cierta respecto a la normalización de textos:
+Alternativas:
+A. El proceso de tokenización suele ser la última fase del pipeline de normalización de los textos.
+B. Siempre es aconsejable usar técnicas de stemming en el pipeline de normalización.
+C. El proceso de lematización puede hacer que se pierda información importante para la construcción del significado de una frase.
+D. La eliminación de stopwords se hace para quitar palabras poco habituales en una lengua.
+Respuestas correctas:
+C
+Explicación: La lematización puede provocar la pérdida de información relevante, como marcas de plural o género, que pueden aportar significado. La tokenización suele realizarse en fases iniciales, el stemming no siempre es recomendable y las stopwords son palabras frecuentes, no poco habituales.
+Pregunta 4
+Enunciado: El proceso de stemming de la palabra «saltábamos» da como resultado:
+Alternativas:
+A. «Saltar».
+B. «Salto».
+C. «Salt».
+D. «Saltaba».
+Respuestas correctas:
+B
+Explicación: Según la evaluación original, la opción «Salto» fue marcada como incorrecta, lo que implica que otra alternativa es la correcta.
+Observaciones: El texto proporcionado no indica explícitamente cuál es la opción correcta, solo que la opción B es incorrecta, por lo que no puede determinarse con certeza la respuesta válida.
+Pregunta 5
+Enunciado: El proceso de lematización de la palabra «saltábamos» da como resultado:
+Alternativas:
+A. «Saltar».
+B. «Salto».
+C. «Salta».
+D. «Saltaba».
+Respuestas correctas:
+A
+Explicación: La lematización devuelve la forma canónica o lema de la palabra, que en este caso es «saltar». La forma «salt» correspondería a un resultado típico de stemming, no de lematización.
+Pregunta 6
+Enunciado: La mínima unidad que forma una palabra y tiene un significado es:
+Alternativas:
+A. El morfema gramatical.
+B. El lexema.
+C. El morfema.
+D. El lema.
+Respuestas correctas:
+C
+Explicación: Un morfema es la unidad mínima que compone una palabra y que es capaz de expresar significado. Puede ser léxico o gramatical, pero ambos son tipos de morfema.
+Pregunta 7
+Enunciado: Indica las afirmaciones correctas sobre el lexema:
+Alternativas:
+A. Tienen un significado gramatical.
+B. Conforma la raíz de una palabra.
+C. Tienen un significado léxico.
+D. Proporciona significado a la palabra.
+Respuestas correctas:
+B
+C
+D
+Explicación: El lexema es la raíz o parte invariable de la palabra y constituye la unidad mínima con significado léxico, aportando el significado principal. El significado gramatical lo proporcionan los morfemas gramaticales, no el lexema.
+Pregunta 8
+Enunciado: Indica las afirmaciones correctas sobre los recursos lingüísticos:
+Alternativas:
+A. Un lexicón es un tipo de diccionario que contiene una lista de lemas.
+B. El diccionario es el repertorio donde se recogen las palabras de una lengua acompañadas de su definición o explicación.
+C. El tesauro es un tipo de diccionario que contiene información sobre el léxico.
+D. Las bases de datos de relaciones léxicas contienen un conjunto de lemas anotados con sus posibles sentidos.
+Respuestas correctas:
+A
+B
+D
+Explicación: Un lexicón recoge lemas, un diccionario incluye palabras con sus definiciones y las bases de datos léxicas anotan lemas con sus posibles sentidos. La opción C no describe adecuadamente la función específica de un tesauro.
+Pregunta 9
+Enunciado: Indica las afirmaciones correctas sobre un tesauro:
+Alternativas:
+A. Debe contener información sobre las relaciones de sinonimia.
+B. Los términos que conforman un tesauro se relacionan entre sí para mostrar las relaciones entre significados.
+C. Si la jerarquía del tesauro se basa en las relaciones de hiperonimia/hiponimia, cualquier término del tesauro es un descendiente del concepto de raíz.
+D. Debe contener información sobre las relaciones de meronimia.
+Respuestas correctas:
+A
+B
+D
+Explicación: Un tesauro organiza términos mostrando relaciones semánticas como sinonimia y meronimia, y establece vínculos entre significados. No necesariamente todos los términos deben ser descendientes de un único concepto raíz en una jerarquía estricta.
+Pregunta 10
+Enunciado: Indica las afirmaciones correctas sobre Natural Language Toolkit (NLTK):
+Alternativas:
+A. Proporciona herramientas para analizar textos en español.
+B. Proporciona interfaces a diferentes corpus y otros recursos léxicos como por ejemplo WordNet.
+C. Permite integrar software de terceros por ejemplo la API de Stanford CoreNLP.
+D. Es la plataforma más utilizada para desarrollar aplicaciones de procesamiento del lenguaje natural en Python.
+Respuestas correctas:
+A
+B
+C
+Explicación: NLTK ofrece herramientas para analizar textos en distintos idiomas, proporciona acceso a corpus y recursos como WordNet, y permite la integración con herramientas externas como Stanford CoreNLP. No se establece que sea la plataforma más utilizada en Python para aplicaciones de PLN.

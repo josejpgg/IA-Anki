@@ -1,0 +1,101 @@
+
+Pregunta 1
+Enunciado: En el ámbito científico el estado del arte hace referencia a:
+Alternativas:
+A. El conjunto de conocimientos actualizados, leyes, teorías e iniciativas en curso relativos a un tema o ámbito concreto de la ciencia.
+B. El estado del arte hace referencia al método que se seguirá en la investigación.
+C. Esa expresión no es común en las publicaciones o escritos científicos.
+D. El estado del arte hace referencia a la lista de los investigadores más destacados del área.
+Respuestas correctas:
+A
+Explicación: El estado del arte describe la situación actual de un tema de investigación a nivel académico, incluyendo conocimientos, teorías y trabajos en curso. Su función es contextualizar el estudio dentro del marco científico existente.
+Pregunta 2
+Enunciado: A la hora de realizar un trabajo científico, siempre debemos comenzar buscando documentación previa sobre el tema que nos ocupa:
+Alternativas:
+A. Falso, porque a veces se tratarán temas absolutamente inéditos.
+B. Falso, porque la búsqueda de documentación es una opción, no una obligación.
+C. Cierto, porque a ello obliga las normas de las revistas científicas.
+D. Cierto, porque por innovador que sea nuestro enfoque siempre hay que tratar proporcionar información sobre los conocimientos aceptados en el área, materias relacionadas y utilizar los trabajos o ideas previas para aportar conocimiento adicional.
+Respuestas correctas:
+D
+Explicación: Todo trabajo científico debe apoyarse en conocimientos previos, incluso si el enfoque es innovador. Revisar trabajos anteriores permite fundamentar adecuadamente la investigación y aportar conocimiento adicional.
+Pregunta 3
+Enunciado: ¿Qué ventajas tiene el modelo open-access?
+Alternativas:
+A. Es gratuito para el autor.
+B. Tiene una comunidad más grande.
+C. Es el modelo donde se producen menos plagios.
+D. Es el modelo que permite difundir más fácilmente tus investigaciones.
+Respuestas correctas:
+D
+Explicación: El modelo open access facilita una mayor difusión de las investigaciones, ya que los lectores no deben pagar para acceder a los contenidos. Aunque puede implicar costes para el autor, amplía el alcance y la visibilidad del trabajo.
+Pregunta 4
+Enunciado: El ORCID es:
+Alternativas:
+A. Un organismo que vela por una ciencia libre de malas prácticas.
+B. Un identificador único del artículo.
+C. Un identificador único del autor.
+D. Un sistema antiguo y en desuso para crear textos científicos.
+Respuestas correctas:
+C
+Explicación: ORCID proporciona un identificador único y permanente para cada investigador, evitando confusiones en la autoría y facilitando la correcta atribución de publicaciones. Esto contribuye a una mejor identificación y difusión de la producción científica.
+Pregunta 5
+Enunciado: Los índices de impacto de una revista:
+Alternativas:
+A. Son un elemento informativo sin ningún tipo de control y estandarización desarrollado por la comunidad científica para dar visión a su trabajo.
+B. Se emplean para indicar la popularidad de un científico.
+C. Son creados y utilizados por las universidades para promocionar a sus científicos.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+D
+Explicación: El índice de impacto mide el número de citas que reciben los artículos de una revista y no responde a las descripciones planteadas en las otras opciones. Por tanto, ninguna de las afirmaciones anteriores es correcta.
+Pregunta 6
+Enunciado: Los textos científicos deben ser:
+Alternativas:
+A. Complejos en su narración para demostrar las capacidades intelectuales de los investigadores que lo llevan a cabo.
+B. Deben tener la retórica suficiente para que sea atractivo leerlos.
+C. Deben ser simples y concisos para que sea fácil de entender y analizar.
+D. Deben ser muy extensos y detallados recreándose en aspectos no tan importantes.
+Respuestas correctas:
+C
+Explicación: Los textos científicos deben ser claros, simples y concisos para facilitar su comprensión y análisis. El objetivo principal es comunicar conocimiento de forma efectiva.
+Pregunta 7
+Enunciado: La estructura de un artículo científico debe tener como mínimo:
+Alternativas:
+A. Introducción, estado del arte y propuesta.
+B. Introducción, estado del arte, propuesta y experimentación.
+C. Introducción, estado del arte, propuesta, experimentación y conclusiones.
+D. Introducción, estado del arte, propuesta, experimentación, conclusiones y marco teórico.
+Respuestas correctas:
+C
+Explicación: Un artículo científico debe incluir al menos introducción, estado del arte, propuesta, experimentación y conclusiones. El marco teórico puede ser opcional dependiendo del público y del área de conocimiento.
+Pregunta 8
+Enunciado: ¿Dónde se pueden obtener citas para tu bibliografía?
+Alternativas:
+A. De artículos relacionados con el tuyo que hayas leído para realizarlo.
+B. De buscar en Google Scholar o Microsoft Academics.
+C. De libros que hayas consultado para realizarlo.
+D. Todas las anteriores.
+Respuestas correctas:
+D
+Explicación: Todas las fuentes mencionadas son válidas para obtener referencias bibliográficas, siempre que sean de calidad académica. Es fundamental seleccionar fuentes fiables y pertinentes.
+Pregunta 9
+Enunciado: ¿Qué es un gestor bibliográfico?
+Alternativas:
+A. Una persona encargada de una biblioteca.
+B. Es un programa software que ayuda a catalogar y clasificar de forma eficiente la bibliografía empleada.
+C. Un buscador de referencias bibliográficas como Google Scholar.
+D. Un sistema que permite contrastar referencias bibliográficas físicas con sus versiones online.
+Respuestas correctas:
+B
+Explicación: Un gestor bibliográfico es un programa que permite organizar, clasificar y gestionar referencias de manera eficiente. Herramientas como Mendeley facilitan el control y la citación de fuentes académicas.
+Pregunta 10
+Enunciado: La red social más usada para divulgar la ciencia es:
+Alternativas:
+A. YouTube.
+B. Twitter.
+C. LinkedIn.
+D. ResearchGate.
+Respuestas correctas:
+D
+Explicación: ResearchGate es actualmente una de las redes sociales más utilizadas para la divulgación científica. Aunque otras plataformas permiten compartir conocimiento, no tienen como finalidad principal la comunicación académica.

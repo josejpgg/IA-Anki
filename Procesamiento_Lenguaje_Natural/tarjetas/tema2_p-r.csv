@@ -1,0 +1,25 @@
+¿Qué establece el principio de composición?;Que el significado de una unidad lingüística compleja puede obtenerse a partir del significado de sus componentes y su combinación.
+¿El principio de composición permite obtener el significado de un documento completo a partir de sus frases?;Sí, según el principio de composición el significado de unidades mayores puede construirse a partir de sus partes.
+¿Por qué el principio de composición no es suficiente para representar todo el significado de un texto?;Porque puede perder información como el orden de las palabras o la estructura sintáctica.
+¿La perspectiva distribucional asigna el mismo peso a todas las palabras de un texto?;No, no todas las palabras tienen el mismo peso en la representación del significado.
+¿Es irrelevante el orden de las palabras para construir significado?;No, el orden secuencial es relevante para el significado.
+¿En qué fase del pipeline suele realizarse la tokenización?;En las fases iniciales del proceso de normalización.
+¿Siempre es recomendable aplicar stemming en un pipeline de normalización?;No, depende de la tarea y puede no ser adecuado en todos los casos.
+¿Qué posible problema puede causar la lematización?;Puede provocar pérdida de información relevante como género o número.
+¿Por qué se eliminan las stopwords en un texto?;Porque son palabras frecuentes que suelen aportar poca información semántica en ciertas tareas.
+¿Cuál es el lema de “saltábamos”?;Saltar.
+¿Qué diferencia hay entre stemming y lematización?;El stemming recorta palabras sin considerar su forma canónica, la lematización devuelve el lema correcto.
+¿Cuál es la unidad mínima con significado que forma una palabra?;El morfema.
+¿Qué es un lexema?;La raíz o parte invariable de la palabra que aporta el significado léxico.
+¿El lexema aporta significado gramatical?;No, el significado gramatical lo aportan los morfemas gramaticales.
+¿Qué es un lexicón?;Un tipo de diccionario que contiene una lista de lemas.
+¿Qué es un diccionario?;El repertorio donde se recogen las palabras de una lengua acompañadas de su definición o explicación.
+¿Qué contienen las bases de datos de relaciones léxicas?;Un conjunto de lemas anotados con sus posibles sentidos.
+¿Qué tipo de relaciones debe incluir un tesauro?;Relaciones de sinonimia y meronimia.
+¿Para qué sirve un tesauro?;Para organizar términos mostrando relaciones semánticas entre significados.
+¿Qué proporciona NLTK?;Herramientas para analizar textos, acceso a corpus y recursos léxicos como WordNet.
+¿Puede NLTK integrarse con herramientas externas como Stanford CoreNLP?;Sí, permite integrar software de terceros.
+¿Es NLTK necesariamente la plataforma más utilizada para desarrollar aplicaciones de PLN en Python?;No, no se establece que sea la más utilizada.
+Caso práctico: Si eliminas información de plural al lematizar un texto jurídico, ¿qué riesgo asumes?;Perder información relevante que puede afectar la interpretación del significado.
+Metáfora: Si el principio de composición es como construir una casa con ladrillos, ¿qué representan los ladrillos?;Las palabras o unidades lingüísticas básicas.
+Caso práctico: Si tu modelo ignora el orden de palabras en “perro muerde hombre” y “hombre muerde perro”, ¿qué problema tienes?;No estás capturando la información secuencial necesaria para representar correctamente el significado.

@@ -1,0 +1,9 @@
+Un agente inteligente recibe información del {{c1::entorno}}.;Percepción fundamental.
+REAS significa {{c1::Rendimiento}}, {{c2::Entorno}}, {{c3::Actuadores}} y {{c4::Sensores}}.;Marco conceptual.
+Un entorno puede ser {{c1::estocástico}}, {{c2::parcialmente observable}} y {{c3::episódico}}.;Atributos válidos.
+El entorno del póker es {{c1::parcialmente observable}}.;Ejemplo clásico.
+Un agente reactivo basado en modelos mantiene {{c1::información histórica}}.;Memoria interna.
+El encadenamiento hacia delante aplica reglas de {{c1::inferencia}} sobre una base de hechos.;Razonamiento deductivo.
+El razonamiento basado en casos selecciona el caso {{c1::más similar}}.;Estrategia comparativa.
+Los sistemas expertos modelizan el conocimiento de un {{c1::experto humano}}.;Apoyo a decisiones.
+Un entorno discreto tiene estados {{c1::finitos}} o enumerables.;Definición formal.

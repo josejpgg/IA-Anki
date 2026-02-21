@@ -1,0 +1,17 @@
+¿Qué caracteriza a un agente inteligente en relación con su entorno?;Intuición: Percibe lo que ocurre a su alrededor. Técnica: Recibe información del entorno mediante sensores.
+¿Qué significa el acrónimo REAS?;Intuición: Describe cómo interactúa el agente con su mundo. Técnica: Rendimiento, Entorno, Actuadores y Sensores.
+¿Qué tipos de atributos puede tener un entorno?;Intuición: Puede ser incierto, parcial o por episodios. Técnica: Puede ser estocástico, parcialmente observable y episódico.
+¿Qué significa que un entorno sea discreto?;Intuición: Tiene un número finito o numerable de estados. Técnica: Sus estados y acciones son finitos o enumerables.
+¿Por qué el póker es un entorno parcialmente observable?;Intuición: No ves todas las cartas. Técnica: El agente no tiene acceso completo al estado del entorno.
+¿Por qué el entorno del póker es discreto?;Intuición: Las cartas y jugadas son finitas. Técnica: El conjunto de estados y acciones es finito.
+¿Qué diferencia hay entre un agente reactivo simple y uno basado en modelos?;Intuición: Uno solo responde al presente, el otro recuerda el pasado. Técnica: El basado en modelos mantiene información histórica para la toma de decisiones.
+¿Qué hacen los agentes reactivos simples?;Intuición: Aplican reglas directas si ocurre algo. Técnica: Operan con reglas condición-acción sin memoria interna.
+¿Qué caracteriza a los sistemas expertos?;Intuición: Imitan el conocimiento de un experto humano. Técnica: Modelizan el conocimiento experto para apoyar la toma de decisiones.
+¿Un sistema experto crea conocimiento nuevo más allá del experto?;Intuición: No, se basa en el conocimiento proporcionado. Técnica: No genera conocimiento más allá del aportado por expertos.
+¿Qué es el encadenamiento hacia delante?;Intuición: Parte de hechos conocidos y genera conclusiones nuevas. Técnica: Método deductivo que aplica reglas de inferencia sobre una base de hechos.
+¿Por qué el encadenamiento hacia delante es trazable?;Intuición: Puedes seguir paso a paso cómo se llegó a la conclusión. Técnica: Permite reconstruir el razonamiento aplicado por el sistema experto.
+¿Qué es el razonamiento basado en casos?;Intuición: Resuelve problemas comparándolos con casos anteriores. Técnica: Selecciona el caso más similar y adapta su solución.
+¿Por qué el razonamiento basado en casos es menos trazable que el encadenamiento hacia delante?;Intuición: Porque la similitud puede ser menos transparente. Técnica: El criterio de selección del caso más similar puede resultar complejo de interpretar.
+Trampa frecuente: ¿Todos los entornos son totalmente observables?;Intuición: No, muchos son parcialmente observables. Técnica: Un entorno puede ser parcialmente observable si el agente no accede a toda la información.
+Comprensión estructural: ¿Cómo se relacionan sensores y actuadores en un agente?;Intuición: Uno percibe y el otro actúa. Técnica: Sensores captan información del entorno; actuadores ejecutan acciones que afectan al entorno.
+¿Qué papel juega la función de rendimiento en REAS?;Intuición: Define qué significa hacerlo bien. Técnica: Evalúa el comportamiento del agente según criterios establecidos.

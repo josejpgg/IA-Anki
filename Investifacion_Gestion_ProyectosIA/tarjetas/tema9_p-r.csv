@@ -1,0 +1,17 @@
+¿De qué depende la capacidad de generalización de un algoritmo de ML?;Intuición: De cuánto simplifica la realidad sin memorizarla. Técnica: Está determinada por el sesgo introducido en el aprendizaje.
+¿Qué es el sesgo en aprendizaje automático?;Intuición: Las suposiciones que hace el modelo para poder generalizar. Técnica: Conjunto de restricciones o hipótesis que guían el aprendizaje y permiten extrapolación.
+¿Cuáles son los tres grandes tipos de aprendizaje automático?;Intuición: Con etiquetas, sin etiquetas o aprendiendo por experiencia. Técnica: Supervisado, no supervisado y por refuerzo.
+¿Qué caracteriza al aprendizaje supervisado?;Intuición: Aprende comparando predicción con respuesta correcta. Técnica: Usa ejemplos etiquetados donde la solución forma parte del entrenamiento.
+¿Qué caracteriza al aprendizaje por refuerzo?;Intuición: Aprende a base de premios o castigos. Técnica: Utiliza la señal de recompensa del entorno para actualizar su política.
+¿Un problema de clasificación qué tipo de variable tiene?;Intuición: Categorías concretas. Técnica: Variable dependiente discreta y finita.
+¿Por qué K-NN es un algoritmo supervisado?;Intuición: Porque necesita ejemplos etiquetados. Técnica: Almacena instancias etiquetadas y predice en función de los vecinos más cercanos.
+¿K-means es supervisado o no supervisado?;Intuición: Agrupa sin etiquetas previas. Técnica: Es un algoritmo no supervisado de clustering.
+¿Cómo actualiza K-means sus centroides?;Intuición: Calculando el centro promedio del grupo. Técnica: Recalcula cada centroide como la media de las muestras asignadas.
+¿Los árboles de decisión son caja negra?;Intuición: No, puedes seguir sus reglas. Técnica: Son modelos de caja blanca y supervisados.
+¿Las redes neuronales son caja negra?;Intuición: Sí, cuesta interpretar cómo toman decisiones. Técnica: Se consideran modelos de caja negra.
+¿Las redes neuronales sirven solo para clasificación?;Intuición: No, también predicen valores continuos. Técnica: Se aplican tanto a clasificación como a regresión.
+¿Qué actualiza el aprendizaje por refuerzo profundo con redes neuronales?;Intuición: La función que decide qué hacer o cuánto vale una acción. Técnica: Aproxima la función de valor o la política, no la función de recompensa.
+Trampa frecuente: ¿El aprendizaje por refuerzo sustituye la recompensa por una red neuronal?;Intuición: No, la recompensa sigue viniendo del entorno. Técnica: La red aproxima la función de valor o política, no la recompensa.
+Comprensión estructural: ¿Cómo se diferencian supervisado y no supervisado?;Intuición: Uno tiene respuestas correctas, el otro descubre estructura oculta. Técnica: Supervisado usa etiquetas; no supervisado detecta patrones sin etiquetas.
+¿Por qué el sesgo es necesario para generalizar?;Intuición: Sin reglas previas el modelo solo memoriza. Técnica: El sesgo controla el equilibrio entre ajuste y capacidad de extrapolación.
+¿Qué significa que un entorno de aprendizaje sea estocástico?;Intuición: Que incluye azar. Técnica: Las transiciones o resultados no son deterministas.

@@ -1,0 +1,10 @@
+El análisis semántico dirigido por la sintaxis utiliza como entrada el {{c1::árbol sintáctico}}.;Depende del análisis sintáctico previo.
+El principio de composición establece que el significado se construye a partir de {{c1::las partes}} y {{c2::la estructura sintáctica}}.;La estructura es esencial.
+En una arquitectura en cascada, primero se realiza el {{c1::análisis sintáctico}} y después el {{c2::análisis semántico}}.;Secuencia de procesamiento.
+Las anotaciones semánticas se basan en la hipótesis {{c1::rule-to-rule}}.;Correspondencia entre reglas sintácticas y semánticas.
+Las anotaciones semánticas pueden representarse mediante {{c1::lógica de primer orden}} o {{c2::cálculo lambda}}.;Lenguajes formales habituales.
+Si una regla tiene un único constituyente, su semántica se obtiene por {{c1::copia}}.;Segundo principio.
+En reglas con varios constituyentes, la semántica se obtiene mediante {{c1::aplicación funcional}}.;Tercer principio.
+Un ejemplo correcto de composición funcional es {{c1::B.sem(C.sem)}}.;Modelo de aplicación funcional.
+En el enfoque integrado, el análisis sintáctico y semántico se realizan {{c1::en paralelo}}.;Diferencia con arquitectura en cascada.
+El enfoque integrado utiliza una {{c1::gramática anotada semánticamente}}.;Recurso estructural.

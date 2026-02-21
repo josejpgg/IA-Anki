@@ -1,0 +1,18 @@
+¿Qué NO forma parte de un proyecto como característica esencial?;Intuición: El mantenimiento no es proyecto, es operación. Técnica: La fase de mantenimiento no forma parte del proyecto; un proyecto es un esfuerzo temporal para crear un producto o servicio único.
+¿Qué caracteriza a un proyecto?;Intuición: Tiene principio y fin y crea algo único. Técnica: Es un esfuerzo temporal orientado a producir un producto o servicio único considerando a los interesados.
+¿Cuándo comienza y termina el ciclo de vida del software?;Intuición: Desde que se concibe hasta que desaparece. Técnica: Abarca desde la concepción del producto hasta su retirada.
+¿Cuál es la principal limitación del modelo en cascada?;Intuición: Los errores se detectan demasiado tarde. Técnica: No permite detección temprana de fallos en requisitos porque las pruebas se realizan al final.
+¿Qué ventaja tiene el modelo iterativo e incremental?;Intuición: Permite entregar valor progresivamente. Técnica: Entrega incrementos funcionales en cada iteración.
+¿Una metodología se limita al diseño del producto?;Intuición: No, organiza todo el proceso. Técnica: Define procedimientos para producir y mantener software, incluyendo planificación y control.
+¿Cuándo es especialmente útil la gestión ágil?;Intuición: Cuando los requisitos cambian constantemente. Técnica: Es eficaz en entornos con requisitos cambiantes o poco definidos.
+¿La gestión ágil elimina la documentación?;Intuición: No, la adapta. Técnica: No elimina documentación, sino que la ajusta a necesidades del proyecto.
+¿Qué diferencia fundamental tiene el Data Science Process frente a modelos ágiles tradicionales?;Intuición: Los modelos deben reevaluarse continuamente. Técnica: El modelo en producción necesita reevaluación constante por cambios en datos y entorno.
+¿Qué implica desplegar un módulo de IA integrado en una aplicación?;Intuición: Incluir el modelo dentro del propio sistema. Técnica: Integrar el framework de ejecución y el modelo entrenado dentro del código de la aplicación.
+¿Es obligatorio exponer un modelo IA como servicio web para desplegarlo?;Intuición: No necesariamente. Técnica: El despliegue puede realizarse integrado en la aplicación sin servicio externo.
+¿Cómo pueden clasificarse los proyectos IA?;Intuición: Según qué capacidad desarrollan y qué tareas requieren. Técnica: Según la naturaleza de la capacidad desarrollada y las tareas necesarias para su construcción.
+¿Qué es MLOps?;Intuición: Aplicar prácticas DevOps a modelos de ML. Técnica: Conjunto de técnicas para garantizar precisión, escalabilidad y confiabilidad de modelos en producción.
+¿Qué prácticas incluye MLOps?;Intuición: Automatizar, versionar y controlar cambios. Técnica: Integración continua, control de versiones y gestión de configuración.
+¿Por qué el mantenimiento no forma parte del proyecto?;Intuición: Porque es una operación continua. Técnica: El proyecto es temporal; el mantenimiento pertenece a la fase operativa.
+Trampa frecuente: ¿El modelo en cascada es adecuado para requisitos cambiantes?;Intuición: No, es rígido. Técnica: No se adapta bien a cambios frecuentes en requisitos.
+Comprensión estructural: ¿Cómo se relacionan ciclo de vida, metodología y despliegue?;Intuición: La metodología organiza el ciclo y culmina en despliegue. Técnica: La metodología estructura las fases del ciclo de vida incluyendo desarrollo y despliegue.
+¿Por qué MLOps es crítico en proyectos IA?;Intuición: Porque el modelo sigue evolucionando tras el despliegue. Técnica: Permite monitorización, versionado y actualización continua del modelo en producción.

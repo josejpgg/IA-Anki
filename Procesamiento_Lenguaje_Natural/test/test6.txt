@@ -1,0 +1,115 @@
+Pregunta 1
+Enunciado: Indica las afirmaciones correctas sobre el significado de las palabras:
+Alternativas:
+A. El sentido es la representación de uno de los aspectos del significado de una palabra.
+B. El significado de una palabra se representa a través de su lema.
+C. La semántica léxica estudia el significado de las palabras y las relaciones de sentido entre ellas.
+D. Cada uno de los significados de una palabra se llama sentido.
+Respuestas correctas:
+A
+B
+C
+D
+Explicación: Todas las afirmaciones describen correctamente distintos aspectos del significado léxico: la noción de sentido, su relación con el lema y el objeto de estudio de la semántica léxica. Cada significado individual de una palabra se denomina sentido.
+Pregunta 2
+Enunciado: Indica las afirmaciones correctas sobre las palabras y sus sentidos:
+Alternativas:
+A. Dos palabras son homófonas si suenan igual, tienen distinto significado y se escriben igual.
+B. Dos sentidos de una palabra son homógrafos porque se escriben de la misma forma.
+C. Dos palabras son homónimas si se pronuncian igual, pero se escriben de forma diferente.
+D. Dos sentidos de una palabra son homónimos si están relacionados entre sí.
+Respuestas correctas:
+B
+C
+Explicación: Las palabras homófonas suenan igual pero se escriben distinto, por lo que A es falsa. La homonimia implica coincidencia formal con significados distintos y no necesariamente relacionados, por lo que D es falsa; B y C se ajustan a las definiciones trabajadas.
+Pregunta 3
+Enunciado: Indica las afirmaciones correctas sobre las relaciones semánticas entre sentidos:
+Alternativas:
+A. A veces puede existir una conexión semántica entre los sentidos de las palabras.
+B. La metonimia es una forma de emplear una palabra en un sentido distinto al que propiamente le corresponde, pero con el que tiene alguna conexión.
+C. La polisemia es una relación semántica entre los sentidos de una misma palabra.
+D. La polisemia es un tipo particular de metonimia.
+Respuestas correctas:
+A
+B
+C
+Explicación: Puede existir conexión semántica entre sentidos y la polisemia describe múltiples sentidos relacionados de una misma palabra; la metonimia es un caso particular de polisemia, no al revés.
+Pregunta 4
+Enunciado: Indica las afirmaciones correctas sobre las relaciones entre sentidos de las palabras:
+Alternativas:
+A. La sinonimia es la relación contraria a la antonimia.
+B. Existe una relación de antonimia entre los sentidos de dos palabras si sus significados son idénticos o casi idénticos.
+C. Un tesauro es un diccionario que contiene una lista de palabras con sus sinónimos y sus antónimos.
+D. Las bases de datos de relaciones léxicas contienen un conjunto de lemas, el conjunto de sentidos de cada lema, su definición y una lista de sinónimos. Sin embargo, no es obligatorio que contengan la pronunciación de los lemas ni detalles de las relaciones entre lemas.
+Respuestas correctas:
+A
+C
+Explicación: La sinonimia y la antonimia son relaciones opuestas; la definición de B corresponde a sinonimia y no a antonimia. En las bases de datos léxicas es esencial incluir las relaciones entre lemas, por lo que D es falsa.
+Pregunta 5
+Enunciado: Indica las afirmaciones correctas sobre las relaciones entre sentidos de las palabras:
+Alternativas:
+A. Una palabra es un hiperónimo de otra si su significado incluye el significado de la otra palabra.
+B. Una palabra es un hipónimo de otra si su significado está incluido en el significado de la otra palabra.
+C. Las relaciones de hiponimia e hiperonimia se modelan a través de la jerarquía IS-A en las ontologías.
+D. Una palabra es un merónimo de otra si su significado mantiene con el significado de la otra palabra una relación de la parte respecto al todo.
+Respuestas correctas:
+C
+D
+Explicación: Las relaciones de hiponimia/hiperonimia se modelan mediante jerarquías IS-A y la meronimia expresa la relación parte–todo. Las definiciones de A y B están formuladas de manera incorrecta según la retroalimentación proporcionada.
+Pregunta 6
+Enunciado: Indica las afirmaciones correctas sobre los algoritmos de desambiguación del sentido de las palabras basados en aprendizaje supervisado:
+Alternativas:
+A. El clasificador se puede entrenar para desambiguar algunas palabras concretas de una muestra léxica o un texto entero.
+B. Utilizan un tesauro que contiene las relaciones entre sentidos de las palabras para poder entrenar el clasificador.
+C. Requieren tener un corpus de palabras etiquetadas con sus sentidos correctos para poder entrenar el clasificador.
+D. El vector de características lingüísticas de las palabras de contexto con las que se entrena el clasificador puede constar de características de colocación y características sobre las palabras vecinas.
+Respuestas correctas:
+A
+C
+D
+Explicación: Los métodos supervisados requieren un corpus etiquetado con sentidos correctos y emplean características del contexto, como colocaciones o palabras vecinas, para entrenar el clasificador. El uso de tesauros corresponde a enfoques basados en conocimiento, no estrictamente supervisados.
+Pregunta 7
+Enunciado: Indica las afirmaciones correctas sobre los algoritmos de desambiguación del sentido de las palabras basados en conocimiento:
+Alternativas:
+A. Aplican el algoritmo de Lesk para seleccionar el sentido cuya definición en el diccionario comparte la mayor cantidad de palabras con el contexto.
+B. Utilizan un tesauro que contiene las relaciones entre sentidos de las palabras para poder entrenar el clasificador.
+C. Requieren tener un corpus de palabras etiquetadas con sus sentidos correctos para poder entrenar el clasificador.
+D. Realizan un entrenamiento indirecto aplicando algoritmos de aprendizaje supervisado débil.
+Respuestas correctas:
+A
+B
+D
+Explicación: Los métodos basados en conocimiento emplean recursos como diccionarios o tesauros (por ejemplo mediante el algoritmo de Lesk) y pueden apoyarse en aprendizaje supervisado débil; no requieren corpus etiquetados manualmente.
+Pregunta 8
+Enunciado: Indica las afirmaciones correctas sobre los algoritmos de desambiguación del sentido de las palabras basados en aprendizaje semisupervisado:
+Alternativas:
+A. Aplican el algoritmo de Yarowsky para en cada iteración entrenar un clasificador a partir del corpus etiquetado, utilizar el clasificador para clasificar las instancias no etiquetadas y añadir a los datos de entrenamiento los ejemplos para los que se tenga mayor confianza en la clasificación.
+B. Utilizan un tesauro que contiene las relaciones entre sentidos de las palabras para poder entrenar el clasificador.
+C. Requieren tener un corpus de palabras etiquetadas con sus sentidos correctos para poder entrenar el clasificador.
+D. Para seleccionar las instancias a etiquetar en el conjunto inicial se debe utilizar una heurística, por ejemplo, la heurística de un sentido por colocación o la heurística de un sentido por discurso.
+Respuestas correctas:
+A
+C
+Explicación: Los enfoques semisupervisados parten de un pequeño conjunto etiquetado y lo amplían iterativamente (por ejemplo con el algoritmo de Yarowsky). No dependen necesariamente de grandes tesauros ni de heurísticas como requisito obligatorio según la retroalimentación proporcionada.
+Pregunta 9
+Enunciado: Indica las afirmaciones correctas sobre los algoritmos de desambiguación del sentido de las palabras basados en aprendizaje no supervisado:
+Alternativas:
+A. Utilizan un método estándar de agrupamiento, normalmente el algoritmo de agrupamiento aglomerativo, y una medida de distancia para determinar la similitud entre clústeres.
+B. Utilizan un tesauro que contiene las relaciones entre sentidos de las palabras para poder entrenar el clasificador.
+C. Requieren tener un corpus de palabras etiquetadas con sus sentidos correctos para poder entrenar el clasificador.
+D. También se llama inducción del sentido de las palabras porque el conjunto de sentidos de cada palabra se aprende automáticamente.
+Respuestas correctas:
+A
+D
+Explicación: Los métodos no supervisados aplican técnicas de agrupamiento para inducir automáticamente los sentidos de las palabras, sin necesidad de corpus etiquetados ni recursos léxicos estructurados como tesauros.
+Pregunta 10
+Enunciado: Indica las afirmaciones correctas sobre la similitud entre palabras:
+Alternativas:
+A. Los algoritmos que calculan la similitud entre palabras miden una relación binaria, es decir si las palabras son casi-sinónimos o no lo son.
+B. Los algoritmos que calculan la similitud entre palabras utilizando la estructura de un tesauro se basan en la hipótesis de que los sentidos de las palabras son más similares si existe un camino más corto entre ellos.
+C. Muchos de los algoritmos que calculan la similitud entre palabras realmente lo que hacen es utilizar una medida de relación entre palabras y no de similitud.
+D. Existen algoritmos que calculan la similitud entre palabras utilizando la estructura de un tesauro e información probabilística derivada de un corpus como, por ejemplo, la cantidad de información.
+Respuestas correctas:
+C
+D
+Explicación: Algunos métodos miden relación más que similitud estricta, y existen enfoques que combinan la estructura de un tesauro con medidas probabilísticas como la cantidad de información. La similitud no se limita a una decisión binaria y no depende únicamente de la distancia más corta en la jerarquía.

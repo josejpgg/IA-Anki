@@ -1,0 +1,11 @@
+La {{c1::morfosintaxis}} combina morfología y sintaxis dentro de la gramática.;Definición estructural.
+La clasificación de palabras por clase gramatical también se llama {{c1::Part-of-Speech tagging}}.;Equivalencia terminológica.
+En un HMM de POS tagging, la transición se modela como {{c1::P(etiqueta_i | etiqueta_i-1)}}.;Direccionalidad correcta.
+La estimación de máxima verosimilitud de transición se calcula como {{c1::frecuencia conjunta}} dividida por {{c2::frecuencia de la etiqueta anterior}}.;Fórmula conceptual.
+La probabilidad de emisión en un HMM se define como {{c1::P(palabra | etiqueta)}}.;Definición clave.
+El algoritmo usado para encontrar la secuencia de etiquetas más probable es {{c1::Viterbi}}.;Decodificación.
+En la matriz de Viterbi, cada columna corresponde a una {{c1::observación}}.;Estructura matricial.
+Cada celda de Viterbi representa un {{c1::estado}} posible.;Interpretación estructural.
+La secuencia óptima final se obtiene mediante {{c1::backtrace}}.;Paso final del algoritmo.
+Un HMM es un modelo {{c1::estadístico}} que infiere {{c2::estados ocultos}}.;Definición conceptual.
+El proceso que resuelve ambigüedades gramaticales en POS tagging se llama {{c1::desambiguación}}.;Proceso central.

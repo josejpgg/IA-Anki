@@ -1,0 +1,11 @@
+El {{c1::principio de composición}} indica que el significado de una unidad compleja se obtiene a partir de sus componentes.;Definición fundamental.
+El principio de composición no es suficiente porque puede perder información como {{c1::el orden de las palabras}}.;Limitación clave.
+La {{c1::tokenización}} suele realizarse en fases iniciales del pipeline de normalización.;Paso temprano del proceso.
+La {{c1::lematización}} devuelve la forma canónica de una palabra.;Diferencia frente al stemming.
+El lema de “saltábamos” es {{c1::saltar}}.;Ejemplo práctico.
+Un {{c1::morfema}} es la unidad mínima con significado.;Definición morfológica.
+El {{c1::lexema}} es la raíz de la palabra y aporta significado léxico.;Componente léxico.
+Las {{c1::stopwords}} son palabras frecuentes que a menudo se eliminan en tareas de procesamiento de texto.;Motivo de eliminación.
+Un {{c1::tesauro}} organiza términos mostrando relaciones semánticas.;Recurso lingüístico.
+NLTK proporciona acceso a recursos como {{c1::WordNet}}.;Herramienta importante en PLN.
+El {{c1::stemming}} recorta palabras sin garantizar que devuelva el lema correcto.;Diferencia clave con lematización.

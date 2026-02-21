@@ -1,0 +1,101 @@
+
+Pregunta 1
+Enunciado: La fase de análisis del problema dentro de la estructura de un proyecto:
+Alternativas:
+A. Incorpora el análisis de las necesidades y objetivos del negocio.
+B. Incluye el análisis técnico para poder evaluar si la solución se puede abordar desde un proyecto de inteligencia artificial.
+C. Es el primer paso en la definición de una solución de inteligencia artificial.
+D. Todas las respuestas son válidas.
+Respuestas correctas:
+D
+Explicación: Antes de diseñar una solución de inteligencia artificial es necesario analizar las necesidades del negocio y evaluar su viabilidad técnica. Esta fase constituye el primer paso en la definición del proyecto.
+Pregunta 2
+Enunciado: Las plataformas de automatización de procesos robóticos (RPA) con capacidades de inteligencia artificial:
+Alternativas:
+A. Se consideran posibles herramientas a emplear en los proyectos de inteligencia artificial por su capacidad de automatizar tareas repetitivas.
+B. Son plataformas de aprendizaje MLaaS.
+C. Suelen ser herramientas comerciales orientadas al desarrollo de casos de uso específicos como el análisis de datos o el reconocimiento del lenguaje natural.
+D. Abarcan desde modelos de aprendizaje a herramientas de gestión de proyectos.
+Respuestas correctas:
+A
+Explicación: Las plataformas RPA con capacidades de IA permiten automatizar tareas repetitivas y basadas en reglas mediante robots de software. Por ello, pueden utilizarse como herramientas dentro de proyectos de inteligencia artificial.
+Pregunta 3
+Enunciado: Las herramientas y plataformas de inteligencia artificial open source:
+Alternativas:
+A. Reducen los costes de desarrollo.
+B. Reducen el tiempo de desarrollo.
+C. No tienen el soporte de desarrolladores y expertos en la materia.
+D. Todas las respuestas son correctas.
+Respuestas correctas:
+B
+Explicación: Las herramientas open source facilitan la experimentación, iteración y escalabilidad, lo que contribuye a reducir el tiempo de desarrollo. Además, suelen contar con el respaldo de comunidades activas de desarrolladores.
+Pregunta 4
+Enunciado: Las herramientas y plataformas de inteligencia artificial presentan desafíos:
+Alternativas:
+A. Coste de las soluciones empresariales.
+B. Dependencia de proveedores.
+C. Complejidad técnica.
+D. Todas las respuestas son correctas.
+Respuestas correctas:
+D
+Explicación: El uso de plataformas de IA puede implicar costes elevados, dependencia de proveedores y la necesidad de conocimientos técnicos especializados. Estos factores representan desafíos relevantes en su adopción.
+Pregunta 5
+Enunciado: La selección de las herramientas y plataformas de inteligencia artificial a utilizar en un proyecto debe considerar los siguientes factores:
+Alternativas:
+A. Escalabilidad para adaptarse a las necesidades de crecimiento y expansión de un proyecto.
+B. Menor coste posible.
+C. Ausencia de sesgo en el tratamiento de datos.
+D. Incorporación de fuentes de datos externas que enriquezcan los datos internos disponibles por la empresa.
+Respuestas correctas:
+A
+Explicación: La escalabilidad es un criterio clave, ya que las soluciones deben adaptarse al crecimiento y a mayores volúmenes de datos o usuarios. La capacidad de expansión garantiza la sostenibilidad del proyecto a largo plazo.
+Pregunta 6
+Enunciado: La gestión y preparación de los datos para el entrenamiento de los modelos:
+Alternativas:
+A. Permite ir más rápido ya que no obliga a documentar.
+B. Es especialmente útil donde los requisitos son cambiantes y no están definidos con precisión.
+C. Incorpora la recopilación de los datos, su limpieza, selección y transformación de características y la normalización de los datos.
+D. Incorpora el entrenamiento y validación de los modelos.
+Respuestas correctas:
+C
+Explicación: La preparación de datos incluye su recopilación, limpieza, selección, transformación y normalización. La calidad de los datos es un factor determinante para el rendimiento de los modelos de inteligencia artificial.
+Pregunta 7
+Enunciado: La selección de algoritmos y técnicas de aprendizaje automático:
+Alternativas:
+A. Implica conocer las fortalezas y debilidades de los diferentes enfoques de aprendizaje automático para poder seleccionar la mejor técnica para un problema específico.
+B. Forma parte de la fase de despliegue de los modelos.
+C. Incluye la evaluación del rendimiento de los modelos.
+D. Todas las respuestas son correctas.
+Respuestas correctas:
+A
+Explicación: La selección de algoritmos requiere comprender las fortalezas y limitaciones de cada enfoque para ajustarlo al problema y a los datos disponibles. Esta decisión es crítica para el rendimiento final del modelo.
+Pregunta 8
+Enunciado: La selección de las métricas de evaluación de los modelos de inteligencia artificial:
+Alternativas:
+A. Varía según el tipo de problema que se está abordando.
+B. Impone el uso de las mismas métricas para todos los modelos permitiendo así la comparativa universal de su rendimiento.
+C. Incluye el posible uso del error exponencial mínimo.
+D. Impide identificar el sobreajuste de los modelos.
+Respuestas correctas:
+A
+Explicación: Las métricas de evaluación dependen del tipo de problema, como clasificación o regresión. Su adecuada selección permite medir la capacidad de generalización del modelo en datos nuevos.
+Pregunta 9
+Enunciado: La creación de los servicios de predicción de un modelo:
+Alternativas:
+A. Implica la normalización de los datos.
+B. Facilita la auditoría y seguimiento de las actividades relacionadas con el proyecto de inteligencia artificial.
+C. Permite la detección de brechas de seguridad.
+D. Es una de las fases propia de la integración y despliegue de modelos en los entornos de producción.
+Respuestas correctas:
+D
+Explicación: La creación de servicios de predicción forma parte de la integración y despliegue del modelo en producción. Permite que aplicaciones empresariales envíen datos al modelo y reciban predicciones de manera operativa.
+Pregunta 10
+Enunciado: Las plataformas de aprendizaje automático como servicio (MLaaS) proporcionan un entorno basado en la nube para el desarrollo, entrenamiento y despliegue de modelos. Algunas de ellas son las siguientes:
+Alternativas:
+A. Google Cloud AI Platform.
+B. Scikit-learn.
+C. OpenCV.
+D. Blue Prism.
+Respuestas correctas:
+A
+Explicación: Google Cloud AI Platform es una solución en la nube que permite desarrollar, entrenar y desplegar modelos de aprendizaje automático como servicio. Las demás opciones no corresponden a plataformas MLaaS basadas en la nube.

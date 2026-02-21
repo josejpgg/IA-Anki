@@ -1,0 +1,11 @@
+Los modelos de lenguaje se utilizan en aplicaciones como {{c1::reconocimiento de voz}} y {{c2::traducción automática}}.;Aplicaciones principales.
+La probabilidad condicional se calcula como {{c1::C(secuencia completa) / C(contexto previo)}}.;Definición operativa.
+La {{c1::perplejidad}} es una métrica de evaluación intrínseca.;Evaluación del modelo.
+Un valor menor de {{c1::perplejidad}} indica mejor modelo.;Interpretación correcta.
+Los unigramas pierden {{c1::información secuencial}}.;Limitación estructural.
+Para manejar palabras desconocidas se utiliza el token {{c1::UNK}}.;Tratamiento de OOV.
+El suavizado de Laplace suma {{c1::1}} al numerador.;Add-one smoothing.
+La fórmula general del suavizado add-k es {{c1::(C + k) / (N + kV)}}.;Generalización.
+El suavizado {{c1::backoff}} retrocede a un modelo de menor orden.;Estrategia jerárquica.
+Los modelos vectoriales representan textos en un {{c1::espacio vectorial}}.;Representación algebraica.
+Bag-of-Words no conserva {{c1::orden}} ni {{c2::sintaxis}}.;Limitación estructural.

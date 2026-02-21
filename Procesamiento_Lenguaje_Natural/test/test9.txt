@@ -1,0 +1,102 @@
+Pregunta 1
+Enunciado: Indica las afirmaciones verdaderas en el contexto de las tareas de MT:
+Alternativas:
+A. Un buen sistema de MT puede centrarse sólo en la traducción individual de las palabras, sin considerar el contexto general de la frase.
+B. Las traducciones entre dos lenguas son directas ya que las diferencias que pueda haber entre ellas no son relevantes para hacer una traducción.
+C. Los aspectos de divergencia léxica hacen referencia a diferencias entre dos lenguas en relación con la variación en el significado que puede tener una misma palabra entre ellas.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+C
+Explicación: La divergencia léxica alude a diferencias de significado entre lenguas para palabras aparentemente equivalentes. Un buen sistema de MT debe considerar el contexto y las traducciones no son directas debido a divergencias lingüísticas.
+Pregunta 2
+Enunciado: ¿Cuál es el objetivo de usar teacher forcing dentro de un modelo encoder-decoder?
+Alternativas:
+A. Conseguir que la ejecución de la fase del encoding sea más rápida.
+B. Calcular la función de coste en el entrenamiento del modelo de manera que durante cada etapa t se calcule con respecto a la palabra real de la secuencia en t-1, y no la palabra que se predijo en t-1. Con ello, se busca evitar que se degraden la calidad de las predicciones a medida que se avanza en el decoder.
+C. Reducir el tamaño del conjunto de entrenamiento para facilitar la fase de aprendizaje del modelo.
+D. Mejorar la calidad de las predicciones del modelo encoding-decoding mediante el uso de LM causales tanto en la parte del encoder como en la parte del decoder.
+Respuestas correctas:
+B
+Explicación: El teacher forcing utiliza la palabra real previa durante el entrenamiento del decoder para evitar la propagación acumulativa de errores y estabilizar el aprendizaje.
+Pregunta 3
+Enunciado: ¿Qué diferencias existen entre una capa cross-attention y otra causal self-attention dentro de un bloque del decoder para un modelo de MT?
+Alternativas:
+A. La capa causal self-attention se encarga de recibir el contexto generado en el encoder, mientras que la capa cross-attention es una capa estándar self-attention que recibe como entrada la secuencia recorrida en el decoder hasta ese momento.
+B. La capa cross-attention se encarga de recibir el contexto generado en el encoder, mientras que la capa causal self-attention es una capa estándar que recibe como entrada la secuencia recorrida en el decoder hasta ese momento.
+C. La capa cross-attention es siempre la primera capa de los bloques del decoder, mientras que la capa causal self-attention es siempre la última.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+B
+Explicación: En el decoder, la causal self-attention opera sobre la secuencia generada hasta el momento, mientras que la cross-attention incorpora el contexto proveniente del encoder.
+Pregunta 4
+Enunciado: ¿Cuál de estas afirmaciones es correcta con respecto a las diferencias entre la arquitectura de un modelo basado en transformers para autocompletado de textos frente a otro para la generación automática de resúmenes?
+Alternativas:
+A. En el caso del autocompletado de textos no se dispone desde el principio de la secuencia completa, por lo que el modelo de transformers seguirá un esquema como el de un LM causal. En cambio, en la generación de resúmenes sí que se dispone de todo el texto, con lo que el transformer puede ser bidireccional.
+B. En el caso de la generación automática de resúmenes no se dispone desde el principio de la secuencia completa, por lo que el modelo de transformers seguirá un esquema como el de un LM causal. En cambio, en el autocompletado de textos sí que se dispone de todo el texto, con lo que el transformer puede ser bidireccional.
+C. En el caso del autocompletado de textos se puede usar el concepto de teacher forcing en el entrenamiento, mientras que en la generación automática de resúmenes no es posible.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+Ninguna determinada con certeza
+Explicación: En el texto proporcionado no se indica explícitamente cuál opción es correcta; únicamente se señala que la seleccionada fue incorrecta.
+Observaciones: No se dispone de retroalimentación que permita identificar con certeza la respuesta correcta.
+Pregunta 5
+Enunciado: ¿Cómo se llevaría a cabo un análisis de sentimientos no supervisado basado en la información de sentimientos a nivel de palabras disponible en un lexicón?
+Alternativas:
+A. Se generarían rasgos que caractericen el texto (ej., BoW), y con eso se entrenaría un modelo, como por ejemplo un Naive-Bayes, con el que predecir las clases asociadas al texto.
+B. Se caracterizarían los sentimientos de las palabras que componen cada texto y, por ejemplo, se aplicarían reglas de clasificación que asignen un sentimiento a cada texto en función del sentimiento asociado a sus palabras individuales.
+C. Se generarían rasgos que caractericen el texto (ej., BoW), y con eso se entrenaría un modelo, como por ejemplo una Red Neuronal Recurrente, con el que predecir las clases asociadas al texto.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+B
+Explicación: En un enfoque no supervisado basado en lexicón se agregan los valores de sentimiento de las palabras y se aplican reglas para inferir el sentimiento global del texto sin entrenamiento supervisado.
+Pregunta 6
+Enunciado: ¿Cuál de estas preguntas sería un ejemplo de factoid question?
+Alternativas:
+A. ¿Cuál es la composición de la atmósfera de Marte?
+B. ¿Cuál es la mejor forma de viajar a Roma?
+C. ¿Qué me recomiendas para aprender PLN?
+D. Todas las anteriores.
+Respuestas correctas:
+A
+Explicación: Una factoid question tiene una respuesta concreta y objetiva; la opción A cumple esta característica, mientras que B y C admiten múltiples respuestas posibles.
+Pregunta 7
+Enunciado: ¿Para qué propósito se usa el inverted index dentro de un sistema de IR para ad hoc retrieval?
+Alternativas:
+A. Mejorar el scoring de similitud entre consulta y documento.
+B. Realizar una búsqueda más eficiente mediante un diccionario que indica qué documentos contienen ciertas palabras, calculando similitud solo para esos documentos.
+C. Permitir el uso de técnicas de embeddings dentro del IR.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+B
+Explicación: El índice invertido permite localizar eficientemente los documentos que contienen los términos de la consulta, reduciendo el espacio de búsqueda.
+Pregunta 8
+Enunciado: Indica cuál de las siguientes afirmaciones es correcta en relación con un IR para factoid QA:
+Alternativas:
+A. Sistema en dos etapas: recuperación de documentos relevantes y extracción del fragmento que responde.
+B. El sistema debe poder identificar cuando ningún documento contiene respuesta, por ejemplo usando un token como [CLS].
+C. Debido al tamaño limitado de entrada, se recorren documentos con ventanas acotadas.
+D. Todas son correctas.
+Respuestas correctas:
+D
+Explicación: Un sistema de factoid QA combina recuperación de documentos, extracción de respuesta y manejo de ventanas debido a limitaciones de longitud, además de mecanismos para detectar ausencia de respuesta.
+Pregunta 9
+Enunciado: Indica cuál de estas afirmaciones es incorrecta sobre un sistema de ASR:
+Alternativas:
+A. La entrada es una señal de audio procesada en rasgos que sirven como entrada al modelo.
+B. Los rasgos acústicos suelen tener mayor dimensionalidad que la salida y pueden comprimirse antes del modelado.
+C. El problema de ASR es causal y puede mejorarse combinándolo con un modelo de lenguaje.
+D. Todas son incorrectas.
+Respuestas correctas:
+No determinada con certeza
+Explicación: El texto indica que la opción seleccionada fue incorrecta, pero no especifica cuál es la afirmación verdaderamente incorrecta.
+Observaciones: No se dispone de información suficiente para identificar con certeza la opción incorrecta.
+Pregunta 10
+Enunciado: Indica cuál de estas afirmaciones es incorrecta sobre un sistema de TTS:
+Alternativas:
+A. En general, se puede considerar que un sistema de TTS es dependiente del hablante.
+B. Es necesario incluir un Vocoder para obtener la señal acústica a partir del espectrograma predicho.
+C. La salida de la última capa del decoder corresponde directamente con la predicción de la señal acústica asociada al texto de entrada.
+D. Todas son incorrectas.
+Respuestas correctas:
+C
+Explicación: En arquitecturas modernas de TTS, el decoder produce típicamente un espectrograma que luego es transformado en señal acústica mediante un vocoder; por tanto, la salida del decoder no es directamente la señal final.

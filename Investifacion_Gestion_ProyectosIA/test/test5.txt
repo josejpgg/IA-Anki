@@ -1,0 +1,101 @@
+
+Pregunta 1
+Enunciado: ¿Cuáles de las siguientes frases no refleja una característica de un proyecto? Señala todas las que procedan:
+Alternativas:
+A. Es un esfuerzo temporal.
+B. Incluye la fase de mantenimiento del producto.
+C. Pretende crear un único producto o servicio.
+D. Debe tener en cuenta a los interesados del proyecto.
+Respuestas correctas:
+B
+Explicación: El mantenimiento del producto no forma parte del proyecto, sino que se considera una operación posterior. Un proyecto es un esfuerzo temporal orientado a crear un producto o servicio único y teniendo en cuenta a sus interesados.
+Pregunta 2
+Enunciado: El ciclo de vida del software:
+Alternativas:
+A. Abarca la evolución desde el primer prototipo del producto hasta su retirada.
+B. Abarca la evolución desde la concepción del producto hasta su retirada.
+C. Abarca la evolución desde la concepción del producto hasta su puesta en producción.
+D. Abarca la evolución desde que se consiguen los fondos necesarios hasta que no se dispone de presupuesto para continuar con el servicio.
+Respuestas correctas:
+B
+Explicación: El ciclo de vida del software comienza con la concepción del producto y finaliza cuando este deja de existir. Incluye todas las fases desde su definición hasta su retirada.
+Pregunta 3
+Enunciado: El ciclo de vida en cascada:
+Alternativas:
+A. Permite gestionar de forma eficaz todo tipo de proyectos.
+B. Es la metodología más utilizada en el desarrollo de proyectos IA.
+C. El diseño se hace de forma iterativa.
+D. No permite una detección temprana de errores y fallos en la toma de requisitos.
+Respuestas correctas:
+D
+Explicación: En el modelo en cascada las pruebas se realizan al final del proyecto, lo que dificulta la detección temprana de errores en los requisitos. Esto limita la capacidad de corrección en fases iniciales.
+Pregunta 4
+Enunciado: El ciclo de vida iterativo e incremental:
+Alternativas:
+A. Permite entregar «algo» de valor al cliente o usuario final de forma iterativa.
+B. No permite entregar «algo» de valor al cliente o usuario final de forma iterativa.
+C. Incluye una única fase de análisis en la primera iteración.
+D. Incluye una única fase de diseño en la primera iteración.
+Respuestas correctas:
+A
+Explicación: El enfoque iterativo e incremental permite entregar valor al cliente en cada iteración. Esta es su principal ventaja frente al modelo en cascada.
+Pregunta 5
+Enunciado: Una metodología:
+Alternativas:
+A. Se limita a especificar cómo se realizará el diseño del producto.
+B. No debe contemplar elementos de gestión del equipo.
+C. Define un conjunto de procedimientos que permiten producir y mantener un producto software.
+D. Estándar es la PMP (Product Management Protocol).
+Respuestas correctas:
+C
+Explicación: Una metodología define procesos, procedimientos y herramientas para planificar, controlar y supervisar el desarrollo y mantenimiento de un producto software. No se limita únicamente al diseño.
+Pregunta 6
+Enunciado: La gestión ágil de proyectos:
+Alternativas:
+A. Permite ir más rápido ya que no obliga a documentar.
+B. Es especialmente útil donde los requisitos son cambiantes y no están definidos con precisión.
+C. Se basa en poner en una pizarra las tareas pendientes.
+D. Sirve para todo tipo de proyectos en todos los ámbitos.
+Respuestas correctas:
+B
+Explicación: Las metodologías ágiles son especialmente eficaces en entornos con requisitos cambiantes o poco definidos. Su flexibilidad permite adaptarse a la naturaleza dinámica del proyecto.
+Pregunta 7
+Enunciado: El Data Science Process ¿en qué se diferencia fundamentalmente de los modelos ágiles?
+Alternativas:
+A. Es más corto y con menos fases que los proyectos normales.
+B. No necesita mantenimiento.
+C. El modelo una vez puesto en marcha probablemente necesite ser reevaluado.
+D. Es más lineal debido al poco riesgo en los requisitos de estos proyectos.
+Respuestas correctas:
+C
+Explicación: En proyectos de ciencia de datos, los modelos suelen modificar el entorno y generar nuevos datos, por lo que requieren reevaluación constante. Además, los entornos cambiantes obligan a revisiones periódicas del modelo.
+Pregunta 8
+Enunciado: El despliegue de un módulo IA dentro de una aplicación:
+Alternativas:
+A. Implica la integración del framework de ejecución del modelo y el propio modelo entrenado dentro del código de la aplicación.
+B. Expone el modelo IA como un servicio web.
+C. Aplica el modelo a un conjunto de datos procesándolo por lotes.
+D. Exige la ingesta de datos en el propio modelo.
+Respuestas correctas:
+A
+Explicación: El despliegue integrado supone incluir el framework de ejecución y el modelo entrenado dentro del código de la aplicación, generando una solución autocontenida. Esto permite distribuirla en entornos como aplicaciones móviles o web.
+Pregunta 9
+Enunciado: La clasificación de los tipos de proyectos IA puede atender a diferentes criterios. Algunos son los siguientes:
+Alternativas:
+A. Proyectos de clasificación y anonimización.
+B. Proyectos de desarrollo y validación.
+C. Proyectos de aplicación, entornos de datos y streaming.
+D. Naturaleza de la capacidad desarrollada y el tipo de tareas necesarias para su construcción.
+Respuestas correctas:
+D
+Explicación: Los proyectos de IA pueden clasificarse según la naturaleza de la capacidad desarrollada o según el tipo de tareas necesarias para su construcción, despliegue y operacionalización. Las demás opciones describen tipos específicos, pero no criterios generales de clasificación.
+Pregunta 10
+Enunciado: MLOps utiliza diferentes técnicas y herramientas para garantizar que los modelos de aprendizaje automático sean precisos, escalables y confiables en producción. Algunas de ellas son las siguientes:
+Alternativas:
+A. Integración y entrega continua.
+B. Control de versiones.
+C. Gestión de la configuración.
+D. Todas las respuestas son válidas.
+Respuestas correctas:
+D
+Explicación: MLOps incorpora prácticas como integración y entrega continua, control de versiones y gestión de configuración para gestionar todo el ciclo de vida de los modelos. Estas herramientas aseguran su correcto desarrollo, despliegue y mantenimiento en producción.

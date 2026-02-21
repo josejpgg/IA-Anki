@@ -1,0 +1,100 @@
+Pregunta 1
+Enunciado: Marca la afirmación falsa sobre los árboles de decisión:
+Alternativas:
+A. Son un método de aprendizaje supervisado basado en una estructura en forma de árbol para clasificación y regresión.
+B. Su construcción implica dividir el conjunto de datos utilizando criterios como entropía o ganancia de información.
+C. Son fáciles de interpretar y visualizar.
+D. Siempre producen modelos robustos frente al sobreajuste, por lo que no es necesario preocuparse por la generalización.
+Respuestas correctas:
+D
+Explicación: Los árboles de decisión pueden sufrir sobreajuste si no se controla su complejidad mediante poda o criterios de parada; no garantizan robustez automática frente a la falta de generalización.
+Pregunta 2
+Enunciado: En un árbol de decisión, ¿de qué es responsable el «nodo raíz»?
+Alternativas:
+A. Hacer predicciones.
+B. Dividir los datos en subconjuntos según una característica.
+C. Poda del árbol.
+D. Almacenamiento de los valores objetivo reales.
+Respuestas correctas:
+B
+Explicación: El nodo raíz realiza la primera división del conjunto de datos, seleccionando la característica que mejor separa las clases o reduce la impureza.
+Pregunta 3
+Enunciado: Los árboles de decisión:
+Alternativas:
+A. Transforman las variables utilizando funciones kernel.
+B. Dividen el espacio de las variables en una serie de regiones.
+C. Ejecutan operaciones modificando las variables de entrada.
+D. Siempre producen modelos óptimos en precisión y generalización.
+Respuestas correctas:
+B
+Explicación: Los árboles particionan el espacio de características en regiones mediante reglas condicionales basadas en los valores de las variables.
+Pregunta 4
+Enunciado: ¿Cuáles de las siguientes afirmaciones son verdaderas sobre los árboles de decisión?
+Alternativas:
+A. Solo se pueden utilizar para clasificación.
+B. Todas las hojas deben ser puras.
+C. La poda generalmente logra mayor precisión en test que introducir solo un criterio de parada.
+D. Todas las anteriores son correctas.
+Respuestas correctas:
+C
+Explicación: La poda reduce la complejidad del árbol y puede mejorar su rendimiento en datos de test al evitar el sobreajuste, a diferencia de un simple criterio de parada.
+Pregunta 5
+Enunciado: Un árbol de decisión se obtiene:
+Alternativas:
+A. Mediante un algoritmo que elige primero una variable aleatoria.
+B. Mediante un algoritmo que elige primero la variable más predictiva.
+C. Mediante un algoritmo que elige primero la variable menos predictiva.
+D. Mediante una elección aleatoria de las variables más predictivas.
+Respuestas correctas:
+B
+Explicación: Los algoritmos de construcción seleccionan en cada paso la variable que maximiza la ganancia de información o minimiza la impureza.
+Pregunta 6
+Enunciado: El criterio de parada en la construcción de un árbol de decisión viene dado por:
+Alternativas:
+A. Cuando todos o casi todos los ejemplos del nodo son de la misma clase.
+B. Cuando no existen variables para distinguir los ejemplos.
+C. Cuando el árbol alcanza un tamaño predefinido.
+D. Todas las anteriores son correctas.
+Respuestas correctas:
+D
+Explicación: Todos estos son criterios habituales para detener el crecimiento del árbol y controlar su complejidad.
+Pregunta 7
+Enunciado: ¿Cuál afirmación describe incorrectamente el índice Gini?
+Alternativas:
+A. Mide la impureza del conjunto.
+B. Se usa para seleccionar la mejor división minimizando la impureza.
+C. Toma valor 0 cuando el nodo es puro.
+D. Es una medida de la ganancia de información.
+Respuestas correctas:
+D
+Explicación: El índice Gini mide impureza, mientras que la ganancia de información se basa en la entropía.
+Pregunta 8
+Enunciado: ¿Cuál afirmación describe correctamente la poda de árboles de decisión?
+Alternativas:
+A. Implica agregar más nodos para mejorar generalización.
+B. Consiste en eliminar ramas que no mejoran significativamente el rendimiento en test.
+C. Se realiza durante la construcción para mejorar ajuste en entrenamiento.
+D. Solo se aplica cuando el árbol es excesivamente grande.
+Respuestas correctas:
+B
+Explicación: La poda elimina ramas poco relevantes para mejorar la capacidad de generalización y reducir el sobreajuste.
+Pregunta 9
+Enunciado: ¿Qué describe correctamente la ganancia de información?
+Alternativas:
+A. Mide la pureza de un nodo.
+B. Selecciona la división más equitativa sin favorecer clases.
+C. Se calcula como la diferencia entre la entropía del nodo padre y la suma ponderada de las entropías de los nodos hijos.
+D. Toma valor 0 cuando el nodo es puro.
+Respuestas correctas:
+C
+Explicación: La ganancia de información mide la reducción de entropía tras una división, comparando la entropía del nodo padre con la de los nodos hijos.
+Pregunta 10
+Enunciado: ¿Cuál afirmación describe incorrectamente los árboles de decisión?
+Alternativas:
+A. Son un tipo de modelo de aprendizaje no supervisado.
+B. Pueden manejar variables numéricas y categóricas.
+C. Dividen el espacio de características en regiones mediante reglas if-else.
+D. Son propensos al sobreajuste si crecen sin restricciones.
+Respuestas correctas:
+A
+Explicación: Los árboles de decisión son modelos de aprendizaje supervisado, ya que se entrenan con datos etiquetados.

@@ -1,0 +1,23 @@
+¿Qué es un sentido en semántica léxica?;Intuición: Es uno de los significados posibles de una palabra. Técnica: Cada uno de los significados individuales de una palabra se denomina sentido.
+¿Qué estudia la semántica léxica?;Intuición: Cómo significan las palabras y cómo se relacionan entre ellas. Técnica: Estudia el significado de las palabras y las relaciones de sentido entre ellas.
+¿Cómo se representa el significado de una palabra en el léxico?;Intuición: A través de su forma base. Técnica: El significado se representa a través de su lema.
+¿Cuál es la diferencia entre homofonía y homonimia?;Intuición: Homofonía se basa en el sonido, homonimia en coincidencia formal con significados distintos. Técnica: Las palabras homófonas suenan igual pero pueden escribirse distinto; la homonimia implica coincidencia formal con significados distintos.
+¿Dos sentidos de una misma palabra pueden estar relacionados?;Intuición: Sí, pueden compartir una conexión conceptual. Técnica: Esto corresponde a la polisemia.
+¿Qué es la polisemia?;Intuición: Una palabra con varios significados relacionados. Técnica: Relación semántica entre los sentidos de una misma palabra.
+¿Qué es la metonimia?;Intuición: Usar una palabra con un significado relacionado pero diferente. Técnica: Uso de una palabra en un sentido distinto con el que mantiene una conexión.
+¿La polisemia es un tipo de metonimia?;Intuición: No, es al revés. Técnica: La metonimia es un caso particular dentro de fenómenos de polisemia.
+¿Cuál es la relación entre sinonimia y antonimia?;Intuición: Son relaciones opuestas. Técnica: La sinonimia es la relación contraria a la antonimia.
+¿Qué es un tesauro?;Intuición: Un recurso que organiza palabras por relaciones de significado. Técnica: Un diccionario que contiene palabras con sus sinónimos y antónimos.
+¿Qué es la hiperonimia?;Intuición: Un término más general que incluye a otros más específicos. Técnica: Se modela mediante la jerarquía IS-A en ontologías.
+¿Qué es la meronimia?;Intuición: Relación parte–todo. Técnica: Una palabra es merónimo de otra si mantiene con ella una relación parte–todo.
+¿Qué requieren los métodos supervisados de desambiguación del sentido?;Intuición: Ejemplos ya etiquetados correctamente. Técnica: Un corpus anotado con sentidos correctos.
+¿Qué tipo de características usan los clasificadores supervisados para WSD?;Intuición: El contexto alrededor de la palabra. Técnica: Características de colocación y palabras vecinas.
+¿Los métodos supervisados necesitan un tesauro para entrenar?;Intuición: No necesariamente. Técnica: No dependen estrictamente de recursos léxicos como tesauros.
+¿Qué caracteriza a los métodos basados en conocimiento para WSD?;Intuición: Usan diccionarios o recursos léxicos en vez de corpus anotados. Técnica: Aplican recursos como tesauros y algoritmos como Lesk.
+¿En qué consiste el algoritmo de Lesk?;Intuición: Elige el sentido cuya definición coincide más con el contexto. Técnica: Selecciona el sentido cuya definición comparte más palabras con el contexto.
+¿Qué caracteriza al aprendizaje semisupervisado en WSD?;Intuición: Empieza con pocos ejemplos y amplía automáticamente. Técnica: Parte de un corpus etiquetado pequeño y lo amplía iterativamente, por ejemplo con el algoritmo de Yarowsky.
+¿Qué caracteriza a los métodos no supervisados en WSD?;Intuición: Descubren los sentidos automáticamente agrupando contextos similares. Técnica: Utilizan algoritmos de agrupamiento e inducen sentidos automáticamente.
+¿Por qué también se llama inducción del sentido de palabras al enfoque no supervisado?;Intuición: Porque aprende los sentidos desde los datos sin etiquetas previas. Técnica: El conjunto de sentidos se aprende automáticamente.
+¿La similitud entre palabras es una decisión binaria?;Intuición: No, puede ser gradual. Técnica: No se limita a una relación binaria de casi-sinonimia.
+¿Algunos algoritmos miden relación en lugar de similitud estricta?;Intuición: Sí, pueden medir conexión en vez de identidad semántica. Técnica: Muchos métodos calculan relación más que similitud estricta.
+¿Cómo combinan algunos métodos tesauros y corpus para medir similitud?;Intuición: Usan la estructura jerárquica y la frecuencia en corpus. Técnica: Integran estructura de tesauro con medidas probabilísticas como la cantidad de información.

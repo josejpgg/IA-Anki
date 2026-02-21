@@ -1,0 +1,19 @@
+¿Qué es la inteligencia artificial en sentido clásico?;Intuición: Crear máquinas que hagan cosas que asociamos con inteligencia humana. Técnica: Es el desarrollo de máquinas capaces de realizar funciones que, cuando las realizan personas, requieren inteligencia.
+¿La IA consiste en hacer máquinas que calculen lo más rápido posible?;Intuición: No se trata solo de cálculo bruto. Técnica: No se define por maximizar cálculos, sino por realizar funciones que requieren inteligencia.
+¿Qué disciplinas han contribuido a los fundamentos de la IA?;Intuición: Muchas áreas han aportado ideas clave. Técnica: Filosofía, economía y matemáticas han contribuido significativamente.
+¿Por qué la filosofía es relevante para la IA?;Intuición: Porque reflexiona sobre mente, razonamiento y conocimiento. Técnica: Aporta marcos conceptuales sobre lógica, racionalidad y representación del conocimiento.
+¿Qué establecen los teoremas de incompletitud de Gödel?;Intuición: Que hay límites en lo que puede demostrarse formalmente. Técnica: Existen afirmaciones que no pueden demostrarse ni verdaderas ni falsas dentro de un sistema formal.
+¿Por qué los teoremas de Gödel son relevantes para la IA?;Intuición: Indican límites fundamentales del razonamiento formal. Técnica: Muestran restricciones inherentes a los sistemas formales computables.
+¿Qué aportó la economía a la IA?;Intuición: Modelos de decisión y comportamiento racional. Técnica: Contribuciones como la teoría de juegos influyen en modelos de agentes racionales.
+¿Qué hito histórico está asociado al origen de la IA?;Intuición: Una prueba para evaluar si una máquina parece inteligente. Técnica: El test de Turing.
+¿Qué caracteriza a los sistemas expertos?;Intuición: Sistemas que aplican conocimiento estructurado para resolver problemas. Técnica: Pueden usar ontologías para representar formalmente el conocimiento.
+¿Por qué las ontologías son útiles en sistemas expertos?;Intuición: Organizan el conocimiento de forma estructurada. Técnica: Permiten modelar semánticamente conceptos y relaciones para facilitar el razonamiento automático.
+¿Qué retos afronta el procesamiento del lenguaje natural?;Intuición: Diferentes idiomas, acentos y alta complejidad computacional. Técnica: Requiere gran capacidad de cómputo y debe manejar diversidad lingüística.
+¿Se pueden usar técnicas de PLN en chatbots?;Intuición: Sí, son la base de su funcionamiento. Técnica: El PLN se aplica al diseño de agentes conversacionales.
+¿Qué hacen los algoritmos genéticos?;Intuición: Imitan la evolución para encontrar buenas soluciones. Técnica: Simulan selección natural para optimizar soluciones a problemas.
+¿El aprendizaje automático consiste en programar reglas explícitas?;Intuición: No, aprende de ejemplos. Técnica: Busca generalizar comportamientos y detectar patrones a partir de datos.
+¿Incluye el aprendizaje automático a las redes neuronales?;Intuición: Sí, forman parte central del campo. Técnica: Las redes neuronales son una técnica dentro del aprendizaje automático.
+¿Qué caracteriza la computación cognitiva?;Intuición: Usa grandes cantidades de datos con contexto. Técnica: Implica procesamiento de grandes volúmenes de datos considerando contexto adecuado.
+¿Todas las aplicaciones de IA son computación cognitiva?;Intuición: No necesariamente. Técnica: No toda aplicación de IA puede considerarse computación cognitiva.
+Trampa frecuente: ¿La IA está limitada a automatización industrial?;Intuición: No, eso es demasiado restrictivo. Técnica: La automatización de fabricación no define el alcance completo de la IA.
+Comprensión estructural: ¿Qué diferencia IA simbólica y aprendizaje automático?;Intuición: Una usa reglas explícitas, la otra aprende de datos. Técnica: La IA simbólica se basa en reglas formales; el aprendizaje automático generaliza a partir de ejemplos.

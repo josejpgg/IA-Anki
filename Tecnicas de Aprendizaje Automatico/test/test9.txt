@@ -1,0 +1,100 @@
+Pregunta 1
+Enunciado: ¿Cuáles son los pasos que sigue el método Bagging?
+Alternativas:
+A. Genera múltiples conjuntos de entrenamiento mediante muestreo con reemplazo, entrena en paralelo tantos clasificadores base como conjuntos generados existan y combina sus predicciones para obtener la predicción final.
+B. Genera múltiples conjuntos de entrenamiento mediante muestreo con reemplazo y entrena secuencialmente el clasificador base.
+C. Asigna pesos a cada muestra y entrena secuencialmente actualizando dichos pesos.
+D. Genera múltiples conjuntos y actualiza pesos en cada iteración hasta un criterio de parada.
+Respuestas correctas:
+A
+Explicación: Bagging utiliza muestreo bootstrap para generar múltiples conjuntos de entrenamiento, entrena modelos base en paralelo y combina sus predicciones (voto mayoritario o promedio).
+Pregunta 2
+Enunciado: ¿Cuáles son los pasos que sigue el método Boosting?
+Alternativas:
+A. Genera múltiples conjuntos mediante muestreo con reemplazo y entrena en paralelo.
+B. Genera múltiples conjuntos y entrena secuencialmente sin ponderación.
+C. Asigna pesos a las muestras, entrena secuencialmente modelos débiles ajustando pesos según el error y combina los modelos en uno fuerte.
+D. Genera múltiples conjuntos con reemplazo y actualiza pesos sin cálculo de error.
+Respuestas correctas:
+C
+Explicación: Boosting entrena clasificadores débiles de forma secuencial, ajustando los pesos de las muestras según los errores del modelo previo.
+Pregunta 3
+Enunciado: ¿Cuáles de los siguientes son algoritmos de tipo Boosting?
+Alternativas:
+A. TotalBoost.
+B. OptimalBoosting.
+C. AdaBoost.
+D. ClatsBoost.
+Respuestas correctas:
+C
+Explicación: AdaBoost es un algoritmo clásico de Boosting que ajusta iterativamente los pesos de las muestras.
+Pregunta 4
+Enunciado: El algoritmo original de Boosting:
+Alternativas:
+A. Fue propuesto por Freund y Schapire en 1996.
+B. Fue propuesto por Freund y Shapire en 1977.
+C. Fue propuesto por Schapire y Singer en 1996.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+C
+Explicación: El trabajo original relacionado con Boosting fue presentado por Schapire y Singer en 1996 en el contexto de teoría del aprendizaje.
+Pregunta 5
+Enunciado: Son características generales del método Stacking:
+Alternativas:
+A. Reduce sesgo, aprendizaje homogéneo, entrenamiento secuencial, agregación por promedio ponderado.
+B. Mejora exactitud, aprendizaje heterogéneo, entrenamiento secuencial y agregación por peso promedio.
+C. Reduce varianza, homogéneo, entrenamiento en paralelo, voto mayoritario.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+B
+Explicación: Stacking combina modelos base heterogéneos y utiliza un modelo meta para integrar sus predicciones, entrenándose de forma secuencial.
+Pregunta 6
+Enunciado: Son características generales del método Boosting:
+Alternativas:
+A. Reduce sesgo, aprendizaje homogéneo, entrenamiento secuencial y agregación por promedio ponderado.
+B. Mejora exactitud, aprendizaje heterogéneo, entrenamiento secuencial.
+C. Reduce varianza, homogéneo, entrenamiento en paralelo, voto mayoritario.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+A
+Explicación: Boosting reduce principalmente el sesgo mediante entrenamiento secuencial de modelos débiles homogéneos y combina sus predicciones ponderadas.
+Pregunta 7
+Enunciado: Son características generales del método Bagging:
+Alternativas:
+A. Reduce sesgo, homogéneo, secuencial.
+B. Mejora exactitud, heterogéneo, secuencial.
+C. Reduce varianza, homogéneo, entrenamiento en paralelo y agregación por voto mayoritario o promedio.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+C
+Explicación: Bagging reduce la varianza utilizando múltiples modelos homogéneos entrenados en paralelo con muestreo bootstrap.
+Pregunta 8
+Enunciado: ¿Cuál afirmación sobre XGBoost es correcta?
+Alternativas:
+A. Es un algoritmo de clustering no supervisado.
+B. Es una técnica de reducción de dimensionalidad.
+C. Es una variante de regresión lineal.
+D. Es un algoritmo supervisado basado en árboles con alto rendimiento y eficiencia.
+Respuestas correctas:
+D
+Explicación: XGBoost es una implementación eficiente de Gradient Boosting basada en árboles, ampliamente utilizada en competiciones de ciencia de datos.
+Pregunta 9
+Enunciado: El muestreo Bootstrap es una técnica estadística utilizada para:
+Alternativas:
+A. Reducir sesgo agregando clasificadores débiles.
+B. Estimar la varianza generando múltiples conjuntos mediante muestreo con reemplazo.
+C. Seleccionar características importantes.
+D. Eliminar datos atípicos.
+Respuestas correctas:
+B
+Explicación: El bootstrap genera múltiples muestras con reemplazo para estimar la variabilidad o estabilidad de un modelo.
+Pregunta 10
+Enunciado: El Out-of-Bag (OOB) error permite:
+Alternativas:
+A. Evaluar el modelo mediante validación cruzada.
+B. Medir la varianza mediante múltiples conjuntos bootstrap.
+C. Estimar la precisión usando muestras no utilizadas en el entrenamiento de cada modelo.
+D. Reducir sesgo agregando clasificadores débiles.
+Respuestas correctas:
+C
+Explicación: El error OOB se calcula utilizando las muestras que no fueron seleccionadas en cada muestra bootstrap, proporcionando una estimación interna del rendimiento del modelo.

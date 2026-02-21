@@ -1,0 +1,100 @@
+Pregunta 1
+Enunciado: ¿Cuál de las siguientes afirmaciones sobre las máquinas de vector de soporte es falsa?
+Alternativas:
+A. Las SVM son eficaces para clasificación binaria y pueden extenderse a regresión.
+B. Su objetivo es encontrar un hiperplano óptimo que maximice el margen entre clases.
+C. Pueden manejar datos de alta dimensionalidad y ser robustas frente al sobreajuste mediante margen suave y optimización convexa.
+D. Siempre requieren que los datos sean linealmente separables en el espacio de características.
+Respuestas correctas:
+D
+Explicación: Las SVM no requieren separabilidad lineal estricta, ya que pueden emplear kernels y margen suave para manejar datos no linealmente separables.
+Pregunta 2
+Enunciado: ¿Cuál de las siguientes afirmaciones sobre los hiperplanos es cierta?
+Alternativas:
+A. Un hiperplano solo se define en dos dimensiones.
+B. Es el límite de decisión que separa óptimamente las clases en un espacio multidimensional.
+C. Siempre pasa por el origen.
+D. Busca el sobreajuste de los datos.
+Respuestas correctas:
+B
+Explicación: En SVM, el hiperplano es el límite de decisión que separa las clases maximizando el margen en un espacio de características multidimensional.
+Pregunta 3
+Enunciado: ¿Cuál afirmación sobre los vectores en SVM es falsa?
+Alternativas:
+A. Son los puntos más cercanos al hiperplano.
+B. Determinan la posición y orientación del hiperplano.
+C. Son cruciales para definir el margen.
+D. Se seleccionan aleatoriamente.
+Respuestas correctas:
+D
+Explicación: Los vectores de soporte se determinan mediante el proceso de optimización; no se eligen al azar.
+Pregunta 4
+Enunciado: ¿Cuál de las siguientes afirmaciones es cierta?
+Alternativas:
+A. Para un problema binario existen múltiples hiperplanos posibles.
+B. Solo existe un hiperplano posible para cada conjunto de datos.
+C. Los hiperplanos se crean únicamente para realizar predicciones.
+D. El objetivo es maximizar el margen sin importar el error de clasificación.
+Respuestas correctas:
+A
+Explicación: En clasificación binaria pueden existir múltiples hiperplanos separadores, pero la SVM busca el que maximiza el margen.
+Pregunta 5
+Enunciado: ¿Cuál afirmación sobre un clasificador de margen máximo es falsa?
+Alternativas:
+A. Busca maximizar el margen entre clases.
+B. Selecciona el hiperplano que maximiza la distancia a los puntos más cercanos.
+C. Mejora la generalización al maximizar la separación.
+D. Siempre requiere separabilidad perfecta mediante un hiperplano.
+Respuestas correctas:
+D
+Explicación: El clasificador de margen máximo puede utilizar margen suave o kernels para manejar datos no perfectamente separables.
+Pregunta 6
+Enunciado: Indica cuál afirmación sobre soft margin es falsa.
+Alternativas:
+A. Permite cierta clasificación errónea mediante variables de holgura.
+B. Se utiliza cuando los datos no son perfectamente separables.
+C. El parámetro C controla el equilibrio entre margen y error.
+D. Siempre funciona mejor que hard margin en datos linealmente separables.
+Respuestas correctas:
+D
+Explicación: No siempre funciona mejor; en datos perfectamente separables, el hard margin puede ser igualmente adecuado o incluso preferible.
+Pregunta 7
+Enunciado: ¿Cuál afirmación sobre el parámetro C en SVM es falsa?
+Alternativas:
+A. Controla el equilibrio entre margen y error.
+B. Un C pequeño permite más errores y margen más amplio.
+C. Un C grande reduce errores de entrenamiento y puede provocar sobreajuste.
+D. Aumentar C siempre mejora el rendimiento en datos no vistos.
+Respuestas correctas:
+D
+Explicación: Incrementar C puede aumentar el riesgo de sobreajuste y no garantiza mejor rendimiento en datos no vistos.
+Pregunta 8
+Enunciado: La expansión en forma de polinomios:
+Alternativas:
+A. Permite capturar relaciones no lineales al mapear a un espacio de mayor dimensión.
+B. Solo se puede realizar con kernel lineal.
+C. Siempre mejora el rendimiento frente a un modelo lineal.
+D. No introduce complejidad adicional.
+Respuestas correctas:
+A
+Explicación: El kernel polinomial permite modelar relaciones no lineales al transformar implícitamente los datos a un espacio de mayor dimensión.
+Pregunta 9
+Enunciado: ¿Cuál es una ventaja de los kernels?
+Alternativas:
+A. Permiten usar menos información.
+B. Reducen el coste computacional.
+C. Permiten obtener fronteras de decisión no lineales.
+D. Reducen la dimensionalidad al mapear a mayor dimensión.
+Respuestas correctas:
+C
+Explicación: Los kernels permiten modelar fronteras no lineales mediante transformaciones implícitas del espacio de características.
+Pregunta 10
+Enunciado: ¿Cuál afirmación sobre la función sigmoide es falsa?
+Alternativas:
+A. El kernel sigmoide se define como tanh(α xᵀx' + c).
+B. Puede modelar relaciones no lineales.
+C. Transforma datos a un espacio de mayor dimensión para facilitar separación.
+D. Siempre produce mejor rendimiento que otros kernels.
+Respuestas correctas:
+D
+Explicación: No existe un kernel universalmente superior; el rendimiento depende del problema y los datos.

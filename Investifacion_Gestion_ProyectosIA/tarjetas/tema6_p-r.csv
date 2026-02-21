@@ -1,0 +1,18 @@
+¿Qué incluye la fase de análisis del problema en un proyecto de IA?;Intuición: Entender qué necesita el negocio y si técnicamente es posible. Técnica: Incorpora análisis de necesidades del negocio, evaluación técnica de viabilidad y constituye el primer paso en la definición de la solución.
+¿Por qué el análisis del problema es el primer paso en un proyecto de IA?;Intuición: Porque no puedes diseñar una solución sin entender el problema. Técnica: Permite evaluar objetivos de negocio y viabilidad técnica antes del diseño.
+¿Qué aportan las plataformas RPA con capacidades de IA?;Intuición: Automatizan tareas repetitivas mediante software. Técnica: Son herramientas que automatizan procesos basados en reglas y pueden integrarse en proyectos de IA.
+¿Las plataformas open source de IA reducen siempre los costes?;Intuición: No necesariamente, pero aceleran el desarrollo. Técnica: Reducen principalmente el tiempo de desarrollo gracias a comunidades activas y reutilización de herramientas.
+¿Cuáles son desafíos comunes en plataformas de IA?;Intuición: Son costosas, complejas y pueden generar dependencia. Técnica: Implican costes empresariales, dependencia de proveedores y complejidad técnica.
+¿Qué factor clave debe considerarse al seleccionar una plataforma de IA?;Intuición: Que pueda crecer con el proyecto. Técnica: La escalabilidad para adaptarse a expansión y mayor volumen de datos.
+¿Qué incluye la preparación de datos en IA?;Intuición: Limpiar, transformar y preparar datos antes de entrenar. Técnica: Recopilación, limpieza, selección, transformación de características y normalización.
+¿La preparación de datos incluye el entrenamiento del modelo?;Intuición: No, es etapa previa. Técnica: No incluye entrenamiento ni validación, solo preparación.
+¿Qué implica la selección de algoritmos?;Intuición: Elegir la técnica más adecuada para el problema. Técnica: Analizar fortalezas y debilidades de enfoques de aprendizaje automático.
+¿La selección de algoritmos pertenece a la fase de despliegue?;Intuición: No, es parte del diseño y modelado. Técnica: Forma parte del desarrollo del modelo, no del despliegue.
+¿Por qué las métricas de evaluación varían según el problema?;Intuición: Porque no es lo mismo clasificar que predecir valores. Técnica: Las métricas dependen del tipo de tarea (clasificación, regresión, etc.).
+¿Las métricas permiten detectar sobreajuste?;Intuición: Sí, comparando entrenamiento y validación. Técnica: Una correcta selección de métricas permite evaluar generalización.
+¿Qué implica crear servicios de predicción?;Intuición: Convertir el modelo en algo usable por aplicaciones. Técnica: Es parte de la integración y despliegue en producción.
+¿La normalización de datos forma parte del servicio de predicción?;Intuición: No, eso ocurre antes. Técnica: La normalización pertenece a la fase de preparación de datos.
+¿Qué es MLaaS?;Intuición: Machine Learning en la nube como servicio. Técnica: Plataformas cloud que permiten desarrollar, entrenar y desplegar modelos.
+¿Es Scikit-learn una plataforma MLaaS?;Intuición: No, es una librería local. Técnica: No es una solución en la nube como Google Cloud AI Platform.
+Trampa frecuente: ¿El menor coste debe ser el único criterio de selección de herramientas?;Intuición: No, debe considerarse escalabilidad y sostenibilidad. Técnica: La escalabilidad es criterio clave frente al coste mínimo.
+Comprensión estructural: ¿Cómo se conectan análisis, datos, modelo y despliegue?;Intuición: Primero entiendes el problema, luego preparas datos, eliges modelo y finalmente lo pones en producción. Técnica: Fases secuenciales: análisis → preparación de datos → selección de algoritmo → evaluación → despliegue.

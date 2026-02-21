@@ -1,0 +1,117 @@
+Pregunta 1
+Enunciado: Indica las afirmaciones correctas sobre el procesamiento del lenguaje natural:
+Alternativas:
+A. También se llama reconocimiento de la voz.
+B. Es un campo de la inteligencia artificial que tiene como objetivo que las máquinas realicen tareas que involucren el lenguaje humano.
+C. Es un campo interdisciplinar que involucra disciplinas tan diversas como el procesamiento de la señal, el análisis sintáctico y semántico, la morfología, fonología y pragmática, la psicolingüística y la sociolingüística.
+D. Es un campo en el que trabajan informáticos, ingenieros, lingüistas, sociólogos y psiquiatras.
+Respuestas correctas:
+B
+C
+Explicación: El procesamiento del lenguaje natural es un campo de la inteligencia artificial orientado a que las máquinas realicen tareas relacionadas con el lenguaje humano y abarca múltiples disciplinas como las descritas en la opción C. El reconocimiento de voz es solo una parte del PLN y los psiquiatras no forman parte de los perfiles habituales del área.
+Pregunta 2
+Enunciado: Indica las afirmaciones correctas sobre el procesamiento del lenguaje natural en las décadas de 1940 y 1950:
+Alternativas:
+A. El procesamiento del lenguaje natural aparece justo antes de la Segunda Guerra Mundial.
+B. Uno de los paradigmas fundacionales del procesamiento del lenguaje natural se basa en uso de autómatas finitos y más concretamente cadenas de Markov.
+C. Uno de los paradigmas fundacionales del procesamiento del lenguaje natural se basa en las ideas de Shannon descritas en la teoría de la información.
+D. En esa época aparece la primera máquina capaz de reconocer la voz.
+Respuestas correctas:
+B
+C
+D
+Explicación: El origen del PLN se sitúa justo después de la Segunda Guerra Mundial, no antes. En este período surgieron enfoques basados en autómatas finitos, cadenas de Markov y en las ideas de Shannon, además de desarrollarse las primeras máquinas capaces de reconocer la voz.
+Pregunta 3
+Enunciado: Indica las afirmaciones correctas sobre el paradigma simbólico en el período de 1957 a 1970:
+Alternativas:
+A. Una de sus líneas de investigación se basa en la teoría del lenguaje formal y la sintaxis generativa.
+B. Una de sus líneas de investigación se basa en la inteligencia artificial.
+C. Aplicaba el método bayesiano.
+D. Utilizaba los primeros corpus online.
+Respuestas correctas:
+A
+B
+Explicación: El paradigma simbólico se apoyó en la teoría del lenguaje formal, la sintaxis generativa y en desarrollos de la inteligencia artificial. El método bayesiano pertenece al paradigma estocástico y no se menciona el uso de corpus online en este período.
+Pregunta 4
+Enunciado: Indica las afirmaciones correctas sobre los cuatro paradigmas de investigación que se dieron en el período de 1970 a 1983:
+Alternativas:
+A. El paradigma estocástico utilizaba modelos ocultos de Markov para el reconocimiento de la voz.
+B. El paradigma del modelado del discurso se basó en la estructura y el enfoque del discurso.
+C. El paradigma basado en lógica utilizaba la lógica de predicados.
+D. En el paradigma de la comprensión del lenguaje natural se utilizaban las redes semánticas.
+Respuestas correctas:
+A
+D
+Explicación: En el paradigma estocástico se emplearon modelos ocultos de Markov para el reconocimiento de voz y en el de comprensión del lenguaje natural se utilizaron redes semánticas. La opción C es incorrecta según la evaluación original.
+Observaciones: La opción B no aparece marcada explícitamente como correcta o incorrecta en el texto proporcionado, por lo que no puede determinarse su validez con total certeza a partir de la información disponible.
+Pregunta 5
+Enunciado: Indica las afirmaciones correctas sobre los cambios que sufrió el campo del procesamiento del lenguaje natural a finales del pasado milenio:
+Alternativas:
+A. Se recuperaron los modelos de estados finitos y el empirismo.
+B. Se volvieron populares los modelos probabilísticos.
+C. Se volvieron estándares los modelos basados en datos.
+D. Se empezaron a comercializar algunos productos con tecnologías del procesamiento del lenguaje natural.
+Respuestas correctas:
+B
+C
+D
+Explicación: A finales del milenio se popularizaron los modelos probabilísticos, se consolidaron los enfoques basados en datos y comenzaron a comercializarse productos con tecnologías de PLN. La recuperación de los modelos de estados finitos y el empirismo corresponde al período 1983–1993.
+Pregunta 6
+Enunciado: Indica las afirmaciones correctas sobre cómo el auge del aprendizaje automático ha cambiado el procesamiento del lenguaje natural desde el año 2000:
+Alternativas:
+A. El deep learning es un ámbito por explotar que se va a estudiar en los próximos años.
+B. El aprendizaje supervisado se ha usado en el análisis semántico.
+C. El aprendizaje no supervisado se ha usado en el análisis sintáctico y semántico.
+D. El aprendizaje no supervisado es una técnica más eficiente que el aprendizaje supervisado al no requerir anotaciones de los corpus.
+Respuestas correctas:
+B
+Explicación: El aprendizaje supervisado se ha utilizado en tareas como el análisis semántico dentro del auge del aprendizaje automático.
+Observaciones: El texto no indica explícitamente si las opciones A, C y D son correctas o incorrectas, por lo que no es posible determinarlas con certeza a partir de la información proporcionada.
+Pregunta 7
+Enunciado: Indica cuáles de las siguientes aplicaciones utilizan técnicas del procesamiento del lenguaje natural:
+Alternativas:
+A. Los agentes conversacionales.
+B. La corrección ortográfica.
+C. La búsqueda de respuestas.
+D. La traducción automática.
+Respuestas correctas:
+A
+B
+C
+D
+Explicación: Todas las opciones corresponden a aplicaciones que emplean técnicas de procesamiento del lenguaje natural, tal como se ha visto en los ejemplos del temario.
+Pregunta 8
+Enunciado: Si un agente conversacional tiene que crear una respuesta en la conversación y para ello encadena diferentes palabras, ¿qué tipo de conocimiento necesita para realizar esta tarea? Indica las respuestas correctas:
+Alternativas:
+A. Conocimiento sobre el significado de las palabras.
+B. Conocimiento sobre las relaciones estructurales entre palabras.
+C. Conocimiento fonético.
+D. Conocimiento sintáctico.
+Respuestas correctas:
+A
+B
+D
+Explicación: Para generar una respuesta adecuada es necesario conocer el significado de las palabras, sus relaciones estructurales y las reglas sintácticas que permiten combinarlas correctamente. El conocimiento fonético no es imprescindible para esta tarea.
+Pregunta 9
+Enunciado: Si un agente conversacional necesita interpretar si el usuario le ha hecho una pregunta o simplemente le ha contado un hecho, ¿qué tipo de conocimiento necesita para realizar esta tarea? Indica las respuestas correctas:
+Alternativas:
+A. Conocimiento pragmático.
+B. Conocimiento sobre el diálogo.
+C. Conocimiento sobre el discurso.
+D. Conocimiento sobre la relación del significado con los objetivos y las intenciones.
+Respuestas correctas:
+A
+B
+D
+Explicación: Para distinguir entre una pregunta y un hecho se requiere conocimiento pragmático, comprensión del diálogo y de la relación entre significado, objetivos e intenciones. El conocimiento del discurso no es imprescindible para realizar esta distinción.
+Pregunta 10
+Enunciado: Si un agente conversacional necesita generar una frase en la que el número del nombre en el sujeto debe ser un plural para que concuerde con el verbo, ¿qué tipo de conocimiento necesita para realizar esta tarea? Indica las respuestas correctas:
+Alternativas:
+A. Conocimiento morfológico.
+B. Conocimiento semántico.
+C. Conocimiento sintáctico.
+D. Conocimiento sobre los componentes significativos de las palabras.
+Respuestas correctas:
+A
+D
+Explicación: La generación correcta del plural requiere conocimiento morfológico, es decir, comprensión de cómo las palabras se descomponen en raíz y morfemas que expresan número. El conocimiento semántico y sintáctico no es imprescindible para formar el plural en este caso.

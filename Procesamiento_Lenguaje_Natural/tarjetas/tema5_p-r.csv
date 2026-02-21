@@ -1,0 +1,22 @@
+Si la sintaxis construye la estructura de una frase, ¿qué hace el análisis semántico dirigido por la sintaxis?;Intuición: Usa esa estructura para decidir cómo se combinan los significados. Técnica: Toma como entrada el árbol sintáctico y aplica el principio de composición para construir la representación formal del significado.
+¿El análisis semántico dirigido por la sintaxis resuelve la ambigüedad sintáctica?;Intuición: No corrige el árbol, lo interpreta. Técnica: No trata directamente el problema de ambigüedad sintáctica.
+¿El análisis semántico dirigido por la sintaxis devuelve literalmente un árbol semántico?;Intuición: No necesariamente genera otro árbol estructural paralelo. Técnica: Produce una representación formal del significado, no estrictamente un árbol semántico.
+Si una oración es como una receta, ¿qué establece el principio de composición?;Intuición: El resultado depende de los ingredientes y de cómo se combinan. Técnica: El significado se construye a partir de las partes y de la estructura sintáctica que las organiza.
+¿Por qué no basta con el conjunto de significados individuales de las palabras?;Intuición: Los mismos elementos pueden dar resultados distintos según su organización. Técnica: La estructura sintáctica es esencial para determinar el significado completo.
+¿Cómo funciona una arquitectura en cascada para el análisis semántico?;Intuición: Primero se construye la estructura, después se interpreta. Técnica: Se obtiene el árbol sintáctico y luego se genera la representación semántica.
+¿Qué puede producir la segunda etapa en una arquitectura en cascada?;Intuición: Una formalización del significado. Técnica: Una representación como lógica de primer orden.
+¿Qué conocimiento necesita el analizador semántico?;Intuición: Entender cómo funcionan los árboles y el dominio de la frase. Técnica: Conocimiento general de árboles sintácticos y conocimiento del dominio.
+¿Qué son las anotaciones semánticas en una gramática?;Intuición: Reglas que indican cómo construir el significado. Técnica: Representaciones formales que permiten realizar el análisis semántico guiado por sintaxis.
+¿Qué significa la hipótesis rule-to-rule?;Intuición: Cada regla sintáctica tiene su correspondiente regla semántica. Técnica: Las anotaciones semánticas se asocian sistemáticamente a reglas gramaticales.
+¿Cómo se representan formalmente las anotaciones semánticas?;Intuición: Con un lenguaje formal del significado. Técnica: Mediante lógica de primer orden o cálculo lambda.
+¿Cuál es el primer principio de anotación semántica?;Intuición: Las palabras individuales llevan significado formal complejo. Técnica: Las reglas léxicas se anotan con expresiones en lógica de primer orden o cálculo lambda.
+¿Qué ejemplo es válido como anotación léxica?;Intuición: Una palabra puede representar una propiedad. Técnica: { λx. C(x) }.
+¿Por qué { λx. x(x) } no es apropiada como anotación léxica?;Intuición: No representa adecuadamente una propiedad semántica coherente. Técnica: No sigue el esquema adecuado para anotaciones léxicas en este contexto.
+¿Cuál es el segundo principio de anotación semántica?;Intuición: Si solo hay un constituyente, se hereda su significado. Técnica: En reglas con un único constituyente, se copia su valor semántico.
+Si A → B y B → b, ¿cómo se propaga la semántica?;Intuición: El significado fluye hacia arriba en el árbol. Técnica: A.sem = B.sem = b.sem.
+¿Cuál es el tercer principio de anotación semántica?;Intuición: En construcciones binarias, un elemento actúa como función sobre el otro. Técnica: Se aplica composición funcional.
+¿Cuál es un ejemplo correcto de composición funcional?;Intuición: Un constituyente aplica su significado sobre otro. Técnica: A → B C con anotación { B.sem(C.sem) }.
+¿Se copia simplemente un valor semántico en reglas con varios constituyentes?;Intuición: No, hay interacción funcional. Técnica: En reglas binarias se aplica la semántica de un constituyente como función sobre el otro.
+¿Qué caracteriza el análisis semántico integrado?;Intuición: Sintaxis y significado se construyen simultáneamente. Técnica: El análisis sintáctico y semántico se realizan en paralelo.
+¿Qué recurso se utiliza en el enfoque integrado?;Intuición: Una gramática que ya incluye información de significado. Técnica: Una gramática anotada semánticamente.
+¿Cuál es una ventaja del enfoque integrado?;Intuición: Permite descartar estructuras que no tengan sentido. Técnica: Puede invalidar árboles sintácticos que no produzcan representaciones semánticas coherentes.

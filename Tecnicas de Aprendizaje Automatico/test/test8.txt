@@ -1,0 +1,100 @@
+Pregunta 1
+Enunciado: ¿Cuál de las siguientes afirmaciones es verdadera sobre el clasificador ingenuo Naïve Bayes?
+Alternativas:
+A. Es un algoritmo de aprendizaje supervisado.
+B. Es un algoritmo de aprendizaje no supervisado.
+C. Es un algoritmo de aprendizaje por refuerzo.
+D. No se utiliza para problemas de clasificación.
+Respuestas correctas:
+A
+Explicación: Naïve Bayes es un algoritmo de aprendizaje supervisado, ya que requiere datos etiquetados para estimar las probabilidades asociadas a cada clase.
+Pregunta 2
+Enunciado: ¿Qué suposición se hace sobre la independencia de las variables en Naïve Bayes?
+Alternativas:
+A. Las variables son dependientes entre sí.
+B. Las variables son independientes entre sí.
+C. No se hace ninguna suposición.
+D. La dependencia o independencia no es relevante.
+Respuestas correctas:
+B
+Explicación: Naïve Bayes asume independencia condicional entre las variables predictoras dado el valor de la clase.
+Pregunta 3
+Enunciado: Si dos eventos son exhaustivos:
+Alternativas:
+A. Deben ocurrir los dos.
+B. Al menos uno de los dos debe ocurrir.
+C. Si uno ocurre el otro no puede ocurrir.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+B
+Explicación: Eventos exhaustivos cubren todos los posibles resultados del experimento, por lo que al menos uno de ellos debe ocurrir.
+Pregunta 4
+Enunciado: Dos eventos son mutuamente excluyentes:
+Alternativas:
+A. Deben ocurrir los dos.
+B. Al menos uno debe ocurrir.
+C. Si uno ocurre el otro no puede ocurrir.
+D. Ninguna describe la exhaustividad.
+Respuestas correctas:
+C
+Explicación: Eventos mutuamente excluyentes no pueden ocurrir simultáneamente.
+Pregunta 5
+Enunciado: Las tablas de frecuencias:
+Alternativas:
+A. Indican el número de veces que el evento aparece en cada situación.
+B. Sirven para medir el éxito del modelo.
+C. Son las mismas que las tablas de verosimilitud.
+D. Son la base para construir el modelo Naïve Bayes.
+Respuestas correctas:
+A
+Explicación: Las tablas de frecuencia registran el número de ocurrencias de cada evento o valor en los datos.
+Pregunta 6
+Enunciado: Los eventos dependientes:
+Alternativas:
+A. Permiten estimar la presencia de un evento en función del otro.
+B. Siempre ocurren a la vez.
+C. Implican que la existencia de uno puede afectar la existencia del otro.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+C
+Explicación: En eventos dependientes, la ocurrencia de uno influye en la probabilidad de que ocurra el otro.
+Pregunta 7
+Enunciado: ¿Cuáles afirmaciones son ciertas sobre Naïve Bayes?
+Alternativas:
+A. Utiliza datos históricos para estimar probabilidades según el vector de características.
+B. Asume independencia condicional entre eventos.
+C. A y B son ciertas.
+D. El cálculo riguroso del teorema de Bayes es computacionalmente costoso.
+Respuestas correctas:
+C
+Explicación: Naïve Bayes estima probabilidades a partir de datos históricos y asume independencia condicional entre variables.
+Pregunta 8
+Enunciado: Cuando existen combinaciones desconocidas en los datos de entrada:
+Alternativas:
+A. Las probabilidades a posteriori pueden no tener sentido.
+B. El teorema de Bayes utiliza el estimador de Laplace.
+C. Se eliminan estas combinaciones.
+D. El algoritmo puede ignorarlas.
+Respuestas correctas:
+A
+Explicación: Cuando aparecen combinaciones no observadas, pueden obtenerse probabilidades nulas o incoherentes si no se aplica suavizado.
+Pregunta 9
+Enunciado: La discretización de variables:
+Alternativas:
+A. Es una técnica aplicada para utilizar Naïve Bayes con variables numéricas.
+B. Es ideal con grandes cantidades de datos.
+C. Funciona mejor con pocos datos.
+D. A y B son correctas.
+Respuestas correctas:
+A
+Explicación: Para aplicar Naïve Bayes en su versión básica a variables numéricas, suele discretizarse la variable continua en intervalos categóricos.
+Pregunta 10
+Enunciado: ¿Cuál afirmación describe mejor el proceso de discretización de variables?
+Alternativas:
+A. Convertir variables numéricas en categóricas.
+B. Eliminar datos atípicos.
+C. Reducir la dimensionalidad.
+D. Dividir una variable continua en intervalos o categorías discretas.
+Respuestas correctas:
+D
+Explicación: La discretización consiste en dividir el rango de una variable continua en intervalos o categorías discretas para su posterior análisis.

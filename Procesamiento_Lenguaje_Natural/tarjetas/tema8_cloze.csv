@@ -1,0 +1,10 @@
+Los word embeddings generan representaciones {{c1::densas}} que capturan similitudes semánticas.;Propiedad fundamental.
+El modelo Skip-gram predice el {{c1::contexto}} dada la palabra objetivo.;Dirección del modelo.
+El modelo CBOW predice la {{c1::palabra objetivo}} dado el contexto.;Dirección inversa.
+FastText utiliza {{c1::n-gramas de caracteres}} para construir representaciones.;Ventaja frente a OOV.
+Las RNN bidireccionales no sirven como modelos {{c1::causales}} del lenguaje.;Limitación estructural.
+En self-attention, los pesos se calculan a partir de {{c1::query}} y {{c2::key}}.;Cálculo de atención.
+La salida de self-attention se obtiene combinando ponderadamente los {{c1::value}}.;Paso final.
+Un bloque Transformer incluye self-attention y una capa {{c1::feed-forward}} con conexiones residuales.;Estructura básica.
+BERT genera embeddings {{c1::contextuales}}.;Característica principal.
+BERT se entrena mediante {{c1::Masked Language Modeling}}.;Objetivo de preentrenamiento.

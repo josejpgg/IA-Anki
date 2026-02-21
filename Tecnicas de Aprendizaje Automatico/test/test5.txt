@@ -1,0 +1,100 @@
+Pregunta 1
+Enunciado: Señala la afirmación correcta: «Los algoritmos de clasificación tienen como objetivo…»:
+Alternativas:
+A. Predecir la clase más probable de entre varias posibles.
+B. Predecir la distribución de probabilidad de las clases de cada instancia.
+C. Predecir un valor numérico como variable objetivo.
+D. Ordenar las etiquetas de clase de un conjunto de datos.
+Respuestas correctas:
+A
+Explicación: Los algoritmos de clasificación asignan a cada instancia la etiqueta de clase más probable entre un conjunto de categorías posibles.
+Pregunta 2
+Enunciado: Dados dos clasificadores binarios, si se equivocan en las clases más probables de las mismas instancias, significa que:
+Alternativas:
+A. Son igual de buenos.
+B. Si uno tiene una mayor incertidumbre que el otro, es peor clasificador.
+C. Si uno tiene una mayor incertidumbre que el otro es mejor clasificador.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+B
+Explicación: Si ambos cometen los mismos errores pero uno presenta mayor incertidumbre en sus predicciones, puede considerarse menos confiable.
+Pregunta 3
+Enunciado: ¿Cuál de las siguientes métricas no es utilizada en los modelos de clasificación?
+Alternativas:
+A. Precisión.
+B. Recall.
+C. MSE.
+D. F-measure.
+Respuestas correctas:
+C
+Explicación: El MSE es una métrica típica de regresión, no de clasificación.
+Pregunta 4
+Enunciado: Una matriz de confusión es:
+Alternativas:
+A. Una tabla que organiza las predicciones en función de los valores reales de los datos.
+B. Una tabla que tiene las predicciones de los diferentes clasificadores.
+C. Una tabla que contiene el valor real y el valor deseado.
+D. La matriz de confusión muestra la precisión absoluta de las predicciones.
+Respuestas correctas:
+A
+Explicación: La matriz de confusión compara predicciones frente a valores reales, mostrando verdaderos y falsos positivos y negativos.
+Pregunta 5
+Enunciado: La métrica de accuracy:
+Alternativas:
+A. Se conoce como la ratio de éxito.
+B. Representa el número de predicciones correctas entre el total de predicciones.
+C. Representa el número de falsos detectados.
+D. Ninguna de las anteriores es correcta.
+Respuestas correctas:
+B
+Explicación: La accuracy mide la proporción de predicciones correctas sobre el total de predicciones realizadas.
+Pregunta 6
+Enunciado: Un modelo con gran valor de precisión:
+Alternativas:
+A. Indica que la mayoría de las veces que se predice la clase negativa está en lo cierto.
+B. Indica que la mayoría de las veces que se predice la clase positiva está en lo cierto.
+C. Indica que el modelo es completamente impreciso y aleatorio.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+B
+Explicación: La precisión mide la proporción de verdaderos positivos entre todas las predicciones positivas realizadas.
+Pregunta 7
+Enunciado: Un modelo con gran valor de recall:
+Alternativas:
+A. Captura un gran porcentaje de ejemplos negativos.
+B. Captura un gran porcentaje de ejemplos positivos.
+C. Indica que el modelo no captura bien los ejemplos negativos.
+D. Indica que el modelo no es capaz de detectar los ejemplos positivos.
+Respuestas correctas:
+B
+Explicación: El recall (sensibilidad) mide la proporción de verdaderos positivos detectados sobre el total de positivos reales.
+Pregunta 8
+Enunciado: La métrica F1:
+Alternativas:
+A. Se trata de una forma de calcular el AUC.
+B. Combina precisión y recall.
+C. Combina sensibilidad y especificidad.
+D. Es una medida que se calcula como la suma de la precisión y el recall.
+Respuestas correctas:
+B
+Explicación: La F1 es la media armónica entre precisión y recall, equilibrando ambas métricas.
+Pregunta 9
+Enunciado: El área bajo la curva (AUC):
+Alternativas:
+A. Es un valor comprendido entre 0 y 1.
+B. Es un valor comprendido entre 0 y 100.
+C. Es un porcentaje entre 0 y 100 %.
+D. Es un valor que indica la precisión absoluta del modelo.
+Respuestas correctas:
+A
+Explicación: El AUC toma valores entre 0 y 1 y mide la capacidad del modelo para discriminar entre clases.
+Pregunta 10
+Enunciado: La curva ROC mide:
+Alternativas:
+A. La ratio de verdaderos positivos y falsos positivos.
+B. La ratio de verdaderos positivos y falsos negativos.
+C. La ratio de verdaderos negativos y falsos positivos.
+D. La ratio de verdaderos positivos y verdaderos negativos.
+Respuestas correctas:
+A
+Explicación: La curva ROC representa la tasa de verdaderos positivos frente a la tasa de falsos positivos para distintos umbrales de decisión.

@@ -1,0 +1,9 @@
+La capacidad de generalización depende del {{c1::sesgo}} del modelo.;Control del aprendizaje.
+El aprendizaje supervisado utiliza ejemplos {{c1::etiquetados}}.;Característica principal.
+El aprendizaje por refuerzo utiliza una señal de {{c1::recompensa}} del entorno.;Guía del agente.
+En clasificación, la variable dependiente es {{c1::discreta y finita}}.;Tipo de salida.
+K-NN es un algoritmo {{c1::supervisado}}.;Tipo de aprendizaje.
+K-means es un algoritmo {{c1::no supervisado}}.;Clustering.
+En K-means, el centroide se actualiza como la {{c1::media}} de los puntos asignados.;Actualización iterativa.
+Las redes neuronales se consideran modelos de {{c1::caja negra}}.;Interpretabilidad.
+El aprendizaje por refuerzo profundo aproxima la {{c1::función de valor}} o la {{c2::política}}.;Uso de redes neuronales.

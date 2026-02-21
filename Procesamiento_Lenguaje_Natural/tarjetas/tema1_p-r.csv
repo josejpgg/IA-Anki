@@ -1,0 +1,23 @@
+¿Qué es el Procesamiento del Lenguaje Natural (PLN)?;Es un campo de la inteligencia artificial (AI) cuyo objetivo es que las máquinas puedan realizar tareas que involucren el lenguaje humano.
+¿Por qué el reconocimiento de voz no es sinónimo de PLN?;Porque el reconocimiento de voz es solo una subárea del PLN, mientras que el PLN incluye comprensión, generación, análisis sintáctico, semántico y pragmático.
+¿Por qué el PLN es un campo interdisciplinar?;Porque integra procesamiento de señal, morfología, sintaxis, semántica, pragmática, psicolingüística y sociolingüística.
+¿Qué perfiles profesionales suelen trabajar en PLN?;Principalmente informáticos, ingenieros y lingüistas.
+¿Cuándo surge el PLN como disciplina formal?;Justo después de la Segunda Guerra Mundial.
+¿Qué paradigma fundacional utilizaba autómatas finitos y cadenas de Markov?;El enfoque estocástico temprano basado en modelos probabilísticos.
+¿Qué aportación de Shannon influyó en el PLN?;La teoría de la información, base para los modelos probabilísticos del lenguaje.
+¿Qué avance tecnológico relevante ocurrió en los años 40 y 50 relacionado con PLN?;La aparición de las primeras máquinas capaces de reconocer la voz.
+¿En qué teoría lingüística se apoyó el paradigma simbólico?;En la teoría del lenguaje formal y la sintaxis generativa.
+¿Por qué el paradigma simbólico se relaciona con la inteligencia artificial clásica?;Porque modelaba el lenguaje mediante reglas explícitas y estructuras formales.
+¿Qué diferencia clave hay entre el paradigma simbólico y el estocástico?;El simbólico usa reglas explícitas, el estocástico usa probabilidades y modelos matemáticos.
+¿Qué modelos se utilizaron en el paradigma estocástico para reconocimiento de voz?;Modelos Ocultos de Markov, Hidden Markov Models HMM.
+¿Qué técnica se usó en el paradigma de comprensión del lenguaje natural?;Redes semánticas.
+¿Qué enfoque se volvió dominante a finales del siglo XX en PLN?;Modelos probabilísticos y enfoques basados en datos.
+¿Qué cambio práctico ocurrió en la industria del PLN en los años 90?;Comenzaron a comercializarse productos basados en tecnologías de PLN.
+¿Qué tipo de aprendizaje se utilizó ampliamente en análisis semántico desde el auge del Machine Learning?;Aprendizaje supervisado.
+Menciona cuatro aplicaciones del PLN.;Agentes conversacionales, corrección ortográfica, búsqueda de respuestas y traducción automática.
+¿Qué tipos de conocimiento necesita un chatbot para generar una frase correctamente estructurada?;Conocimiento semántico, estructural y sintáctico.
+¿Qué conocimiento permite distinguir entre una pregunta y una afirmación?;Conocimiento pragmático, conocimiento del diálogo y comprensión de la intención comunicativa.
+¿Qué conocimiento permite formar correctamente el plural en una oración?;Conocimiento morfológico y conocimiento sobre los componentes significativos de las palabras, es decir, los morfemas.
+Diseñas un asistente virtual bancario y el usuario escribe ¿Puedo aplazar mi cuota? ¿Qué tipo de conocimiento lingüístico es crucial para detectar que es una pregunta?;Conocimiento pragmático y de intención comunicativa.
+Un modelo predice la siguiente palabra basándose en probabilidades de ocurrencia. ¿Qué paradigma histórico estás aplicando?;El paradigma estocástico basado en cadenas de Markov.
+Si el paradigma simbólico es como un libro de reglas gramaticales estrictas, ¿a qué se parece el paradigma estocástico?;A aprender observando grandes cantidades de texto y calculando qué es más probable que ocurra.

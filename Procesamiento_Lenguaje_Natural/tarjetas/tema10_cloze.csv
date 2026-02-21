@@ -1,0 +1,10 @@
+Los agentes conversacionales también se llaman {{c1::sistemas de diálogo}}.;Terminología equivalente.
+Un agente basado en voz incluye módulos como {{c1::ASR}} y {{c2::TTS}}.;Arquitectura vocal.
+El módulo {{c1::NLU}} extrae la semántica y representa información mediante frames.;Comprensión.
+El gestor de diálogo puede implementarse como {{c1::máquina de estados finitos}} o {{c2::proceso de decisión de Márkov}}.;Implementación formal.
+Los chatbots basados en recuperación reutilizan respuestas del {{c1::corpus}}.;Modelo de recuperación.
+Los modelos secuencia a secuencia pueden usar {{c1::aprendizaje por refuerzo}}.;Mejora generativa.
+Los chatbots basados en reglas utilizan {{c1::palabras clave}} para activar respuestas.;Estrategia clásica.
+ELIZA es un ejemplo de chatbot basado en {{c1::reglas}}.;Historia del PLN.
+Los chatbots basados en corpus suelen considerar el {{c1::turno inmediatamente anterior}}.;Limitación contextual.
+Los pares adyacentes son un patrón típico en la {{c1::conversación humana}}.;Estructura discursiva.

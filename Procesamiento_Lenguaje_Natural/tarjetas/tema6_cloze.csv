@@ -1,0 +1,11 @@
+Cada significado individual de una palabra se denomina {{c1::sentido}}.;Definición básica.
+La {{c1::semántica léxica}} estudia el significado de las palabras y sus relaciones.;Objeto de estudio.
+La relación entre varios sentidos de una misma palabra se llama {{c1::polisemia}}.;Relación interna.
+La {{c1::metonimia}} consiste en usar una palabra en un sentido relacionado distinto.;Caso particular.
+Las relaciones de hiperonimia e hiponimia se modelan mediante la jerarquía {{c1::IS-A}}.;Modelo ontológico.
+La relación parte–todo se denomina {{c1::meronimia}}.;Relación estructural.
+Los métodos supervisados de WSD requieren un {{c1::corpus etiquetado}}.;Requisito fundamental.
+El algoritmo de {{c1::Lesk}} selecciona el sentido cuya definición coincide más con el contexto.;Método basado en conocimiento.
+El algoritmo de {{c1::Yarowsky}} es un ejemplo de aprendizaje {{c2::semisupervisado}}.;Expansión iterativa.
+Los métodos no supervisados aplican {{c1::algoritmos de agrupamiento}} para inducir sentidos.;Inducción automática.
+Algunos métodos de similitud combinan estructura de tesauro con {{c1::cantidad de información}} derivada de corpus.;Enfoque híbrido.

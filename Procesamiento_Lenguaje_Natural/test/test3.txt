@@ -1,0 +1,116 @@
+Pregunta 1
+Enunciado: Indica las afirmaciones correctas sobre la morfosintaxis:
+Alternativas:
+A. Determina las diferentes partes de la oración.
+B. Estudia la estructura de las palabras.
+C. Parte de la gramática que aúna la morfología y la sintaxis.
+D. Estudia el modo en que se combinan las palabras.
+Respuestas correctas:
+A
+C
+Explicación: La morfosintaxis aúna la morfología y la sintaxis para identificar las distintas partes de la oración; por ello A y C son correctas. Las opciones B y D remiten de forma exclusiva a morfología y sintaxis respectivamente, no a la combinación que caracteriza a la morfosintaxis.
+Pregunta 2
+Enunciado: La clasificación de las diferentes palabras según su tipo o clase se conocen como:
+Alternativas:
+A. Categorías morfosintácticas.
+B. Categorías gramaticales.
+C. Partes de la oración.
+D. Part-of-speech (POS) en inglés.
+Respuestas correctas:
+A
+B
+C
+D
+Explicación: Todas las denominaciones señaladas (categorías morfosintácticas, categorías gramaticales, partes de la oración y POS) son equivalentes y se usan para referirse a la clasificación de palabras por clase gramatical.
+Pregunta 3
+Enunciado: Indica las afirmaciones correctas sobre la probabilidad de transición del HMM utilizado en el etiquetado morfosintáctico:
+Alternativas:
+A. Representa la probabilidad de la etiqueta anterior dada una etiqueta.
+B. Representa la probabilidad de una etiqueta dada la etiqueta anterior.
+C. La estimación de máxima verosimilitud de una probabilidad de transición se calcula como la división entre el recuento de las veces que vemos la primera etiqueta en un corpus etiquetado entre la frecuencia con que la primera etiqueta es seguida por la segunda.
+D. La estimación de máxima verosimilitud de una probabilidad de transición se calcula como la división entre el recuento de las veces que vemos la primera etiqueta seguida por la segunda en un corpus etiquetado entre la frecuencia con que aparece la primera etiqueta.
+Respuestas correctas:
+B
+D
+Explicación: La probabilidad de transición en un HMM se expresa como P(etiqueta_i | etiqueta_{i-1}), y su estimación por máxima verosimilitud es el cociente del recuento de ocurrencias conjuntas (etiqueta_{i-1}, etiqueta_i) entre la frecuencia de la etiqueta anterior.
+Pregunta 4
+Enunciado: Indica las afirmaciones correctas sobre el Penn Treebank:
+Alternativas:
+A. Se utiliza en el etiquetado morfosintáctico en inglés.
+B. Consiste en un conjunto de etiquetas gramaticales.
+C. Etiqueta los signos de puntuación de la frase.
+D. Etiqueta todos los verbos con una misma etiqueta.
+Respuestas correctas:
+A
+B
+C
+Explicación: El Penn Treebank es un recurso empleado en POS tagging en inglés, consiste en un conjunto de etiquetas gramaticales y también etiqueta signos de puntuación; no etiquetaría todos los verbos con la misma etiqueta porque las etiquetas verbales incluyen información morfológica y de conjugación.
+Pregunta 5
+Enunciado: Indica las afirmaciones correctas sobre el etiquetado morfosintáctico:
+Alternativas:
+A. Su salida es la secuencia de etiquetas de las categorías gramaticales.
+B. Se llama POS tagging (part-of-speech tagging en inglés).
+C. Asigna etiquetas sobre la categoría gramatical a cada una de las palabras de la oración.
+D. Su entrada solo es una secuencia de palabras.
+Respuestas correctas:
+B
+C
+Explicación: El etiquetado morfosintáctico (POS tagging) asigna una etiqueta de categoría gramatical a cada palabra del texto; la entrada del sistema no se limita necesariamente a una secuencia de palabras (puede aprovechar información adicional), y la salida suele representarse como pares palabra–etiqueta más que como una simple secuencia de etiquetas.
+Pregunta 6
+Enunciado: Indica las afirmaciones correctas sobre un modelo oculto de Markov (HMM):
+Alternativas:
+A. Es una máquina de estados finitos.
+B. Es un modelo estadístico.
+C. Su objetivo es determinar parámetros desconocidos a partir de parámetros observables.
+D. Es un autómata finito donde las transacciones entre estados son probabilísticas.
+Respuestas correctas:
+B
+C
+Explicación: Un HMM es un modelo estadístico cuyo propósito es inferir parámetros ocultos (estados, probabilidades) a partir de observaciones. Aunque puede representarse mediante una máquina de estados finitos y sus transiciones son probabilísticas, en el sentido estricto de autómata determinista las afirmaciones A y D no son precisas según la evaluación.
+Pregunta 7
+Enunciado: Indica las afirmaciones correctas sobre un etiquetador morfosintáctico basado en HMM:
+Alternativas:
+A. Modelo de lenguaje estadístico que permite obtener la secuencia de etiquetas gramaticales que tenga mayor probabilidad para una frase.
+B. Se entrena con un conjunto de frases en la que cada palabra está anotada con una etiqueta describiendo su categoría gramatical.
+C. Se fijan las estimaciones de máxima probabilidad para cada una de las condiciones de la máquina de estados finitos a partir de los datos de entrenamiento.
+D. Se usa el algoritmo de decodificación de Viterbi para estimar las probabilidades.
+Respuestas correctas:
+A
+B
+C
+D
+Explicación: Un etiquetador HMM es un modelo estadístico que se entrena con corpus anotados, estima probabilidades por máxima verosimilitud para sus parámetros y utiliza el algoritmo de Viterbi para decodificar la secuencia de etiquetas más probable.
+Pregunta 8
+Enunciado: Indica las afirmaciones correctas sobre el algoritmo implementado por un etiquetador morfosintáctico:
+Alternativas:
+A. No se ve afectado por problemas de ambigüedad gramatical de las palabras.
+B. Aplica un proceso de desambiguación.
+C. Etiqueta directamente la oración sin realizar ningún procesado previo.
+D. Aplica un proceso de obtención de tokens.
+Respuestas correctas:
+B
+Explicación: El algoritmo de etiquetado aplica procesos de desambiguación para resolver ambigüedades gramaticales entre posibles etiquetas.
+Observaciones: Las marcas de corrección en el texto sólo identifican la opción B como correcta y la C como incorrecta; A y D no están explícitamente evaluadas en la información proporcionada, por lo que no puede determinarse con certeza su validez a partir del material suministrado.
+Pregunta 9
+Enunciado: Indica las afirmaciones correctas sobre la probabilidad de emisión del HMM utilizado en el etiquetado morfosintáctico:
+Alternativas:
+A. Permite identificar la palabra más probable para una etiqueta dada.
+B. Representa la probabilidad de que, dada una palabra, esta se asocie a una etiqueta concreta.
+C. Representa la probabilidad de que, dada una etiqueta, esta esté asociada a una palabra concreta.
+D. Permite identificar la etiqueta más probable para una palabra dada.
+Respuestas correctas:
+A
+C
+Explicación: Las probabilidades de emisión en un HMM se definen como P(palabra | etiqueta), es decir, la probabilidad de observar una palabra dada una etiqueta; por tanto permiten identificar la palabra más probable para una etiqueta dada. Las opciones que plantean P(etiqueta | palabra) o equiparan directamente la emisión con esa probabilidad no son correctas sin aplicar transformaciones adicionales.
+Pregunta 10
+Enunciado: Indica las afirmaciones correctas sobre la aplicación del algoritmo de Viterbi para obtener la secuencia de etiquetas más probables en un etiquetador morfosintáctico HMM:
+Alternativas:
+A. Cada columna en la matriz de probabilidades corresponde a una palabra en la frase a analizar y se llama observación.
+B. Cada celda en una columna de la matriz de probabilidades corresponde a un estado de la máquina de estados finitos y se corresponde a una etiqueta morfosintáctica.
+C. La probabilidad de Viterbi de una ruta se calcula como la multiplicación de probabilidad de la ruta de Viterbi previa por la probabilidad de transición del estado anterior al estado actual por la probabilidad de observación del símbolo (etiqueta morfosintáctica), dado el estado actual.
+D. La secuencia de etiquetas morfosintáctica correctas se obtiene de trazar la rutan inversa que ha llevado a obtener el valor de Viterbi máximo en el estado final.
+Respuestas correctas:
+A
+B
+D
+Explicación: En la implementación matricial del algoritmo de Viterbi cada columna corresponde a una observación (palabra), cada celda representa un estado/etiqueta y la secuencia óptima se recupera mediante el trazado inverso (backtrace) desde el estado final con la probabilidad máxima. La opción C es incorrecta porque la formulación correcta implica tomar el máximo sobre las rutas previas al multiplicar por las probabilidades de transición y emisión.

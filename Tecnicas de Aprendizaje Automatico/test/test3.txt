@@ -1,0 +1,100 @@
+Pregunta 1
+Enunciado: Son parte de las técnicas para imputar datos ausentes:
+Alternativas:
+A. Enfoques probabilísticos.
+B. A, C y D son verdaderas.
+C. Imputación por eliminación.
+D. Imputación por media, mediana y moda.
+Respuestas correctas:
+B
+Explicación: Las técnicas vistas para imputar datos ausentes incluyen enfoques probabilísticos, eliminación de registros con valores faltantes e imputación mediante media, mediana o moda.
+Pregunta 2
+Enunciado: La siguiente línea de código imputer = SimpleImputer(missing_values=nan, strategy='mean') representa:
+Alternativas:
+A. Imputación mediante enfoques probabilísticos.
+B. Imputación mediante el algoritmo de esperanza-maximización.
+C. Imputación por eliminación.
+D. Imputación por media.
+Respuestas correctas:
+D
+Explicación: La estrategia 'mean' indica que los valores faltantes se reemplazan por la media de la variable correspondiente.
+Pregunta 3
+Enunciado: La siguiente línea de código dataset.dropna(inplace=True) representa:
+Alternativas:
+A. Imputación mediante enfoque probabilístico.
+B. Imputación mediante esperanza-maximización.
+C. Imputación por eliminación.
+D. Imputación por media.
+Respuestas correctas:
+C
+Explicación: El método dropna() elimina los registros que contienen valores faltantes, lo que corresponde a imputación por eliminación.
+Pregunta 4
+Enunciado: ¿Por qué es importante intentar llenar los valores faltantes?
+Alternativas:
+A. No es agradable ver un conjunto de datos con valores faltantes.
+B. Porque la muestra no es representativa.
+C. Puede afectar el método de aprendizaje automático elegido.
+D. Todas son verdaderas.
+Respuestas correctas:
+C
+Explicación: Muchos algoritmos de aprendizaje automático no gestionan adecuadamente valores faltantes, por lo que su presencia puede afectar el rendimiento del modelo.
+Pregunta 5
+Enunciado: Son técnicas para encontrar atributos redundantes:
+Alternativas:
+A. Correlación.
+B. Covarianza.
+C. Prueba de datos nominales.
+D. Todas las anteriores.
+Respuestas correctas:
+D
+Explicación: La correlación, la covarianza y pruebas sobre datos nominales pueden emplearse para identificar redundancia entre atributos.
+Pregunta 6
+Enunciado: En el conjunto de datos proporcionado, ¿cuántos registros duplicados existen?
+Alternativas:
+A. 0.
+B. 1.
+C. 2.
+D. 3.
+Respuestas correctas:
+C
+Explicación: Existen dos registros duplicados según la coincidencia significativa o total de sus atributos.
+Pregunta 7
+Enunciado: ¿Por qué aplicar normalización a los datos?
+Alternativas:
+A. Porque se utiliza la distancia euclídea y necesita normalización para calcularse.
+B. Los atributos con magnitudes altas pesarán mucho más que los atributos con magnitudes bajas.
+C. A y B son ciertas.
+D. A y B son falsas.
+Respuestas correctas:
+B
+Explicación: La normalización evita que atributos con valores numéricos más altos dominen el cálculo en modelos sensibles a la escala.
+Pregunta 8
+Enunciado: Son técnicas de escalado:
+Alternativas:
+A. Normalización.
+B. Z-score.
+C. A y B son ciertas.
+D. A y B son falsas.
+Respuestas correctas:
+C
+Explicación: Tanto la normalización como la estandarización mediante Z-score son técnicas comunes de escalado de datos.
+Pregunta 9
+Enunciado: Es una característica del algoritmo Z-score:
+Alternativas:
+A. Consiste en la estandarización de un conjunto de datos.
+B. Transforma los datos en un espacio de distribución normal.
+C. La media es cero y la desviación es 1.
+D. Todas las anteriores son características del algoritmo Z-score.
+Respuestas correctas:
+D
+Explicación: El Z-score estandariza los datos, produciendo una distribución con media 0 y desviación estándar 1, lo que se asocia a una distribución normal estandarizada.
+Pregunta 10
+Enunciado: Es una ventaja que se tiene al transformar una variable nominal a una numérica:
+Alternativas:
+A. Las redes neuronales no pueden lidiar con atributos nominales.
+B. Las máquinas de vector de soporte no trabajan correctamente con atributos nominales.
+C. Varios algoritmos no pueden lidiar con valores nominales y cuando se transforman los datos se pueden ejecutar.
+D. Ninguna de las anteriores respuestas es una ventaja.
+Respuestas correctas:
+C
+Explicación: Muchos algoritmos requieren variables numéricas como entrada, por lo que transformar variables nominales permite aplicar dichos modelos correctamente.

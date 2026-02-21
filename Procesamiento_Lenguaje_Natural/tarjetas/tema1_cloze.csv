@@ -1,0 +1,7 @@
+{{c1::El PLN es un campo de la inteligencia artificial}} cuyo objetivo es que las máquinas trabajen con lenguaje humano.;Definición general del PLN.
+Los modelos basados en {{c1::cadenas de Markov}} fueron fundamentales en los inicios del PLN.;Base probabilística temprana.
+El paradigma simbólico se apoyó en la {{c1::sintaxis generativa}} y la teoría del lenguaje formal.;Fundamento lingüístico del paradigma simbólico.
+Los {{c1::Hidden Markov Models (HMM)}} fueron utilizados para el reconocimiento de voz en el paradigma estocástico.;Modelo típico del paradigma estocástico.
+A finales del siglo XX se consolidaron los {{c1::modelos probabilísticos}} y los enfoques {{c2::basados en datos}}.;Cambio hacia el empirismo y el uso de corpus.
+Para distinguir intención comunicativa se necesita conocimiento {{c1::pragmático}}.;Clave para interpretar preguntas y objetivos.
+La formación correcta del plural requiere conocimiento {{c1::morfológico}}.;Uso de morfemas para expresar número.

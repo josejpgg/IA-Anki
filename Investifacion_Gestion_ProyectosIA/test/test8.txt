@@ -1,0 +1,100 @@
+Pregunta 1
+Enunciado: ¿Cuáles de las siguientes frases son ciertas respecto a los agentes?
+Alternativas:
+A. Solo pueden recibir información de forma directa de otros agentes.
+B. Reciben información del entorno con el que se relacionan.
+C. Sus acciones siempre afectan al entorno.
+D. Su arquitectura se puede clasificar en diez tipologías distintas.
+Respuestas correctas:
+B
+Explicación: Los agentes reciben información del entorno en el que operan, ya sea físico o virtual, a través de sus sensores. Esta capacidad de percepción es una característica definitoria de los agentes inteligentes.
+Pregunta 2
+Enunciado: ¿Qué significa el acrónimo REAS?
+Alternativas:
+A. Rendimiento, entorno, avisador, sensación.
+B. Reutilización, entorno, acción, sensor.
+C. Reutilización, entorno, acciones, sensores.
+D. Rendimiento, entorno, actuadores, sensores.
+Respuestas correctas:
+D
+Explicación: REAS hace referencia a Rendimiento, Entorno, Actuadores y Sensores. Estos elementos describen el marco en el que opera un agente inteligente.
+Pregunta 3
+Enunciado: ¿Cuáles de los siguientes pueden ser atributos de un entorno de trabajo?
+Alternativas:
+A. Estocástico.
+B. Parcialmente observable.
+C. Episódico.
+D. Todas las anteriores.
+Respuestas correctas:
+D
+Explicación: Un entorno puede describirse como estocástico, parcialmente observable o episódico, entre otros atributos. Todas las opciones representan características válidas de entornos para agentes inteligentes.
+Pregunta 4
+Enunciado: ¿Cuáles de los siguientes pueden ser atributos de un entorno de trabajo?
+Alternativas:
+A. Discreto.
+B. Discrecional.
+C. Multiepisódico.
+D. Todas las anteriores.
+Respuestas correctas:
+A
+Explicación: “Discreto” es un atributo válido para describir un entorno, en función de la naturaleza finita o numerable de sus estados. Las demás opciones no corresponden a clasificaciones formales de entornos.
+Pregunta 5
+Enunciado: El entorno de trabajo en el que un agente inteligente debe desenvolverse para jugar al póker es un ejemplo de entorno de trabajo:
+Alternativas:
+A. Parcialmente observable, secuencial y continuo.
+B. Totalmente observable, secuencial y continuo.
+C. Parcialmente observable, estático y discreto.
+D. Parcialmente observable, dinámico y continuo.
+Respuestas correctas:
+C
+Explicación: Es parcialmente observable porque no se conocen todas las cartas, estático porque no cambia mientras el agente decide y discreto por manejar un conjunto finito de estados. Estas características definen formalmente el entorno del póker.
+Pregunta 6
+Enunciado: Ejemplos válidos de distintos tipos de agentes inteligentes según su estructura son:
+Alternativas:
+A. Reactivo simple, basado en modelos, basado en alcance.
+B. Reactivo simple, reactivo basado en modelos.
+C. Basado en objetivos, basado en función dinámica.
+D. Agente que aprende, agente que juega.
+Respuestas correctas:
+B
+Explicación: Los agentes reactivos simples y los reactivos basados en modelos son categorías estructurales reconocidas. Otras opciones incluyen clasificaciones inexistentes o imprecisas.
+Pregunta 7
+Enunciado: Los agentes reactivos basados en modelos:
+Alternativas:
+A. Tienen en cuenta el histórico de información para la toma de decisiones.
+B. Solo tienen en cuenta un conjunto de reglas de condición-acción.
+C. Consideran una función de utilidad.
+D. Un agente de estas características ha derrotado al campeón mundial de Go.
+Respuestas correctas:
+A
+Explicación: Los agentes reactivos basados en modelos mantienen información histórica que complementa la percepción actual. Esta memoria les permite tomar decisiones más fundamentadas que los reactivos simples.
+Pregunta 8
+Enunciado: Los sistemas expertos son útiles para:
+Alternativas:
+A. Obtener conocimiento más allá del aportado por los expertos.
+B. Suplantar al experto en la toma de decisiones.
+C. Modelizar el comportamiento de expertos humanos para apoyar sus decisiones.
+D. Todas las anteriores.
+Respuestas correctas:
+C
+Explicación: Los sistemas expertos modelizan el conocimiento de expertos humanos para apoyar la toma de decisiones. No suelen generar conocimiento más allá del proporcionado ni sustituir completamente al experto.
+Pregunta 9
+Enunciado: El encadenamiento hacia delante:
+Alternativas:
+A. Es un método deductivo que se aplica en los sistemas expertos para obtener nuevo conocimiento a partir de una base de hechos y reglas de inferencia.
+B. Es el mecanismo por el cual funcionan los sistemas de producción.
+C. Permite trazar el razonamiento del sistema experto.
+D. Todas las anteriores.
+Respuestas correctas:
+D
+Explicación: El encadenamiento hacia delante es un método deductivo utilizado en sistemas expertos y sistemas de producción, que permite derivar nuevos hechos y trazar el razonamiento aplicado. Todas las afirmaciones son correctas.
+Pregunta 10
+Enunciado: El razonamiento basado en casos:
+Alternativas:
+A. Es más fácil de trazar la respuesta del sistema que los algoritmos de encadenamiento hacia delante.
+B. Son un algoritmo de caja negra.
+C. Tienen peores resultados que los sistemas basados en redes bayesianas.
+D. Son más complejos de trazar que los sistemas de encadenamiento hacia delante.
+Respuestas correctas:
+D
+Explicación: El razonamiento basado en casos no es un método de caja negra, pero el criterio de selección del caso más similar puede resultar menos transparente. Por ello, su trazabilidad puede ser más compleja que en el encadenamiento hacia delante.

@@ -1,0 +1,100 @@
+Pregunta 1
+Enunciado: Es un elemento esencial de la ciencia:
+Alternativas:
+A. El empleo de la tecnología, porque asegura que la investigación se hace según los últimos medios.
+B. La repetitividad, porque permite comprobar los resultados obtenidos.
+C. La geografía, porque la forma de hacer ciencia está condicionada por el ámbito geográfico.
+D. El coste de la experimentación, porque en un entorno de crisis es algo para tener en cuenta.
+Respuestas correctas:
+B
+Explicación: La repetitividad es fundamental en la ciencia, ya que permite que otros investigadores reproduzcan los experimentos y validen los resultados obtenidos. Esta capacidad de verificación garantiza la fiabilidad del conocimiento científico.
+Pregunta 2
+Enunciado: El método científico tiene las siguientes fases:
+Alternativas:
+A. Observación, documentación, experimentación y conclusiones.
+B. Observación, hipótesis, experimentación y conclusiones.
+C. Hipótesis, documentación, experimentación y análisis.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+B
+Explicación: Las fases correctas del método científico son observación, formulación de hipótesis, experimentación y conclusiones. Estas etapas estructuran el proceso de generación y validación del conocimiento científico.
+Pregunta 3
+Enunciado: La metodología cuantitativa es:
+Alternativas:
+A. Mide la precisión de las magnitudes que se pueden representar numéricamente.
+B. Se interesa por captar la realidad a través de los ojos de los sujetos de estudio.
+C. Su propósito es describir la estructura y características de un objeto, situación, hecho o fenómeno a partir de algún modo de observación sistemática.
+D. Parte de un cuerpo de conocimientos teóricos ya aceptados para formular hipótesis sobre relaciones especiales entre variables que forman parte del problema que se está estudiando.
+Respuestas correctas:
+D
+Explicación: La metodología cuantitativa parte de conocimientos teóricos previamente aceptados para formular hipótesis sobre relaciones entre variables que luego deben validarse empíricamente. Se apoya en un enfoque deductivo basado en axiomas considerados ciertos.
+Pregunta 4
+Enunciado: Los métodos lógicos:
+Alternativas:
+A. Se centran en el método cuantitativo y cualitativo.
+B. Se centran en el método deductivo y el método inductivo.
+C. Los más usados son el método experimental y el cuasiexperimental.
+D. Ninguno de los anteriores.
+Respuestas correctas:
+B
+Explicación: Los principales métodos lógicos son el deductivo y el inductivo, basados respectivamente en reglas como el modus ponens y el modus tollens. Ambos constituyen la base del razonamiento científico.
+Pregunta 5
+Enunciado: La metodología cualitativa tiene las siguientes partes:
+Alternativas:
+A. Preparatoria, hipótesis, experimentación y analítica.
+B. Preparatoria, ejecutiva, analítica, conclusiva.
+C. Observación, hipótesis, experimentación y conclusiones.
+D. Análisis, diseño, implementación y pruebas.
+Respuestas correctas:
+B
+Explicación: La metodología cualitativa se estructura en las fases preparatoria, ejecutiva, analítica y conclusiva. Estas etapas permiten organizar el proceso de investigación de forma sistemática.
+Pregunta 6
+Enunciado: La hipótesis:
+Alternativas:
+A. Se extrae a base de las conclusiones del experimento.
+B. Se considera como una respuesta conjetural al problema, es decir, una solución tentativa al problema de investigación.
+C. No es necesario que sea aceptada experimentalmente.
+D. Es clave en la metodología cualitativa.
+Respuestas correctas:
+B
+Explicación: La hipótesis es una solución tentativa al problema de investigación, formulada mediante un proceso deductivo y que debe ser comprobada posteriormente. Su validación depende de la contrastación experimental.
+Pregunta 7
+Enunciado: Las conclusiones en la metodología cuantitativa:
+Alternativas:
+A. Permiten definir si una investigación tiene aplicabilidad o no.
+B. No dicen nada sobre la veracidad o falsedad de la hipótesis inicial.
+C. Pretenden analizar los resultados experimentales.
+D. Son respuestas a los problemas planteados o decisiones acerca de mantener o no las hipótesis formuladas.
+Respuestas correctas:
+D
+Explicación: En la metodología cuantitativa, las conclusiones responden al problema planteado y determinan si se mantienen o rechazan las hipótesis formuladas. Estas decisiones se fundamentan en los resultados experimentales obtenidos.
+Pregunta 8
+Enunciado: Las principales técnicas que se utilizan en la investigación cualitativa son:
+Alternativas:
+A. Entrevistas abiertas, observación no estructurada, revisión de documentos, discusiones en grupo, evaluación de experiencias.
+B. Entrevistas abiertas, medición de resultados, revisión de documentos, evaluación de expertos.
+C. Entrevistas cerradas, test, medición de resultados, discusiones en grupo, evaluación de experiencias.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+A
+Explicación: Las técnicas principales de la investigación cualitativa incluyen entrevistas abiertas, observación no estructurada, revisión documental y discusiones en grupo. Estas herramientas permiten comprender fenómenos desde una perspectiva contextual y subjetiva.
+Pregunta 9
+Enunciado: Diseño de un experimento cuantitativo se debe:
+Alternativas:
+A. Diseñar las entrevistas previamente.
+B. Establecer, de forma clara y precisa, las variables contempladas en el problema de investigación, es decir definir cuáles son las variables para estudiar.
+C. Que el investigador se involucre dentro del ambiente a investigar.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+B
+Explicación: En un experimento cuantitativo es esencial definir claramente las variables del problema de investigación, ya que estas son medibles y constituyen la base del análisis estadístico. La precisión en su definición garantiza la validez del estudio.
+Pregunta 10
+Enunciado: La validación de los experimentos cualitativos:
+Alternativas:
+A. Es dinámica y continua.
+B. Debe realizarse desde un punto de vista objetivo al final del proceso de investigación.
+C. Debe decidir si la hipótesis es correcta o no.
+D. Es resultado de la evaluación empírica de los experimentos.
+Respuestas correctas:
+A
+Explicación: La validación en la investigación cualitativa es dinámica y continua, ya que el proceso puede ajustarse conforme avanza el estudio. Este enfoque reconoce la naturaleza flexible y evolutiva de este tipo de investigación.

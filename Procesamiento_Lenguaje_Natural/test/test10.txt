@@ -1,0 +1,119 @@
+Pregunta 1
+Enunciado: Indica las afirmaciones correctas sobre los agentes conversacionales:
+Alternativas:
+A. Son programas que conversan con las personas a través del lenguaje natural.
+B. Interactúan con el humano o a través de la voz o a través de texto, pero nunca a través de los dos.
+C. Son capaces de continuar la interacción con el usuario contestando a preguntas dependientes de las anteriores.
+D. También se llaman sistemas de diálogo.
+Respuestas correctas:
+A
+C
+D
+Explicación: Los agentes conversacionales son sistemas que interactúan con usuarios en lenguaje natural y pueden mantener el contexto de la conversación; también se denominan sistemas de diálogo. Pueden operar tanto por voz como por texto, por lo que B es falsa.
+Pregunta 2
+Enunciado: Indica las afirmaciones correctas sobre las características de las conversaciones entre humanos que influyen en los agentes conversacionales:
+Alternativas:
+A. Todos los agentes conversacionales son capaces de tratar con múltiples actos de habla.
+B. La gestión de los turnos de palabra se puede modelar con reglas evaluadas en puntos de intercambio.
+C. Para establecer puntos de coincidencia, el agente debe dejar explícito que ha entendido significado e intención.
+D. En las conversaciones existe un patrón de pares adyacentes, aunque la segunda parte puede no aparecer inmediatamente.
+Respuestas correctas:
+B
+C
+D
+Explicación: La gestión de turnos puede modelarse mediante reglas, los agentes deben evidenciar comprensión para coordinar la interacción y las conversaciones siguen patrones de pares adyacentes. No todos los agentes manejan múltiples actos de habla complejos.
+Pregunta 3
+Enunciado: Indica las afirmaciones correctas sobre los diferentes tipos de agentes conversacionales:
+Alternativas:
+A. Los agentes conversacionales dedicados permiten conversaciones extensas con múltiples interacciones.
+B. Los chatbots permiten conversaciones sobre cualquier tema o materia.
+C. Los agentes conversacionales de ayuda en páginas web son agentes dedicados.
+D. Cortana de Windows es un chatbot.
+Respuestas correctas:
+B
+C
+Explicación: Los chatbots generales pueden conversar sobre múltiples temas y los asistentes de ayuda web suelen ser agentes dedicados. Los agentes dedicados no están orientados a conversaciones extensas y Cortana es un asistente virtual, no un chatbot general.
+Pregunta 4
+Enunciado: Indica las afirmaciones correctas sobre la estructura de los agentes conversacionales:
+Alternativas:
+A. Siguen una estructura básica común independientemente de la modalidad.
+B. La mayoría implementan el mismo método para gestionar el diálogo.
+C. Los más sencillos pueden integrar NLU, gestión de diálogo y NLG en un único módulo.
+D. Un agente basado en voz incluye módulos de ASR, NLU, gestión del diálogo, NLG y TTS.
+Respuestas correctas:
+A
+C
+D
+Explicación: Aunque pueden variar en implementación, comparten una estructura básica modular; los más simples pueden integrar funciones en un solo módulo y los basados en voz incluyen ASR y TTS. No todos utilizan el mismo método de gestión del diálogo.
+Pregunta 5
+Enunciado: Indica las afirmaciones correctas sobre el módulo de comprensión del lenguaje natural en un agente conversacional:
+Alternativas:
+A. Es el módulo de entrada de la arquitectura.
+B. Para representar la semántica suele usar frames y pares atributo-valor.
+C. Debe identificar aspectos del diálogo como actos de habla o puntos de coincidencia.
+D. Tiene como objetivo extraer la semántica de las frases en un turno.
+Respuestas correctas:
+B
+C
+D
+Explicación: El módulo NLU extrae la semántica, identifica actos de habla y suele representar información mediante frames y pares atributo-valor. En sistemas de voz, el módulo de entrada es el ASR, no el NLU.
+Pregunta 6
+Enunciado: Indica las afirmaciones correctas sobre el módulo de gestión del diálogo en un agente conversacional:
+Alternativas:
+A. Es el elemento principal del agente.
+B. Analiza la representación semántica producida por NLU.
+C. Mantiene el estado y flujo del diálogo.
+D. Puede implementarse como máquina de estados finitos o como proceso de decisión de Márkov.
+Respuestas correctas:
+A
+B
+C
+D
+Explicación: El gestor de diálogo es un componente central que procesa la semántica, mantiene el estado conversacional y puede implementarse con distintos enfoques formales como FSM o MDP.
+Pregunta 7
+Enunciado: Indica las afirmaciones correctas sobre el módulo de generación del lenguaje natural en un agente conversacional:
+Alternativas:
+A. Selecciona conceptos y planifica cómo expresarlos.
+B. Planifica el contenido de forma totalmente independiente del gestor de diálogo.
+C. Escoge estructuras sintácticas y palabras para expresar el concepto.
+D. Es el módulo de salida del agente.
+Respuestas correctas:
+A
+C
+Explicación: El módulo NLG selecciona contenidos y planifica su realización lingüística, eligiendo estructuras y léxico. No funciona de manera independiente del gestor de diálogo y no es el módulo final en sistemas de voz (tras él está TTS).
+Pregunta 8
+Enunciado: Indica las afirmaciones correctas sobre los tipos de chatbot basados en corpus:
+Alternativas:
+A. Los basados en recuperación usan respuestas del corpus cuyo turno anterior sea similar a la consulta.
+B. Los basados en aprendizaje supervisado de transducción se implementan con transductores de autómatas finitos.
+C. Los secuencia a secuencia se basan en traducir directamente el turno del usuario como si fuera MT tradicional.
+D. Los secuencia a secuencia pueden usar aprendizaje por refuerzo para mejorar la naturalidad.
+Respuestas correctas:
+A
+D
+Explicación: Los modelos de recuperación reutilizan respuestas existentes y los modelos secuencia a secuencia pueden incorporar aprendizaje por refuerzo. No se implementan mediante autómatas finitos ni equivalen directamente a traducción automática tradicional.
+Pregunta 9
+Enunciado: Indica las afirmaciones correctas sobre los chatbots basados en corpus:
+Alternativas:
+A. Aplican minería de datos sobre conversaciones humanas para extraer respuestas.
+B. Las respuestas pueden extraerse de textos no necesariamente dialogados.
+C. Utilizan poca información contextual.
+D. Suelen basarse en el turno inmediatamente anterior.
+Respuestas correctas:
+A
+B
+C
+D
+Explicación: Estos chatbots explotan grandes corpus, pueden usar textos no dialogados, suelen emplear contexto limitado y a menudo consideran solo el turno previo para generar respuestas.
+Pregunta 10
+Enunciado: Indica las afirmaciones correctas sobre los chatbots basados en reglas:
+Alternativas:
+A. Las reglas conforman una gramática libre de contexto anotada semánticamente.
+B. Cada regla está asociada a una palabra clave.
+C. Implementan conversaciones simples con conocimiento limitado del mundo.
+D. ELIZA implementa este tipo de estrategia.
+Respuestas correctas:
+B
+C
+D
+Explicación: Los chatbots basados en reglas utilizan patrones o palabras clave para transformar entradas y generar respuestas, como en ELIZA, y suelen tener conocimiento limitado. No se basan necesariamente en gramáticas libres de contexto anotadas semánticamente.

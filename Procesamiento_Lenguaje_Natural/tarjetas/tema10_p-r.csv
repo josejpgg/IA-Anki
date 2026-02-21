@@ -1,0 +1,20 @@
+¿Qué es un agente conversacional?;Intuición: Un sistema que interactúa con personas mediante lenguaje natural. Técnica: Programa que conversa con usuarios a través de texto o voz y también se denomina sistema de diálogo.
+¿Un agente conversacional puede mantener contexto entre turnos?;Intuición: Sí, recuerda lo dicho antes. Técnica: Puede continuar la interacción contestando preguntas dependientes de turnos anteriores.
+¿Puede un agente conversacional funcionar tanto por texto como por voz?;Intuición: Sí, depende de la implementación. Técnica: Puede operar en modalidad textual o vocal, incluyendo ASR y TTS.
+¿Qué son los pares adyacentes en conversación?;Intuición: Pregunta-respuesta o saludo-saludo. Técnica: Patrón conversacional donde un turno genera una expectativa estructural en el siguiente.
+¿Cómo se modela la gestión de turnos?;Intuición: Con reglas que determinan cuándo hablar. Técnica: Mediante reglas evaluadas en puntos de intercambio.
+¿Qué diferencia hay entre un chatbot general y un agente dedicado?;Intuición: Uno habla de muchos temas, el otro está especializado. Técnica: Los chatbots generales cubren múltiples temas; los dedicados realizan tareas específicas.
+¿Qué módulos forman un agente conversacional basado en voz?;Intuición: Escuchar, entender, decidir, responder, hablar. Técnica: ASR, NLU, gestor de diálogo, NLG y TTS.
+¿Qué hace el módulo NLU?;Intuición: Entiende lo que el usuario quiere decir. Técnica: Extrae la semántica, identifica actos de habla y representa información mediante frames y pares atributo-valor.
+¿Qué hace el gestor de diálogo?;Intuición: Decide qué hacer a continuación. Técnica: Analiza la salida de NLU, mantiene el estado y puede implementarse como FSM o MDP.
+¿Por qué el gestor de diálogo es central?;Intuición: Coordina toda la conversación. Técnica: Es el componente principal que controla el flujo del diálogo.
+¿Qué hace el módulo NLG?;Intuición: Decide cómo expresar la respuesta. Técnica: Selecciona conceptos y estructuras sintácticas para generar lenguaje natural.
+¿El NLG es totalmente independiente del gestor de diálogo?;Intuición: No, depende de lo que el gestor decida. Técnica: No funciona de manera independiente del gestor.
+¿Qué caracteriza a los chatbots basados en recuperación?;Intuición: Buscan respuestas similares ya existentes. Técnica: Recuperan respuestas del corpus cuyo turno previo es similar a la consulta.
+¿Qué caracteriza a los modelos secuencia a secuencia en chatbots?;Intuición: Generan respuesta palabra por palabra. Técnica: Modelos generativos que pueden incorporar aprendizaje por refuerzo.
+¿En qué se diferencian chatbots basados en reglas?;Intuición: Siguen patrones fijos con palabras clave. Técnica: Utilizan reglas asociadas a palabras clave y conocimiento limitado.
+¿Por qué ELIZA es un ejemplo clásico de chatbot basado en reglas?;Intuición: Respondía detectando palabras clave. Técnica: Implementa patrones simples de transformación sin comprensión profunda.
+¿Qué caracteriza a los chatbots basados en corpus?;Intuición: Aprenden de grandes colecciones de conversaciones. Técnica: Aplican minería de datos sobre corpus dialogados o no dialogados.
+¿Utilizan mucho contexto los chatbots basados en corpus?;Intuición: Normalmente usan poco contexto. Técnica: Suelen basarse principalmente en el turno inmediatamente anterior.
+¿Qué ventaja tiene usar MDP en gestión de diálogo?;Intuición: Permite optimizar decisiones bajo incertidumbre. Técnica: Modela la gestión como proceso de decisión de Márkov.
+Trampa frecuente: ¿Todos los agentes conversacionales manejan múltiples actos de habla complejos?;Intuición: No necesariamente. Técnica: No todos implementan manejo avanzado de múltiples actos de habla.

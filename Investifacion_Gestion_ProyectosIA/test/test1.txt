@@ -1,0 +1,100 @@
+Pregunta 1
+Enunciado: ¿Cuáles se pueden considerar definiciones de la «inteligencia artificial»?
+Alternativas:
+A. Una rama de la ingeniería informática centrada en el desarrollo de máquinas capaces de realizar cuantos más cálculos mejor.
+B. La ciencia encargada de la automatización de procesos de fabricación.
+C. El arte de desarrollar máquinas con capacidad para realizar funciones que cuando son realizadas por personas requieren de inteligencia.
+D. La inteligencia asociada a los animales.
+Respuestas correctas:
+C
+Explicación: La definición más adecuada es aquella que describe la inteligencia artificial como el desarrollo de máquinas capaces de realizar funciones que, cuando son realizadas por personas, requieren inteligencia. Las demás opciones no reflejan correctamente el alcance conceptual de la disciplina.
+Pregunta 2
+Enunciado: Han contribuido a los fundamentos de la inteligencia artificial:
+Alternativas:
+A. La filosofía.
+B. La economía.
+C. Las matemáticas.
+D. Todas las anteriores.
+Respuestas correctas:
+D
+Explicación: La filosofía, la economía y las matemáticas han influido en la evolución de la inteligencia artificial, aportando marcos teóricos y formales fundamentales. Por ello, todas las opciones mencionadas son correctas.
+Pregunta 3
+Enunciado: Los teoremas de incompletitud de Gödel:
+Alternativas:
+A. Establecen que el poder de las matemáticas es infinito y pueden demostrar cualquier cosa.
+B. Demuestran que existen afirmaciones que no se pueden demostrar verdaderas ni falsas.
+C. Gödel no llegó a finalizar la formulación de ahí el nombre de incompletitud.
+D. Demuestran que la inteligencia artificial será capaz de crear máquinas autónomas.
+Respuestas correctas:
+B
+Explicación: Gödel estableció que existen afirmaciones indecidibles que no pueden demostrarse ni verdaderas ni falsas dentro de un sistema formal. Esto implica límites fundamentales en lo que puede ser demostrado y, por extensión, computado.
+Pregunta 4
+Enunciado: La economía:
+Alternativas:
+A. Ha realizado diversas contribuciones al campo de la inteligencia artificial.
+B. Es una ciencia totalmente ajena a la inteligencia artificial.
+C. La teoría de la oferta y demanda ha sido muy valiosa para la inteligencia artificial.
+D. La econometría ha aportado mucho conocimiento a ciertas técnicas de inteligencia artificial.
+Respuestas correctas:
+A
+Explicación: La economía ha contribuido a la inteligencia artificial, por ejemplo mediante la teoría de juegos, que ha influido en el desarrollo de modelos de decisión y agentes racionales. Las demás opciones no reflejan correctamente el alcance de estas contribuciones.
+Pregunta 5
+Enunciado: Algunos hitos de la inteligencia artificial fueron:
+Alternativas:
+A. El desarrollo del primer ordenador cuántico.
+B. La ley de la relatividad.
+C. El test de Turing.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+C
+Explicación: El test de Turing fue uno de los primeros hitos en la inteligencia artificial, ya que propuso un método para evaluar si una máquina puede considerarse inteligente. Las otras opciones no constituyen hitos propios del campo de la IA.
+Pregunta 6
+Enunciado: Los sistemas expertos:
+Alternativas:
+A. No son lo suficientemente fiables para emplearlos en medicina.
+B. A veces exigen el empleo de ontologías para representar y modelar el conocimiento disponible.
+C. Salvo en casos sencillos como un sistema de gestión de pedidos de pizzas, no son fiables.
+D. Se emplean exclusivamente para la gestión de empresas.
+Respuestas correctas:
+B
+Explicación: Los sistemas expertos pueden requerir ontologías para estructurar el conocimiento de forma semántica, lo que facilita el razonamiento automático. Esta representación formal es clave para modelar y explotar el conocimiento disponible.
+Pregunta 7
+Enunciado: Las técnicas de procesamiento del lenguaje natural:
+Alternativas:
+A. A veces requieren gran capacidad de cómputo para responder de forma muy breve al usuario.
+B. Afrontan el reto de lidiar con varios idiomas y multitud de acentos.
+C. Pueden aplicarse al diseño de chatbot.
+D. Todas las anteriores.
+Respuestas correctas:
+D
+Explicación: Las técnicas de procesamiento del lenguaje natural pueden requerir alta capacidad de cómputo, enfrentan desafíos multilingües y se aplican en el diseño de chatbots. Por tanto, todas las afirmaciones son válidas.
+Pregunta 8
+Enunciado: Los algoritmos genéticos:
+Alternativas:
+A. Simulan las leyes de la evolución para intentar encontrar la mejor solución a problemas reales.
+B. Se emplean en medicina para analizar la composición genética.
+C. Se abandonaron rápidamente debido a su alto coste computacional.
+D. No son considerados una técnica de inteligencia artificial.
+Respuestas correctas:
+A
+Explicación: Los algoritmos genéticos se basan en principios de evolución y selección natural para buscar soluciones óptimas de forma adaptativa. Esta inspiración biológica es el fundamento de su funcionamiento en inteligencia artificial.
+Pregunta 9
+Enunciado: El aprendizaje automático:
+Alternativas:
+A. Consiste en compartir con la máquina una serie de reglas para que tome las decisiones más oportunas.
+B. Tiene dos vertientes: aprendizaje supervisado y aprendizaje bajo-supervisado.
+C. Pretende generalizar comportamientos y encontrar patrones con base en ejemplos proporcionados de antemano.
+D. No incluye a las redes neuronales como una de sus técnicas.
+Respuestas correctas:
+C
+Explicación: El aprendizaje automático busca generalizar comportamientos y detectar patrones a partir de ejemplos previos. Las demás opciones no describen correctamente sus fundamentos o excluyen técnicas que sí forman parte del campo.
+Pregunta 10
+Enunciado: La computación cognitiva:
+Alternativas:
+A. Está presente en todas las aplicaciones de inteligencia artificial.
+B. Implica el uso de grandes volúmenes de datos proveyendo el adecuado contexto.
+C. Todas las compañías usan el término correctamente y se vende como cognitivo lo que realmente es.
+D. Es un término cuyo origen se remonta a los años 40.
+Respuestas correctas:
+B
+Explicación: La computación cognitiva requiere grandes volúmenes de datos y un contexto adecuado para funcionar correctamente, lo que implica infraestructuras computacionales robustas. No todas las aplicaciones de IA son cognitivas ni el término se usa siempre de forma rigurosa.

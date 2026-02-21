@@ -1,0 +1,111 @@
+Pregunta 1
+Enunciado: Indica las afirmaciones correctas sobre el análisis semántico dirigido por la sintaxis:
+Alternativas:
+A. Utiliza como entrada el análisis sintáctico de la oración.
+B. Obtiene como resultado el árbol semántico de la oración.
+C. El analizador semántico trata con el problema de la ambigüedad.
+D. Se basa en el principio de composición.
+Respuestas correctas:
+A
+D
+Explicación: El análisis semántico dirigido por la sintaxis toma como entrada el análisis sintáctico y aplica el principio de composición para construir la representación del significado; no aborda la ambigüedad ni devuelve estrictamente un “árbol semántico” como salida en el sentido planteado.
+Pregunta 2
+Enunciado: Indica las afirmaciones correctas sobre el principio de composición:
+Alternativas:
+A. El significado de una oración se obtiene directamente del orden y la agrupación de palabras y de las relaciones entre las palabras en la frase.
+B. La idea fundamental es que el significado de una oración se construye a partir del significado de sus partes.
+C. El significado de una oración se obtiene directamente del conjunto de los significados de las palabras que la componen.
+D. El significado de una oración se basa en su estructura sintáctica.
+Respuestas correctas:
+B
+D
+Explicación: El principio de composición postula que el significado de una oración se construye a partir del significado de sus partes y de la estructura sintáctica que las organiza; por tanto, el orden y la estructura son componentes esenciales, mientras que tomar solo el conjunto de significados no es suficiente.
+Pregunta 3
+Enunciado: Indica las afirmaciones correctas sobre una estructura típica en cascada para realizar el análisis semántico dirigido por la sintaxis:
+Alternativas:
+A. Se realiza primero el análisis sintáctico y con su resultado el análisis semántico.
+B. En la segunda etapa se obtiene la información relativa a las relaciones estructurales entre palabras.
+C. En la primera etapa se obtiene el árbol sintáctico de la oración.
+D. El resultado de la segunda etapa es la representación del significado de la oración, por ejemplo, utilizando lógica de primer orden.
+Respuestas correctas:
+A
+C
+D
+Explicación: En la cascada se obtiene primero el árbol sintáctico y, a partir de él, se construye la representación del significado (por ejemplo en lógica de primer orden); la segunda etapa produce la representación semántica, no simplemente las relaciones estructurales.
+Pregunta 4
+Enunciado: Indica las afirmaciones correctas sobre el analizador semántico que interpreta el árbol sintáctico cuando se realiza el análisis semántico dirigido por la sintaxis con una estructura de dos etapas:
+Alternativas:
+A. Precisa de conocimiento genérico sobre los árboles sintácticos.
+B. Precisa de conocimiento sobre el ejemplo concreto o dominio de la frase que se analiza.
+C. Precisa de conocimiento concreto sobre el árbol sintáctico específico de la frase que se analiza.
+D. Es una buena praxis que se diseña específicamente para cada árbol sintáctico.
+Respuestas correctas:
+A
+B
+Explicación: El analizador semántico requiere conocimiento general sobre árboles sintácticos y sobre el dominio o el ejemplo concreto para interpretar correctamente la estructura; no es factible diseñar o depender de conocimientos específicos por cada árbol individual.
+Pregunta 5
+Enunciado: Indica las afirmaciones correctas sobre las anotaciones semánticas a las reglas gramaticales:
+Alternativas:
+A. Son instrucciones de cómo generar el significado de una oración a partir de los significados de las palabras que la componen.
+B. Permiten integrar el conocimiento semántico en el propio proceso de generación del árbol sintáctico.
+C. Representan el conocimiento semántico que permite realizar el análisis semántico guiado por la sintaxis.
+D. Se basan en la conocida como hipótesis rule-to-rule.
+Respuestas correctas:
+C
+D
+Explicación: Las anotaciones semánticas codifican el conocimiento necesario para el análisis semántico dirigido por sintaxis y se apoyan en la hipótesis rule-to-rule; no todas las anotaciones constituyen instrucciones directas para generar significado durante la construcción del árbol sintáctico.
+Pregunta 6
+Enunciado: Indica las afirmaciones correctas sobre la notación utilizada para anotar semánticamente una regla libre de contexto:
+Alternativas:
+A. Las anotaciones semánticas se modelan utilizando algún lenguaje formal que permita representar el significado de una construcción y sus constituyentes.
+B. La anotación semántica se añade a la regla en la parte derecha de los constituyentes sintácticos de la regla dentro de paréntesis.
+C. La representación del significado de una construcción se puede calcular como una función aplicada a un subconjunto de las anotaciones semánticas de los constituyentes de la construcción.
+D. La lógica de primer orden y la notación de cálculo lambda son el método más común para implementar las anotaciones semánticas.
+Respuestas correctas:
+A
+C
+Explicación: Las anotaciones semánticas se expresan en lenguajes formales (p. ej. lógica o cálculo lambda) y la semántica de una construcción puede definirse como una función sobre las anotaciones de sus constituyentes; la posición exacta de la anotación y la afirmación sobre “lo más común” no están totalmente definidas en el enunciado.
+Pregunta 7
+Enunciado: Indica las afirmaciones correctas sobre el primero de los principios que se utilizan para anotar semánticamente las reglas de una gramática:
+Alternativas:
+A. Las reglas gramaticales se anotan con expresiones complejas de la lógica de primer orden y del cálculo lambda.
+B. Las reglas léxicas se anotan con expresiones complejas de la lógica de primer orden y del cálculo lambda.
+C. Una regla léxica se puede anotar con la siguiente representación del significado { λx. C(x) }.
+D. Una regla léxica se puede anotar con la siguiente representación del significado { λx. x(x) }.
+Respuestas correctas:
+B
+C
+Explicación: El primer principio indica que las anotaciones complejas (p. ej. en lógica de primer orden y cálculo lambda) se aplican a reglas léxicas, y un ejemplo válido de anotación léxica es { λx. C(x) }; la anotación { λx. x(x) } no es apropiada en este contexto.
+Pregunta 8
+Enunciado: Indica las afirmaciones correctas sobre el segundo de los principios que se utilizan para anotar semánticamente las reglas de una gramática:
+Alternativas:
+A. Las reglas gramaticales que tienen un único constituyente en la construcción se anotan copiando el valor semántico del constituyente.
+B. Las reglas gramaticales que tienen varios constituyentes en la construcción se anotan copiando el valor semántico de uno de los constituyentes.
+C. Se tiene la regla gramatical A → B { B.sem } y la regla léxica A → b { b.sem }, entonces A.sem = B.sem = b.sem.
+D. Se tiene la regla gramatical A → B { B.sem } y la regla léxica B → b { b.sem }, entonces A.sem = B.sem = b.sem.
+Respuestas correctas:
+A
+D
+Explicación: El segundo principio establece que si una construcción tiene un único constituyente, su valor semántico se copia desde ese constituyente; cuando el constituyente es derivado léxicamente (B → b), el valor semántico se propaga hasta A, como en D.
+Pregunta 9
+Enunciado: Indica las afirmaciones correctas sobre el tercero de los principios que se utilizan para anotar semánticamente las reglas de una gramática:
+Alternativas:
+A. Las reglas gramaticales que tienen varios constituyentes en la construcción se anotan aplicando la semántica de uno de los constituyentes a la semántica de otro de los constituyentes como si fuera una función.
+B. Las reglas gramaticales que tienen varios constituyentes en la construcción se anotan copiando el valor semántico de uno de los constituyentes.
+C. La regla gramatical A → B C se puede anotar con la anotación semántica { B.sem(C.sem) }.
+D. La regla gramatical A → B C se puede anotar con la anotación semántica { C.sem(B.sem) }.
+Respuestas correctas:
+A
+C
+Explicación: El tercer principio indica que en construcciones con varios constituyentes la semántica se suele componer aplicando la función semántica de un constituyente sobre la del otro, y la anotación B.sem(C.sem) es un ejemplo de este patrón.
+Pregunta 10
+Enunciado: Indica las afirmaciones correctas sobre el análisis semántico integrado con el análisis sintáctico:
+Alternativas:
+A. El análisis semántico requiere del resultado del análisis sintáctico como entrada.
+B. El análisis sintáctico y el análisis semántico se realizan simultáneamente en paralelo.
+C. Si se encuentra una construcción semántica que no tiene sentido, se puede considerar que el árbol sintáctico correspondiente tampoco va a ser válido.
+D. Se utiliza una gramática anotada semánticamente para realizar el análisis sintáctico.
+Respuestas correctas:
+B
+D
+Explicación: En el enfoque integrado el análisis sintáctico y semántico pueden realizarse de forma conjunta o en paralelo (B) y suele emplearse una gramática anotada semánticamente para guiar el proceso (D).

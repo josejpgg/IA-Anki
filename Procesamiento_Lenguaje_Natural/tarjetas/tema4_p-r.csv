@@ -1,0 +1,22 @@
+¿Cuándo aparece la ambigüedad en el análisis sintáctico?;Intuición: Cuando una oración puede interpretarse estructuralmente de más de una manera. Técnica: Ocurre cuando el analizador encuentra varios árboles sintácticos válidos y no puede decidir cuál es el mejor.
+¿La ambigüedad sintáctica es un error de diseño de la gramática?;Intuición: No es un fallo, es una propiedad del lenguaje natural. Técnica: No se debe necesariamente a un mal diseño gramatical.
+¿Puede resolverse la ambigüedad después del análisis sintáctico?;Intuición: Sí, se puede decidir más tarde cuál interpretación es mejor. Técnica: Puede abordarse a posteriori mediante criterios adicionales o modelos probabilísticos.
+¿Qué caracteriza a los métodos basados en programación dinámica en parsing?;Intuición: Resuelven piezas pequeñas y reutilizan resultados para construir la solución global. Técnica: Buscan soluciones óptimas a subproblemas que permiten resolver el problema completo.
+¿La programación dinámica garantiza un único árbol sintáctico?;Intuición: No, puede haber varias interpretaciones. Técnica: No garantiza un único resultado debido a la ambigüedad estructural.
+¿En qué se basa el algoritmo CKY?;Intuición: En dividir la oración en partes y combinarlas sistemáticamente. Técnica: Está basado en programación dinámica.
+¿Qué tipo de gramática requiere CKY?;Intuición: Una gramática con reglas muy estructuradas y binarias. Técnica: Una gramática libre de contexto en Forma Normal de Chomsky (CNF).
+¿Qué restricción impone la CNF sobre las reglas?;Intuición: Solo permite combinaciones binarias o reglas léxicas simples. Técnica: El lado derecho debe tener dos no terminales o un solo terminal.
+¿Puede cualquier CFG transformarse en CNF?;Intuición: Sí, aunque haya que reestructurar reglas. Técnica: Cualquier gramática libre de contexto puede transformarse en CNF.
+¿Cómo se rellena la matriz en CKY?;Intuición: Se construye desde palabras individuales hacia estructuras mayores. Técnica: Se rellena la matriz triangular superior por columnas, de abajo a arriba y de izquierda a derecha.
+¿Qué representa cada celda [i,j] en CKY?;Intuición: Todas las posibles categorías que cubren ese fragmento de la oración. Técnica: El conjunto de no terminales que abarcan el tramo desde i hasta j.
+¿Qué contiene la superdiagonal en la matriz CKY?;Intuición: Las etiquetas gramaticales de cada palabra. Técnica: Las categorías léxicas de cada palabra de la oración.
+¿Cómo se obtiene el análisis final en CKY clásico?;Intuición: Se parte del símbolo inicial en la parte superior y se reconstruye hacia abajo. Técnica: Se selecciona el símbolo inicial en la celda superior y se recuperan recursivamente los constituyentes.
+¿Todos los nodos del árbol sintáctico tienen exactamente dos hijos en CKY?;Intuición: No necesariamente en el árbol final. Técnica: No todos los nodos tienen necesariamente dos hijos.
+¿Qué buscan los analizadores sintácticos probabilistas?;Intuición: La interpretación más plausible. Técnica: El árbol sintáctico más probable para la oración.
+¿Maximiza un parser probabilista cada regla por separado?;Intuición: No, evalúa el árbol completo. Técnica: Maximiza la probabilidad global del árbol sintáctico.
+¿Cómo se calcula la probabilidad de una regla usando un treebank?;Intuición: Contando cuántas veces aparece y normalizando. Técnica: Recuento de expansiones de un no terminal y normalización.
+¿Es imprescindible disponer de un treebank para estimar probabilidades?;Intuición: No, hay métodos alternativos. Técnica: Puede utilizarse Expectation Maximization u otros métodos si no hay corpus anotado.
+¿Qué añade el CKY probabilístico respecto al clásico?;Intuición: Asigna puntuaciones probabilísticas a las combinaciones. Técnica: Incorpora probabilidades asociadas a las reglas.
+¿Qué almacena cada celda en CKY probabilístico?;Intuición: Qué tan probable es cada posible constituyente en ese tramo. Técnica: La probabilidad de cada no terminal para ese segmento.
+¿La matriz CKY probabilística es completamente cuadrada?;Intuición: No, solo se usa la parte relevante. Técnica: Se utiliza la parte triangular superior, no una matriz completa.
+¿Por qué deben reajustarse probabilidades al convertir a CNF?;Intuición: Porque dividir reglas cambia la estructura original. Técnica: La transformación a CNF altera la distribución original de probabilidades y requiere ajuste.

@@ -1,0 +1,129 @@
+Pregunta 1
+Enunciado: Indicar cuál de estas afirmaciones es verdadera respecto a los modelos de representación vectorial:
+Alternativas:
+A. Un modelo de word embeddings siempre va a generar vectores de mayor dimensión que uno basado en bolsas de palabras.
+B. Las representaciones vectoriales basadas en bolsas de palabras son densas, mientras que las basadas en word embeddings son dispersas.
+C. Con un modelo BoW se puede ver la relación entre palabras, a diferencia de un modelo de word embeddings.
+D. Un modelo de word embeddings permite ver la similitud entre palabras e incluso hacer operaciones con los vectores que recogen el significado.
+
+Respuestas correctas:
+
+D
+Explicación: Los modelos de word embeddings generan representaciones densas que capturan similitudes semánticas y permiten realizar operaciones vectoriales sobre el significado. Las demás opciones son falsas según la retroalimentación proporcionada.
+Pregunta 2
+Enunciado: El modelo de Skip-gram:
+
+Alternativas:
+A. Infiere el significado de una palabra usando un modelo que trata de predecir el contexto (palabras vecinas) dada esa palabra.
+B. Infiere el significado de una palabra usando un modelo que trata de predecir la palabra dado el contexto (palabras vecinas) de esa palabra.
+C. Infiere el significado de una palabra construyendo un vector que recoge el número de veces que aparecen algunas palabras en el texto.
+D. Se caracterizan por usar sólo representaciones binarias para indicar las palabras que aparecen en un determinado texto.
+
+Respuestas correctas:
+
+A
+Explicación: El modelo Skip-gram parte de una palabra objetivo e intenta predecir su contexto, aprendiendo así representaciones semánticas a partir de coocurrencias.
+Pregunta 3
+Enunciado: El modelo de CBOW:
+
+Alternativas:
+A. Infiere el significado de una palabra usando un modelo que trata de predecir el contexto (palabras vecinas) dada esa palabra.
+B. Infiere el significado de una palabra usando un modelo que trata de predecir la palabra dado el contexto (palabras vecinas) de esa palabra.
+C. Infiere el significado de una palabra construyendo un vector que recoge el número de veces que aparecen algunas palabras en el texto.
+D. Se caracterizan por usar sólo representaciones binarias para indicar las palabras que aparecen en un determinado texto.
+
+Respuestas correctas:
+
+B
+Explicación: El modelo CBOW utiliza el contexto (palabras vecinas) como entrada para predecir la palabra objetivo, aprendiendo así su representación.
+Pregunta 4
+Enunciado: ¿Cuál de estos modelos servirá mejor para obtener la representación de palabras desconocidas no presentes en el corpus de entrenamiento?
+
+Alternativas:
+A. Skip-gram.
+B. CBOW.
+C. FastText.
+D. TF-IDF.
+
+Respuestas correctas:
+
+C
+Explicación: FastText representa palabras a partir de sus n-gramas de caracteres, lo que permite generar vectores para palabras no vistas si sus subcomponentes sí aparecen en el entrenamiento.
+Pregunta 5
+Enunciado: Indica cuál de las siguientes afirmaciones es falsa respecto a la construcción de modelos de lenguaje (LM) con redes neuronales:
+
+Alternativas:
+A. Pueden usar la información de los word embeddings para representar los tokens de entrada.
+B. Se construye usando tanto arquitecturas de redes neuronales recurrentes, como de redes feed-forward.
+C. Las redes neuronales recurrentes bidireccionales son útiles para la construcción de LM y para tareas de PLN como el autocompletado de textos.
+D. Se pueden usar estructuras como las LSTM para evitar perder información de las etapas más lejanas de la secuencia.
+
+Respuestas correctas:
+
+C
+Explicación: Un modelo de lenguaje causal no puede basarse en RNN bidireccionales para tareas como autocompletado, ya que estas utilizan información futura de la secuencia. Las demás afirmaciones son correctas.
+Pregunta 6
+Enunciado: Indicar cuál de estas afirmaciones es verdadera respecto a la capa de self-attention:
+
+Alternativas:
+A. Usa la información del foco actual (query, q) y de la secuencia hasta una etapa en concreto (key, k) para construir un vector que sirve como entrada para una capa softmax. La salida de esta capa se corresponde a la salida de la capa self-attention.
+B. Usa la información de la secuencia hasta una etapa en concreto (key, k) para construir un vector que sirve como entrada para una capa softmax. La salida de esta capa se combina de nuevo con la información de entrada (value, v) para obtener la salida de la capa self-attention.
+C. Usa la información del foco actual (query, q) para construir un vector que sirve como entrada para una capa softmax. La salida de esta capa se combina de nuevo con la información de entrada (value, v) para obtener la salida de la capa self-attention.
+D. Usa la información del foco actual (query, q) y de la secuencia hasta una etapa en concreto (key, k) para construir un vector que sirve como entrada para una capa softmax. La salida de esta capa se combina de nuevo con la información de entrada (value, v) para obtener la salida de la capa self-attention.
+
+Respuestas correctas:
+
+D
+Explicación: En self-attention se calcula una ponderación a partir de query y key, se aplica softmax y el resultado se combina con los value para obtener la salida final.
+Pregunta 7
+Enunciado: ¿Cuál es la estructura de un bloque de transformers básico?
+
+Alternativas:
+A. Capa self-attention, capa de normalización, capa softmax, capa normalización.
+B. Capa self-attention, conexión residual, capa de normalización, capa recurrente con LSTM, conexión residual, capa normalización.
+C. Capa self-attention, conexión residual, capa de normalización, capa feed-forward, conexión residual, capa normalización.
+D. Capa self-attention, capa de normalización, capa feed-forward, conexión residual, capa normalización.
+
+Respuestas correctas:
+
+C
+Explicación: Un bloque transformer básico incluye self-attention, conexión residual y normalización, seguido de una capa feed-forward, nuevamente con conexión residual y normalización.
+Pregunta 8
+Enunciado: Indicar cuál de estas afirmaciones es verdadera sobre los transformers:
+
+Alternativas:
+A. Se usan embeddings contextuales en lugar de word embeddings como vectores de entrada para obtener mejores resultados.
+B. La capa de normalización es siempre estática, y no tiene parámetros que se ajusten durante el entrenamiento del modelo.
+C. Se pueden usar con una arquitectura multiheaded, donde se tienen varias capas self-attention, y cada una da una salida que se combina en un único vector final que sirve como salida de esa capa multiheaded.
+D. No es posible usar transformers como modelos causales del lenguaje ya que siempre son bidireccionales y tienen por tanto información posterior de la secuencia con respecto a cada palabra.
+
+Respuestas correctas:
+
+C
+Explicación: Los transformers pueden emplear multi-head attention, donde múltiples cabezas de self-attention se combinan en una única representación. Las demás afirmaciones son falsas según la retroalimentación proporcionada.
+Pregunta 9
+Enunciado: Indicar cuál de estas afirmaciones es verdadera sobre el modelo BERT:
+
+Alternativas:
+A. Permite la generación de embeddings contextuales, donde se obtiene el embedding de una palabra sólo teniendo en cuenta el contexto local de la frase.
+B. Permite la generación de embeddings contextuales, donde se obtiene el embedding de una palabra no sólo de manera global, sino teniendo también en cuenta el contexto local de la frase.
+C. Es habitual entrenar el modelo BERT desde cero cada vez que se vaya a llevar a cabo una tarea de PLN, para tener en cuenta únicamente los textos asociados a dicha tarea.
+D. BERT se entrena para predecir unos tokens del corpus de entrenamiento dado el resto de tokens, donde todos estos tokens se reemplazan por un token genérico [MSK].
+
+Respuestas correctas:
+
+B
+Explicación: BERT genera embeddings contextuales que incorporan información del contexto completo de la frase, no sólo información global ni exclusivamente local.
+Pregunta 10
+Enunciado: Indicar cuál de estas afirmaciones es falsa sobre el modelo BERT:
+
+Alternativas:
+A. Usan como entrada tokens que contienen subpalabras, en vez de palabras.
+B. Usan transformers bidireccionales, donde se tiene en cuenta tanto la información previa como posterior de la secuencia.
+C. Al ser bidireccional sirve para tareas de NLP, como el autocompletado de textos.
+D. Usa capas de multiheaded attention.
+
+Respuestas correctas:
+
+C
+Explicación: El autocompletado es una tarea causal que solo utiliza información previa, mientras que BERT es bidireccional y no está diseñado como modelo causal de lenguaje. Las demás afirmaciones son correctas.

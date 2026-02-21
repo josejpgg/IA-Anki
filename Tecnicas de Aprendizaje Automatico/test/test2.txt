@@ -1,0 +1,100 @@
+Pregunta 1
+Enunciado: Es una característica de los diagramas de dispersión.
+Alternativas:
+A. Muestran una relación existente entre variables numéricas.
+B. Permiten descubrir relaciones.
+C. Permiten identificar relación de incremento o disminución de valores entre variables.
+D. Todas son características de los diagramas de dispersión.
+Respuestas correctas:
+D
+Explicación: Los diagramas de dispersión permiten visualizar relaciones entre variables numéricas, identificar tendencias (incremento o disminución) y descubrir posibles patrones o dependencias.
+Pregunta 2
+Enunciado: La matriz de gráficos de dispersión facilita:
+Alternativas:
+A. Graficar tres atributos o variables en un mismo gráfico.
+B. Emparejar datos numéricos y saber si una variable afecta a la otra.
+C. La comparación de las variables en una sola pantalla e identificar dependencias.
+D. En un espacio pequeño asociar múltiples variables.
+Respuestas correctas:
+C
+Explicación: La matriz de dispersión permite comparar múltiples variables simultáneamente en una sola vista, facilitando la identificación de posibles dependencias entre pares de variables.
+Pregunta 3
+Enunciado: El coeficiente de correlación de Pearson permite comparar:
+Alternativas:
+A. Variables cuantitativas y continuas.
+B. Solamente variables cuantitativas.
+C. Solamente variables continuas.
+D. Variables cualitativas.
+Respuestas correctas:
+A
+Explicación: El coeficiente de Pearson se aplica a variables cuantitativas de tipo continuo y mide la relación lineal entre ellas.
+Pregunta 4
+Enunciado: Es una buena interpretación de coeficiente de correlación:
+Alternativas:
+A. Si el resultado es -1, la correlación es positiva perfecta.
+B. Si el resultado es -1, la correlación es negativa perfecta.
+C. Si el resultado es 1, la correlación es positiva moderada.
+D. Si el resultado es 1, la correlación es fuerte y positiva.
+Respuestas correctas:
+B
+Explicación: Un valor de -1 en el coeficiente de Pearson indica una correlación lineal negativa perfecta, es decir, cuando una variable aumenta, la otra disminuye proporcionalmente.
+Pregunta 5
+Enunciado: Es una afirmación falsa sobre el coeficiente de correlación de Pearson:
+Alternativas:
+A. El coeficiente se interpreta exactamente igual que el de la covarianza.
+B. Si se presenta covarianza positiva, la correlación es directa.
+C. Si se presenta covarianza negativa, la correlación es inversa.
+D. Todas las anteriores son verdaderas.
+Respuestas correctas:
+A
+Explicación: El coeficiente de Pearson no se interpreta exactamente igual que la covarianza; además de indicar dependencia lineal, está normalizado y permite medir el grado de relación entre variables.
+Pregunta 6
+Enunciado: Las medidas de dispersión tienen como objetivo:
+Alternativas:
+A. Definir la frecuencia relativa y absoluta.
+B. Describir la concentración de los datos alrededor de cierto número.
+C. Construir diagramas para contextualizar los datos.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+B
+Explicación: Las medidas de dispersión permiten analizar cómo se distribuyen los datos alrededor de una medida central, indicando el grado de variabilidad.
+Pregunta 7
+Enunciado: Son tipos de variables:
+Alternativas:
+A. Nominales.
+B. Ordinales.
+C. Discretas.
+D. Todas las anteriores.
+Respuestas correctas:
+D
+Explicación: Las variables pueden clasificarse como nominales, ordinales y discretas (además de continuas), por lo que todas las opciones son tipos válidos.
+Pregunta 8
+Enunciado: No es una característica del diagrama de cajas:
+Alternativas:
+A. El Q2 representa la mediana.
+B. Los bigotes que representan el rango intercuartil.
+C. Los bigotes que se extienden desde el valor mínimo al valor máximo de los datos.
+D. Los cuartiles Q1 y Q3.
+Respuestas correctas:
+B
+Explicación: En un diagrama de cajas, los bigotes no representan el rango intercuartílico (que corresponde a la caja entre Q1 y Q3), sino la variabilidad fuera de los cuartiles.
+Pregunta 9
+Enunciado: Es un ejemplo de un valor muy atípico:
+Alternativas:
+A. Temperatura por debajo de 0 ºC en invierno.
+B. Temperatura corporal de 38 ºC.
+C. Temperatura por debajo de 0 ºC en verano.
+D. Temperatura corporal de 36 ºC.
+Respuestas correctas:
+C
+Explicación: Una temperatura por debajo de 0 ºC en verano constituye un valor claramente atípico en comparación con los valores esperados en esa estación.
+Pregunta 10
+Enunciado: No es una afirmación válida para la varianza:
+Alternativas:
+A. La varianza puede indicar la homogeneidad o heterogeneidad de dos distribuciones.
+B. Es una medida de dispersión.
+C. Es el promedio de los cuadrados de las desviaciones de cada dato con respecto a la mediana.
+D. El promedio de las desviaciones no es una medida útil, ya que la sumatoria es cero.
+Respuestas correctas:
+C
+Explicación: La varianza es el promedio de los cuadrados de las desviaciones respecto a la media aritmética, no respecto a la mediana.

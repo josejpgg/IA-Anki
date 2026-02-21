@@ -1,0 +1,25 @@
+¿Qué es la morfosintaxis?;Es la parte de la gramática que integra morfología y sintaxis para identificar las partes de la oración.
+¿Por qué “estudiar la estructura de las palabras” no define completamente la morfosintaxis?;Porque eso corresponde solo a la morfología, mientras que la morfosintaxis combina morfología y sintaxis.
+¿Qué otros nombres recibe la clasificación de palabras por clase gramatical?;Categorías morfosintácticas, categorías gramaticales, partes de la oración o Part-of-Speech (POS).
+En un HMM para POS tagging, ¿qué representa la probabilidad de transición?;La probabilidad de una etiqueta dada la etiqueta anterior.
+¿Cómo se calcula la probabilidad de transición por máxima verosimilitud?;Recuento de veces que etiqueta_i-1 es seguida por etiqueta_i dividido entre la frecuencia de etiqueta_i-1.
+Trampa frecuente: ¿Es correcta P(etiqueta anterior | etiqueta actual) como probabilidad de transición en un HMM?;No. La transición correcta es P(etiqueta actual | etiqueta anterior).
+¿Qué es el Penn Treebank?;Un conjunto de etiquetas gramaticales usado para POS tagging en inglés.
+¿El Penn Treebank etiqueta signos de puntuación?;Sí, también asigna etiquetas a signos de puntuación.
+¿Todos los verbos tienen la misma etiqueta en Penn Treebank?;No, las etiquetas verbales distinguen tiempo, forma y función.
+¿Qué es el POS tagging?;El proceso de asignar una categoría gramatical a cada palabra de una oración.
+¿Por qué la salida de un POS tagger no es solo una secuencia de etiquetas?;Porque normalmente produce pares palabra-etiqueta, no solo etiquetas aisladas.
+¿Qué es un HMM en términos conceptuales?;Un modelo estadístico que infiere estados ocultos a partir de observaciones.
+Intuición: ¿Qué representan los estados en un HMM de etiquetado morfosintáctico?;Las etiquetas gramaticales ocultas.
+Intuición: ¿Qué representan las observaciones en un HMM para POS tagging?;Las palabras observadas en la oración.
+¿Qué algoritmo se usa para encontrar la secuencia más probable de etiquetas en un HMM?;El algoritmo de Viterbi.
+¿Qué hace esencialmente el algoritmo de Viterbi?;Busca la secuencia de estados (etiquetas) más probable dado el modelo y la observación.
+Trampa conceptual: ¿La probabilidad de emisión es P(etiqueta | palabra)?;No. Es P(palabra | etiqueta).
+¿Qué permite la probabilidad de emisión P(palabra | etiqueta)?;Determinar qué palabra es más probable dado un tipo de etiqueta.
+Caso práctico: Si una palabra como “banco” puede ser sustantivo o verbo, ¿qué proceso aplica el etiquetador?;Un proceso de desambiguación basado en contexto probabilístico.
+¿Por qué el etiquetador HMM necesita corpus anotados?;Para estimar las probabilidades de transición y emisión mediante máxima verosimilitud.
+En Viterbi, ¿qué representa cada columna de la matriz?;Una palabra de la oración (una observación).
+¿Qué representa cada celda de una columna en Viterbi?;Un estado posible, es decir, una etiqueta gramatical.
+¿Cómo se obtiene la secuencia final de etiquetas en Viterbi?;Mediante backtrace desde el estado final con probabilidad máxima.
+Metáfora: Si las palabras son pistas visibles y las etiquetas son roles ocultos, ¿qué es el HMM?;Un detective probabilístico que infiere los roles más probables a partir de las pistas.
+Comprensión estructural: ¿Por qué Viterbi toma el máximo sobre rutas previas y no suma todas?;Porque busca la secuencia más probable, no la probabilidad total acumulada.

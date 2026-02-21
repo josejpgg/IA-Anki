@@ -1,0 +1,20 @@
+¿Qué ventaja principal ofrecen los word embeddings frente a Bag-of-Words?;Intuición: Capturan relaciones semánticas entre palabras. Técnica: Generan representaciones densas que permiten medir similitud y realizar operaciones vectoriales sobre el significado.
+¿Las representaciones BoW son densas o dispersas?;Intuición: Son vectores con muchos ceros. Técnica: Son representaciones dispersas, a diferencia de los embeddings que son densos.
+¿Qué hace el modelo Skip-gram?;Intuición: Parte de una palabra y aprende observando su contexto. Técnica: Predice las palabras del contexto dadas una palabra objetivo.
+¿Qué hace el modelo CBOW?;Intuición: Usa el contexto para adivinar la palabra central. Técnica: Predice la palabra objetivo dado su contexto.
+¿Cuál es la diferencia conceptual entre Skip-gram y CBOW?;Intuición: Uno predice contexto desde palabra, el otro palabra desde contexto. Técnica: Skip-gram modela P(contexto | palabra), CBOW modela P(palabra | contexto).
+¿Por qué FastText puede representar palabras desconocidas?;Intuición: Descompone palabras en partes más pequeñas. Técnica: Usa n-gramas de caracteres para construir representaciones incluso de palabras no vistas.
+¿TF-IDF puede generar representaciones para palabras desconocidas como FastText?;Intuición: No, depende del vocabulario fijo. Técnica: No maneja subcomponentes como n-gramas de caracteres.
+¿Pueden los modelos de lenguaje neuronales usar embeddings como entrada?;Intuición: Sí, usan vectores semánticos como representación inicial. Técnica: Utilizan word embeddings para representar tokens de entrada.
+¿Por qué una RNN bidireccional no sirve como modelo causal de lenguaje?;Intuición: Porque mira el futuro. Técnica: Utiliza información posterior de la secuencia, lo cual invalida el modelado causal.
+¿Qué ventaja tienen las LSTM frente a RNN simples?;Intuición: Recuerdan mejor información lejana. Técnica: Mitigan el problema del desvanecimiento del gradiente y preservan dependencias largas.
+¿Cómo funciona conceptualmente la self-attention?;Intuición: Cada palabra decide a qué otras palabras prestar atención. Técnica: Se calcula una ponderación mediante query y key, se aplica softmax y se combina con value.
+¿Qué representan query, key y value en self-attention?;Intuición: Query pregunta, key responde si es relevante, value aporta información. Técnica: Query y key determinan pesos de atención; value se combina ponderadamente para producir la salida.
+¿Qué es la multi-head attention?;Intuición: Varias atenciones en paralelo que capturan distintos aspectos. Técnica: Varias capas de self-attention cuyos resultados se combinan en un vector final.
+¿Cuál es la estructura básica de un bloque Transformer?;Intuición: Atención, ajuste, transformación, ajuste. Técnica: Self-attention, conexión residual, normalización, feed-forward, conexión residual, normalización.
+¿Por qué los Transformers no necesitan recurrencia?;Intuición: Pueden relacionar directamente cualquier palabra con otra. Técnica: La self-attention modela dependencias globales sin estructura recurrente.
+¿Qué caracteriza a BERT frente a embeddings clásicos?;Intuición: El significado depende del contexto completo. Técnica: Genera embeddings contextuales bidireccionales.
+¿BERT es un modelo causal de lenguaje?;Intuición: No, ve el pasado y el futuro. Técnica: Es bidireccional y no está diseñado como modelo causal.
+¿Cómo se entrena BERT?;Intuición: Aprende a completar huecos usando el contexto. Técnica: Se entrena mediante Masked Language Modeling.
+¿Por qué BERT no es adecuado para autocompletado directo?;Intuición: Porque conoce palabras futuras durante entrenamiento. Técnica: Al ser bidireccional, no modela únicamente el contexto previo.
+¿Qué ventaja tiene la atención multi-cabeza en Transformers?;Intuición: Permite observar la frase desde distintos puntos de vista. Técnica: Captura distintos tipos de relaciones semánticas y sintácticas simultáneamente.

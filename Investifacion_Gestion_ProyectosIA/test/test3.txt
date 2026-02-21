@@ -1,0 +1,101 @@
+
+Pregunta 1
+Enunciado: ¿Cuál es la principal finalidad de un proyecto de investigación?
+Alternativas:
+A. Conseguir nuevos investigadores.
+B. Tener un sistema que permita visibilizar el trabajo de los investigadores.
+C. Conseguir financiación para realizar una idea de investigación.
+D. Dar a conocer al mundo un nuevo conocimiento.
+Respuestas correctas:
+C
+Explicación: La finalidad principal de un proyecto de investigación es obtener financiación para llevar a cabo una idea de investigación. La solicitud del proyecto responde fundamentalmente a esta necesidad de recursos.
+Pregunta 2
+Enunciado: ¿En qué se invierten normalmente los fondos obtenidos de un proyecto?
+Alternativas:
+A. A sufragar los costes de las publicaciones.
+B. A contratar investigadores.
+C. A adquirir los recursos que se necesiten para la investigación.
+D. Todas las anteriores.
+Respuestas correctas:
+D
+Explicación: Los fondos de un proyecto de investigación se destinan a publicaciones, contratación de personal y adquisición de recursos necesarios. Todas estas partidas forman parte habitual del presupuesto financiado.
+Pregunta 3
+Enunciado: Las principales fuentes de financiación en Europa provienen de:
+Alternativas:
+A. Mecenas.
+B. Entidades gubernamentales de carácter regional, nacional o internacional.
+C. Patentes.
+D. Explotación de los resultados de investigación.
+Respuestas correctas:
+B
+Explicación: Aunque existen fondos privados, la principal fuente de financiación en Europa proviene de gobiernos y de la Unión Europea. Las entidades públicas son los principales organismos financiadores de la I+D.
+Pregunta 4
+Enunciado: ¿Qué es el Programa Marco?
+Alternativas:
+A. Organizan correctamente las referencias bibliográficas.
+B. Son un conjunto de normas y estándares que se deben seguir para solicitar proyectos.
+C. Es el que regula la financiación de los proyectos de I+D a nivel nacional.
+D. Es el que regula la financiación de los proyectos de I+D a nivel europeo.
+Respuestas correctas:
+D
+Explicación: El Programa Marco es el principal instrumento de la Unión Europea para regular y financiar proyectos de I+D a nivel europeo. Constituye el marco general de financiación comunitaria en investigación e innovación.
+Pregunta 5
+Enunciado: ¿Cuáles son los pilares del Programa Horizonte Europa?
+Alternativas:
+A. La competitividad, el liderazgo, la justicia social.
+B. Ciencia excelente, Europa conservadora, competitividad industrial.
+C. Ciencia excelente, Europa innovadora, competitividad industrial.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+C
+Explicación: Los pilares de Horizonte Europa son Ciencia excelente, Europa innovadora y competitividad industrial. Estos ejes estructuran el programa de financiación europeo.
+Pregunta 6
+Enunciado: El VAN nos permite:
+Alternativas:
+A. Calcular el valor de un resultado de investigación.
+B. Calcular si vamos a obtener beneficio al final de la inversión inicial.
+C. Detectar proyectos poco interesantes.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+B
+Explicación: El Valor Actual Neto (VAN) permite determinar si una inversión generará beneficios al descontar los flujos futuros respecto a la inversión inicial. Es una herramienta clave para evaluar la viabilidad económica de un proyecto.
+Pregunta 7
+Enunciado: ¿Por qué debemos llevar la contabilidad de un proyecto?
+Alternativas:
+A. Nos permite valorar, registrar y contrastar los costes presupuestados con los costes reales y así poder ir tomando medidas correctoras.
+B. Nos facilita la justificación ante el organismo promotor de la financiación.
+C. Nos permite planificar mejor otros proyectos.
+D. Todas las anteriores.
+Respuestas correctas:
+D
+Explicación: La contabilidad permite controlar los costes reales frente a los presupuestados, justificar el gasto ante el financiador y mejorar la planificación futura. Todas estas razones justifican su importancia en la gestión de proyectos.
+Pregunta 8
+Enunciado: ¿Qué es el TIR?
+Alternativas:
+A. Calcula el volumen de beneficios de un proyecto restándole a los ingresos los gastos.
+B. El valor que tendrá nuestra inversión en el futuro teniendo en cuenta el IPC.
+C. El valor actual de los réditos futuros descontando el coste financiero.
+D. Es el tipo de interés que iguala los ingresos obtenidos con los costes.
+Respuestas correctas:
+D
+Explicación: La Tasa Interna de Retorno (TIR) es el tipo de interés que iguala los ingresos obtenidos con los costes del proyecto. Se utiliza para evaluar la rentabilidad de una inversión.
+Pregunta 9
+Enunciado: En cuanto a la memoria del proyecto, indica cuál es la correcta:
+Alternativas:
+A. Describe los resultados que hemos obtenido en la investigación.
+B. Existe una memoria técnica y otra económica.
+C. Existe una memoria económica y de resultados.
+D. Ninguna de las anteriores.
+Respuestas correctas:
+B
+Explicación: En la gestión de proyectos existen dos tipos de memoria: técnica y económica, que deben elaborarse de manera coordinada. Ambas son necesarias para la correcta justificación del proyecto.
+Pregunta 10
+Enunciado: La norma UNE 166001:2006:
+Alternativas:
+A. Es de obligado cumplimiento.
+B. Si lo implementas se puede certificar el proyecto como que cumple con dicho estándar.
+C. Se requiere para solicitar proyectos nacionales.
+D. Penaliza si no se lleva a cabo en la adquisición de proyectos europeos.
+Respuestas correctas:
+B
+Explicación: La norma UNE 166001:2006 no es de obligado cumplimiento, pero permite certificar que la gestión del proyecto se ajusta a un estándar reconocido. Su implementación aporta garantía y credibilidad en la gestión de I+D.

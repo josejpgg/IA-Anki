@@ -1,0 +1,10 @@
+La divergencia {{c1::léxica}} se refiere a diferencias de significado entre lenguas.;Concepto clave en MT.
+El {{c1::teacher forcing}} usa la palabra real previa durante entrenamiento.;Estabilización del decoder.
+En el decoder, la {{c1::causal self-attention}} opera sobre la secuencia generada.;Dependencia interna.
+La {{c1::cross-attention}} incorpora el contexto del encoder.;Interacción encoder-decoder.
+Un sistema de IR usa un {{c1::índice invertido}} para recuperar documentos eficientemente.;Eficiencia en búsqueda.
+Un sistema de factoid QA combina {{c1::recuperación de documentos}} y {{c2::extracción de respuesta}}.;Arquitectura en dos etapas.
+En TTS, el decoder produce un {{c1::espectrograma}}.;Salida intermedia.
+El {{c1::vocoder}} convierte el espectrograma en señal acústica.;Paso final en TTS.
+El análisis de sentimientos no supervisado basado en lexicón agrega {{c1::valores de sentimiento}} de palabras.;Método léxico.
+Un sistema de ASR puede mejorarse combinándolo con un {{c1::modelo de lenguaje}}.;Mejora de coherencia.

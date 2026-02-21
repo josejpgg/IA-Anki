@@ -1,0 +1,101 @@
+Pregunta 1
+Enunciado: ¿Cuáles de las siguientes afirmaciones son correctas?
+Alternativas:
+A. El aprendizaje automático utiliza siempre ejemplos con clases conocidas previamente.
+B. El aprendizaje automático sirve únicamente para resolver problemas de predicción numérica.
+C. El aprendizaje supervisado busca automáticamente los mecanismos que relacionan una entrada con una salida.
+D. B y C son correctas.
+Respuestas correctas:
+C
+Explicación: En el aprendizaje supervisado el objetivo es aprender, a partir de ejemplos etiquetados, la relación que existe entre entradas y salidas; las demás afirmaciones son incorrectas según la retroalimentación.
+Pregunta 2
+Enunciado: En el caso de los problemas de regresión:
+Alternativas:
+A. La variable respuesta que se desea predecir es de tipo cualitativa.
+B. La variable respuesta que se desea predecir es de tipo cuantitativa.
+C. No siempre existe una variable respuesta.
+D. Ninguna de las anteriores es correcta.
+Respuestas correctas:
+B
+Explicación: En problemas de regresión la variable objetivo es numérica (cuantitativa), ya que se busca predecir un valor continuo.
+Pregunta 3
+Enunciado: En los problemas de clasificación:
+Alternativas:
+A. La variable respuesta contiene siempre más de dos categorías.
+B. La variable respuesta contiene siempre dos o más categorías.
+C. La variable respuesta es de tipo numérico.
+D. Ninguna de las anteriores es correcta.
+Respuestas correctas:
+B
+Explicación: En clasificación la variable de salida es categórica y debe tener al menos dos clases (clasificación binaria o multiclase).
+Pregunta 4
+Enunciado: En la fase de entrenamiento de los modelos:
+Alternativas:
+A. Se realiza la extracción de características y se utiliza para generar posteriormente una predicción.
+B. Se elige qué modelo es el mejor.
+C. Se aprende un modelo que podrá ser utilizado posteriormente.
+D. Ninguna de las anteriores es correcta.
+Respuestas correctas:
+C
+Explicación: La fase de entrenamiento consiste en ajustar los parámetros para obtener un modelo aprendido que pueda emplearse posteriormente para hacer predicciones.
+Pregunta 5
+Enunciado: En el aprendizaje automático:
+Alternativas:
+A. El conjunto de entrenamiento se utiliza para construir un modelo.
+B. El conjunto de test se utiliza para evaluar un modelo.
+C. Si un modelo tiene un error mínimo en el conjunto de entrenamiento también lo tendrá en el conjunto de test.
+D. Todas las anteriores son correctas.
+Respuestas correctas:
+A
+B
+Explicación: El conjunto de entrenamiento sirve para ajustar el modelo y el conjunto de test se emplea para evaluar su rendimiento en datos no vistos; no existe garantía de que un error bajo en entrenamiento se repita en test.
+Pregunta 6
+Enunciado: ¿Cuál es la función principal del conjunto de entrenamiento y del conjunto de test en machine learning?
+Alternativas:
+A. El conjunto de entrenamiento se utiliza para evaluar el rendimiento del modelo, mientras que el conjunto de test se utiliza para construir y ajustar el modelo.
+B. Ambos conjuntos se utilizan para construir y ajustar el modelo durante la fase de entrenamiento.
+C. El conjunto de entrenamiento se utiliza para construir y ajustar el modelo, mientras que el conjunto de test se utiliza para evaluar el rendimiento del modelo en datos no vistos.
+D. El conjunto de test se utiliza exclusivamente para construir y ajustar el modelo durante la fase de entrenamiento.
+Respuestas correctas:
+C
+Explicación: El entrenamiento ajusta el modelo con los datos de entrenamiento y el conjunto de test se reserva para medir cómo generaliza el modelo a datos nuevos.
+Pregunta 7
+Enunciado: ¿Cuál es la principal característica del método de hold-out en el contexto de validación de modelos en machine learning?
+Alternativas:
+A. Consiste en dividir los datos en k particiones para realizar múltiples iteraciones de entrenamiento y evaluación.
+B. Consiste en separar los datos disponibles en dos conjuntos: uno para entrenamiento y otro para test.
+C. Se utiliza para realizar ajustes continuos de los hiperparámetros del modelo durante la fase de entrenamiento.
+D. Es exclusivamente aplicable a problemas de clasificación y no a problemas de regresión.
+Respuestas correctas:
+B
+Explicación: El método hold-out divide el dataset en un conjunto de entrenamiento y otro de test, empleando el primero para aprender y el segundo para evaluar.
+Pregunta 8
+Enunciado: El método k-cross validation:
+Alternativas:
+A. Consiste en dividir los datos disponibles k grupos de tamaño variable cada uno de ellos.
+B. Consiste en dividir los datos disponibles en k grupos del mismo tamaño.
+C. Garantiza la representación equitativa de todas las clases en cada conjunto de validación, lo que puede llevar a una evaluación sesgada en problemas desbalanceados.
+D. Ninguna de las anteriores es correcta.
+Respuestas correctas:
+B
+Explicación: En k-fold cross-validation el conjunto se particiona en k folds (de tamaño equivalente) y se realizan k iteraciones de entrenamiento/validación, empleando cada fold como validación una vez.
+Pregunta 9
+Enunciado: ¿Cuál de las siguientes afirmaciones describe correctamente el overfitting en el contexto del aprendizaje automático?
+Alternativas:
+A. El overfitting ocurre cuando el modelo se ajusta demasiado a los datos de entrenamiento y no generaliza bien a nuevos datos.
+B. El overfitting se refiere a la falta de ajuste del modelo a los datos de entrenamiento, lo que resulta en un rendimiento deficiente.
+C. El overfitting es beneficioso ya que permite al modelo adaptarse perfectamente a los datos de entrenamiento.
+D. El overfitting solo afecta a modelos lineales y no a modelos no lineales.
+Respuestas correctas:
+A
+Explicación: El overfitting implica que el modelo memoriza el conjunto de entrenamiento y pierde capacidad de generalización, fallando en datos no vistos.
+Pregunta 10
+Enunciado: ¿Cuál de las siguientes afirmaciones describe correctamente una diferencia clave entre regresión y clasificación en el contexto del aprendizaje automático?
+Alternativas:
+A. La regresión se utiliza para predecir valores numéricos, mientras que la clasificación se utiliza para asignar instancias a categorías discretas.
+B. Tanto la regresión como la clasificación son métodos intercambiables y se pueden utilizar de manera indistinta para cualquier tipo de problema.
+C. En la regresión, la variable de salida es siempre categórica, mientras que en la clasificación puede ser numérica.
+D. La regresión se aplica únicamente a problemas de clasificación binaria, mientras que la clasificación puede manejar problemas con más de dos clases.
+Respuestas correctas:
+A
+Explicación: La regresión predice variables continuas (numéricas) y la clasificación asigna etiquetas discretas; las demás opciones son incorrectas.

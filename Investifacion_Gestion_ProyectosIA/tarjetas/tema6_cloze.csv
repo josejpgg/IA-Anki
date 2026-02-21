@@ -1,0 +1,9 @@
+La fase de análisis del problema incluye el análisis de {{c1::necesidades del negocio}} y la {{c2::viabilidad técnica}}.;Primer paso del proyecto.
+La preparación de datos incluye {{c1::recopilación}}, {{c2::limpieza}} y {{c3::normalización}}.;Procesamiento previo.
+La selección de algoritmos requiere conocer sus {{c1::fortalezas y debilidades}}.;Decisión crítica.
+Las métricas de evaluación dependen del {{c1::tipo de problema}}.;Contexto de evaluación.
+La creación de servicios de predicción pertenece a la fase de {{c1::integración y despliegue}}.;Producción.
+Las plataformas MLaaS están basadas en la {{c1::nube}}.;Entorno de servicio.
+La {{c1::escalabilidad}} es un criterio clave en la selección de plataformas de IA.;Sostenibilidad.
+Las plataformas open source pueden reducir el {{c1::tiempo de desarrollo}}.;Ventaja principal.
+RPA automatiza tareas {{c1::repetitivas}} mediante robots de software.;Automatización.

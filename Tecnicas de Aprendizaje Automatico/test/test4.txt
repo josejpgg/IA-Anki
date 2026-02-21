@@ -1,0 +1,100 @@
+Pregunta 1
+Enunciado: ¿Cuáles de las siguientes métricas no se usan para evaluar los problemas de regresión?
+Alternativas:
+A. Error absoluto medio.
+B. Error cuadrático medio.
+C. Raíz del error cuadrático medio.
+D. Raíz del error logarítmico cuadrático.
+Respuestas correctas:
+D
+Explicación: El MAE, el MSE y el RMSE son métricas estándar en regresión. La “raíz del error logarítmico cuadrático” no es una métrica comúnmente utilizada en la evaluación habitual de modelos de regresión.
+Pregunta 2
+Enunciado: Indica la afirmación correcta sobre el Error absoluto medio (MAE):
+Alternativas:
+A. MAE mide la diferencia promedio entre predicciones y valores reales.
+B. MAE es una medida de la precisión del modelo de regresión.
+C. MAE penaliza de manera cuadrática las diferencias entre predicciones y valores reales.
+D. MAE es insensible a los valores atípicos en los datos.
+Respuestas correctas:
+A
+Explicación: El MAE calcula el promedio de los errores absolutos entre valores reales y predichos; no penaliza cuadráticamente y puede verse afectado por valores atípicos.
+Pregunta 3
+Enunciado: ¿Puede mejorar el R² (de entrenamiento) de un modelo de regresión lineal múltiple después de eliminar o agregar características?
+Alternativas:
+A. Sí, puede mejorar después de eliminar o agregar características porque mide qué tan bien las variables explican la variabilidad de la variable dependiente.
+B. Sí, puede mejorar porque mide cuántas variables independientes explican la variabilidad.
+C. No, siempre puede empeorar tras modificar características.
+D. No, permanece estable para diferentes conjuntos de características.
+Respuestas correctas:
+A
+Explicación: El R² de entrenamiento puede aumentar o cambiar al agregar o eliminar variables, ya que mide la proporción de variabilidad explicada por los predictores incluidos en el modelo.
+Pregunta 4
+Enunciado: Indica la afirmación correcta sobre el error cuadrático medio (MSE):
+Alternativas:
+A. MSE mide el promedio de los cuadrados de los errores.
+B. MSE es una medida robusta que ignora valores atípicos.
+C. MSE proporciona una medida lineal de la precisión.
+D. MSE es menos sensible a errores grandes que MAE.
+Respuestas correctas:
+A
+Explicación: El MSE calcula el promedio de los cuadrados de los errores, lo que implica que penaliza más fuertemente los errores grandes.
+Pregunta 5
+Enunciado: Indica la afirmación correcta sobre la raíz del error cuadrático medio (RMSE):
+Alternativas:
+A. RMSE es más sensible a errores grandes en comparación con MAE.
+B. RMSE proporciona una medida de error en unidades distintas a la variable objetivo.
+C. RMSE calcula el logaritmo de la raíz cuadrada del promedio de los cuadrados.
+D. RMSE es robusto e ignora la magnitud de los errores.
+Respuestas correctas:
+A
+Explicación: El RMSE, al derivarse del MSE, penaliza más los errores grandes y se expresa en las mismas unidades que la variable objetivo.
+Pregunta 6
+Enunciado: ¿Cuál es el objetivo de la regresión?
+Alternativas:
+A. Comprender el valor de los predictores X.
+B. Comprender el valor del error.
+C. Comprender el valor de las salidas Y.
+D. Comprender la relación entre el predictor X y la salida Y.
+Respuestas correctas:
+D
+Explicación: La regresión tiene como finalidad modelar y comprender la relación entre variables predictoras y la variable de salida.
+Pregunta 7
+Enunciado: ¿Qué indica un coeficiente de regresión negativo en un modelo lineal?
+Alternativas:
+A. La variable predictora tiene un efecto negativo en la variable de respuesta.
+B. No hay relación entre predictor y respuesta.
+C. La variable predictora tiene un efecto positivo.
+D. El modelo no es adecuado.
+Respuestas correctas:
+A
+Explicación: Un coeficiente negativo indica una relación inversa: al aumentar la variable predictora, la variable de respuesta tiende a disminuir.
+Pregunta 8
+Enunciado: ¿Qué representa el intercepto en un modelo de regresión lineal?
+Alternativas:
+A. El valor esperado de la variable de respuesta cuando todas las variables predictoras son cero.
+B. La pendiente de la línea de regresión.
+C. La suma de los cuadrados de los residuos.
+D. La varianza explicada por el modelo.
+Respuestas correctas:
+A
+Explicación: El intercepto es el valor estimado de la variable dependiente cuando todos los predictores toman valor cero.
+Pregunta 9
+Enunciado: ¿Cuál afirmación describe correctamente el compromiso sesgo-varianza?
+Alternativas:
+A. Un sesgo alto puede llevar a subajuste y una varianza alta a sobreajuste.
+B. Solo aplica a modelos de regresión.
+C. Bajo sesgo y alta varianza generaliza bien.
+D. No es relevante en machine learning.
+Respuestas correctas:
+A
+Explicación: El compromiso sesgo-varianza describe el equilibrio entre subajuste (alto sesgo) y sobreajuste (alta varianza), afectando la capacidad de generalización.
+Pregunta 10
+Enunciado: ¿Cuál visualización es más adecuada para evaluar errores en un modelo de regresión?
+Alternativas:
+A. Gráfico de barras de errores absolutos.
+B. Gráfico de dispersión de residuos vs. valores predichos.
+C. Gráfico de línea de errores relativos vs. iteraciones.
+D. Gráfico de pastel de errores cuadráticos medios.
+Respuestas correctas:
+B
+Explicación: El gráfico de residuos frente a valores predichos permite detectar patrones, heterocedasticidad y posibles violaciones de los supuestos del modelo.

@@ -1,0 +1,10 @@
+La ambigüedad sintáctica ocurre cuando existen {{c1::varios árboles válidos}} para una misma oración.;Definición central.
+Los métodos de programación dinámica resuelven {{c1::subproblemas óptimos}} para construir la solución global.;Principio estructural.
+El algoritmo CKY requiere una gramática en {{c1::Forma Normal de Chomsky}}.;Requisito formal.
+En CNF, una regla solo puede tener {{c1::dos no terminales}} o {{c2::un terminal}} en el lado derecho.;Restricción estructural.
+La matriz CKY utiliza únicamente la parte {{c1::triangular superior}}.;Optimización estructural.
+La superdiagonal contiene las {{c1::categorías léxicas}}.;Base del análisis.
+Un parser probabilista busca el árbol {{c1::más probable}}.;Objetivo principal.
+La probabilidad de una regla puede estimarse mediante {{c1::recuento y normalización}} en un treebank.;Estimación supervisada.
+Si no hay corpus anotado, puede utilizarse {{c1::Expectation Maximization}}.;Estimación no supervisada.
+El CKY probabilístico almacena en cada celda la {{c1::probabilidad de cada no terminal}}.;Extensión probabilística.
