@@ -1,0 +1,25 @@
+¿Qué objetivo tiene una SVM en clasificación?;Encontrar el hiperplano que maximiza el margen entre clases.
+¿Las SVM requieren siempre separabilidad lineal?;No, pueden usar margen suave y kernels.
+¿Qué es un hiperplano en SVM?;El límite de decisión que separa las clases en un espacio multidimensional.
+¿Por qué pueden existir múltiples hiperplanos separadores?;Porque varios pueden separar las clases, pero solo uno maximiza el margen.
+¿Qué significa maximizar el margen?;Maximizar la distancia entre el hiperplano y los puntos más cercanos de cada clase.
+¿Qué son los vectores de soporte?;Los puntos más cercanos al hiperplano que determinan su posición.
+¿Por qué los vectores de soporte son cruciales?;Porque definen completamente el modelo.
+¿Se seleccionan los vectores de soporte aleatoriamente?;No, se determinan mediante optimización.
+¿Qué caracteriza al clasificador de margen máximo (hard margin)?;Asume separabilidad perfecta.
+¿Qué es el soft margin?;Permite ciertos errores mediante variables de holgura.
+¿Qué controla el parámetro C?;El equilibrio entre maximizar el margen y minimizar errores.
+¿Qué ocurre si C es muy grande?;El modelo penaliza fuertemente errores y puede sobreajustar.
+¿Qué ocurre si C es pequeño?;Permite más errores pero obtiene margen más amplio.
+¿Aumentar C siempre mejora la generalización?;No, puede aumentar el sobreajuste.
+¿Qué permite el uso de kernels?;Modelar fronteras de decisión no lineales.
+¿Qué hace el kernel polinomial?;Mapea los datos implícitamente a un espacio de mayor dimensión.
+¿Qué ventaja principal tienen los kernels?;Permiten separación no lineal sin calcular explícitamente la transformación.
+¿Qué es el “kernel trick”?;Calcular productos escalares en espacios transformados sin realizar la transformación explícita.
+¿El kernel sigmoide es siempre superior?;No, ningún kernel es universalmente mejor.
+¿Por qué las SVM son robustas en alta dimensión?;Porque dependen de los vectores de soporte y optimización convexa.
+¿Qué significa que la optimización en SVM sea convexa?;Que existe un único óptimo global.
+¿Por qué maximizar margen mejora generalización?;Porque reduce la sensibilidad a pequeñas variaciones.
+¿Qué ocurre si el margen es muy pequeño?;El modelo puede ser más sensible al ruido.
+¿Por qué hard margin no es adecuado con ruido?;Porque exige separación perfecta.
+¿Qué relación existe entre SVM y regularización?;El parámetro C actúa como término de regularización.

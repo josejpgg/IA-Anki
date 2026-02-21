@@ -1,0 +1,25 @@
+¿Qué métricas son estándar para evaluar modelos de regresión?;MAE, MSE y RMSE.
+¿Qué mide el MAE (Mean Absolute Error)?;El promedio de los errores absolutos entre valores reales y predichos.
+¿Qué característica distingue al MSE del MAE?;El MSE penaliza cuadráticamente los errores grandes.
+¿Por qué el MSE es más sensible a outliers?;Porque eleva al cuadrado los errores, amplificando los valores grandes.
+¿Qué representa el RMSE?;La raíz cuadrada del MSE, expresada en las mismas unidades que la variable objetivo.
+¿Por qué el RMSE es más interpretable que el MSE?;Porque está en las mismas unidades que la variable dependiente.
+¿Cuál es el objetivo principal de la regresión?;Modelar y comprender la relación entre variables predictoras X y la variable respuesta Y.
+¿Qué indica un coeficiente negativo en regresión lineal?;Que existe una relación inversa entre predictor y respuesta.
+¿Qué representa el intercepto en un modelo lineal?;El valor esperado de Y cuando todos los predictores son cero.
+¿Qué mide el R² en regresión?;La proporción de varianza de la variable dependiente explicada por el modelo.
+¿Puede aumentar el R² al agregar variables?;Sí, el R² de entrenamiento puede aumentar al agregar predictores.
+¿Por qué agregar variables puede inflar artificialmente el R²?;Porque siempre aumenta o se mantiene, incluso si las variables no aportan información real.
+¿Qué problema intenta equilibrar el compromiso sesgo-varianza?;El equilibrio entre subajuste (alto sesgo) y sobreajuste (alta varianza).
+¿Qué ocurre cuando un modelo tiene alto sesgo?;Subajusta y no captura correctamente la relación real.
+¿Qué ocurre cuando un modelo tiene alta varianza?;Se sobreajusta y no generaliza bien.
+¿Qué visualización es útil para analizar errores en regresión?;Gráfico de residuos vs valores predichos.
+¿Qué indica un patrón sistemático en el gráfico de residuos?;Que el modelo puede estar mal especificado.
+¿Por qué MAE no penaliza tanto los errores grandes como MSE?;Porque no eleva los errores al cuadrado.
+¿Es correcto afirmar que RMSE es robusto a outliers?;No, sigue siendo sensible debido al término cuadrático.
+¿Qué indica heterocedasticidad en un gráfico de residuos?;Que la varianza de los errores no es constante.
+¿Qué significa que R² sea cercano a 1?;Que el modelo explica gran parte de la variabilidad de Y.
+¿Un R² alto garantiza buena generalización?;No, puede existir sobreajuste.
+¿Qué ocurre si R² es negativo en test?;El modelo es peor que predecir la media.
+¿Por qué la raíz del error logarítmico cuadrático no es una métrica estándar común?;Porque no forma parte de las métricas tradicionales básicas de evaluación en regresión.
+¿Cómo se relaciona RMSE con MSE?;RMSE es la raíz cuadrada del MSE.

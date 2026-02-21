@@ -1,0 +1,45 @@
+¿Cuáles son técnicas comunes para imputar datos ausentes?;Enfoques probabilísticos, eliminación de registros y sustitución por media, mediana o moda.
+¿Qué implica usar SimpleImputer(strategy='mean')?;Imputación reemplazando valores faltantes por la media de la variable.
+¿Qué representa el uso de dataset.dropna()?;Eliminación de registros que contienen valores faltantes.
+¿Por qué eliminar registros con valores faltantes puede ser problemático?;Porque puede reducir el tamaño de la muestra y generar sesgo.
+¿Por qué muchos algoritmos requieren imputación previa?;Porque no gestionan correctamente valores faltantes.
+¿Qué riesgo tiene imputar siempre con la media?;Reducir artificialmente la varianza y distorsionar la distribución.
+¿Cuándo es preferible usar mediana en lugar de media para imputar?;Cuando existen outliers que pueden sesgar la media.
+¿Qué ventaja tienen los enfoques probabilísticos frente a imputaciones simples?;Consideran la incertidumbre y estructura estadística de los datos.
+¿Qué es un atributo redundante?;Una variable que aporta información repetida o altamente correlacionada con otra.
+¿Cómo puede la correlación ayudar a detectar redundancia?;Identificando variables con alta dependencia lineal.
+¿Por qué la covarianza por sí sola puede ser engañosa para detectar redundancia?;Porque depende de la escala de las variables.
+¿Por qué es importante eliminar registros duplicados?;Porque pueden sesgar el entrenamiento y sobre-representar ciertos patrones.
+¿Qué efecto tienen los duplicados en modelos basados en frecuencia?;Distorsionan probabilidades y métricas.
+¿Por qué es importante aplicar normalización en algunos algoritmos?;Para evitar que variables con mayor magnitud dominen el modelo.
+¿Qué tipo de modelos son especialmente sensibles a la escala?;Modelos basados en distancia como KNN o SVM.
+¿Cuál es la diferencia entre normalización y estandarización?;La normalización escala a un rango fijo (ej. 0-1) y la estandarización centra en media 0 y desviación 1.
+¿Qué caracteriza al método Z-score?;Transforma los datos para que tengan media 0 y desviación estándar 1.
+¿El Z-score garantiza que los datos sean perfectamente normales?;No necesariamente, solo estandariza.
+¿Por qué convertir variables nominales en numéricas es necesario?;Porque muchos algoritmos requieren entradas numéricas.
+¿Es correcto asignar números arbitrarios a categorías nominales sin cuidado?;No, puede introducir relaciones artificiales entre categorías.
+¿Por qué la codificación incorrecta de variables nominales puede inducir sesgo?;Porque el modelo puede interpretar orden inexistente.
+¿Qué ocurre si no se escala datos antes de usar KNN?;Las variables con mayor magnitud dominarán la distancia euclídea.
+¿Por qué la normalización no siempre es necesaria en modelos basados en árboles?;Porque los árboles no dependen de distancia ni escala.
+¿Qué problema puede surgir si imputamos valores usando información de todo el dataset antes de dividir en train/test?;Data leakage.
+¿Por qué la imputación debe hacerse después de dividir train y test?;Para evitar contaminar la evaluación con información futura.
+¿Qué es Label Encoding?;Una técnica que asigna un número entero distinto a cada categoría de una variable nominal.
+¿Qué problema conceptual puede introducir Label Encoding en variables nominales?;Puede introducir un orden artificial entre categorías que no tienen jerarquía real.
+¿Qué es One-Hot Encoding?;Una técnica que convierte cada categoría en una variable binaria independiente.
+¿Por qué One-Hot Encoding evita el problema de orden artificial?;Porque no asigna jerarquía numérica, solo presencia o ausencia.
+¿Cuándo es apropiado usar Label Encoding?;Cuando la variable es ordinal y existe un orden natural entre categorías.
+¿Por qué usar Label Encoding en una variable nominal puede afectar modelos lineales?;Porque el modelo puede interpretar la codificación como relación numérica significativa.
+¿Qué ocurre si aplicamos Label Encoding a colores (rojo=1, azul=2, verde=3)?;El modelo puede interpretar que verde > azul > rojo, aunque no existe tal orden.
+¿Qué tipo de modelos son especialmente sensibles al uso incorrecto de Label Encoding?;Modelos lineales y basados en distancia como regresión logística o KNN.
+¿Por qué los árboles de decisión suelen tolerar mejor Label Encoding?;Porque dividen por valores discretos sin asumir relación lineal entre ellos.
+¿Cuál es la principal desventaja de One-Hot Encoding?;Aumenta la dimensionalidad del dataset.
+¿Qué problema surge cuando una variable tiene muchas categorías y se aplica One-Hot?;Explosión de dimensionalidad (curse of dimensionality).
+¿Qué es la multicolinealidad en One-Hot Encoding?;Cuando las variables binarias generadas son linealmente dependientes.
+¿Qué es el "dummy variable trap"?;Problema de multicolinealidad al incluir todas las categorías binarias en modelos lineales.
+¿Cómo se evita el dummy variable trap?;Eliminando una de las columnas generadas (drop first).
+¿Puede One-Hot Encoding afectar el rendimiento computacional?;Sí, especialmente con muchas categorías.
+¿Cuándo puede ser preferible usar técnicas como Target Encoding?;Cuando existen muchas categorías y se desea reducir dimensionalidad.
+¿Por qué One-Hot puede perjudicar KNN?;Porque aumenta la dimensionalidad y distorsiona las distancias.
+¿Qué ocurre si una categoría nueva aparece en producción y no estaba en entrenamiento?;El modelo puede fallar si no se gestionó adecuadamente el encoder.
+¿Por qué es importante ajustar el encoder solo con datos de entrenamiento?;Para evitar data leakage.
+¿Qué relación existe entre encoding y interpretabilidad del modelo?;Una codificación incorrecta puede generar interpretaciones erróneas de importancia de variables.

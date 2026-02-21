@@ -1,0 +1,12 @@
+Bagging utiliza muestreo {{c1::bootstrap}}.;Con reemplazo.
+Bagging reduce principalmente la {{c1::varianza}}.;Promedio de modelos.
+Los modelos en Bagging se entrenan en {{c1::paralelo}}.;Independientes.
+Boosting entrena modelos de forma {{c1::secuencial}}.;Dependencia iterativa.
+Boosting reduce principalmente el {{c1::sesgo}}.;Mejora ajuste.
+AdaBoost es un algoritmo de {{c1::Boosting}}.;Clásico.
+Stacking utiliza aprendizaje {{c1::heterogéneo}}.;Modelos distintos.
+Stacking combina modelos mediante un {{c1::meta-modelo}}.;Nivel superior.
+XGBoost es una implementación eficiente de {{c1::Gradient Boosting}}.;Basado en árboles.
+El error OOB utiliza muestras {{c1::no seleccionadas}} en bootstrap.;Evaluación interna.
+Si los modelos están muy correlacionados, Bagging reduce menos la {{c1::varianza}}.;Dependencia.
+Boosting combina modelos mediante {{c1::ponderación}}.;No voto simple.

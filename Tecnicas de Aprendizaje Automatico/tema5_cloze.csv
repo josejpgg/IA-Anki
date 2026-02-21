@@ -1,0 +1,14 @@
+La matriz de confusión se compone de {{c1::TP}}, {{c2::FP}}, {{c3::TN}} y {{c4::FN}}.;Base de métricas.
+Un Falso Negativo es un positivo real clasificado como {{c1::negativo}}.;Error crítico en medicina.
+Un Falso Positivo es un negativo real clasificado como {{c1::positivo}}.;Falsa alarma.
+La precision se calcula como {{c1::TP/(TP+FP)}}.;Calidad de positivos.
+El recall se calcula como {{c1::TP/(TP+FN)}}.;Cobertura.
+En medicina, un FN equivale a {{c1::no detectar una enfermedad}}.;Error grave.
+En justicia, un FP equivale a {{c1::condenar a un inocente}}.;Metáfora potente.
+La accuracy se calcula como {{c1::(TP+TN)/Total}}.;Medida global.
+Muchos FN reducen el {{c1::recall}}.;Sensibilidad baja.
+Muchos FP reducen la {{c1::precision}}.;Predicciones poco fiables.
+Cambiar el umbral modifica {{c1::TP}}, {{c2::FP}}, {{c3::TN}} y {{c4::FN}}.;Impacto directo.
+Si el modelo predice todo positivo, FN será {{c1::0}}.;Pero FP alto.
+Si el modelo predice todo negativo, TP será {{c1::0}}.;Recall nulo.
+La matriz de confusión permite analizar el {{c1::tipo de error}} cometido.;No solo cantidad.

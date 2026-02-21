@@ -1,0 +1,27 @@
+SimpleImputer(strategy='mean') realiza imputación por {{c1::media}}.;Reemplaza valores faltantes.
+dataset.dropna() aplica imputación por {{c1::eliminación}}.;Elimina registros incompletos.
+Imputar con media puede reducir artificialmente la {{c1::varianza}}.;Distorsión estadística.
+La mediana es más robusta ante {{c1::outliers}}.;Menor sensibilidad.
+Los atributos redundantes pueden detectarse mediante {{c1::correlación}}.;Dependencia lineal.
+La covarianza depende de la {{c1::escala}} de las variables.;No está normalizada.
+Los duplicados pueden generar {{c1::sesgo}} en el modelo.;Sobre-representación.
+La normalización evita que variables con mayor {{c1::magnitud}} dominen el modelo.;Equilibrio.
+El Z-score produce datos con media {{c1::0}} y desviación {{c2::1}}.;Estandarización.
+Estandarizar no garantiza distribución {{c1::normal}}.;Solo centra y escala.
+KNN es sensible a la {{c1::escala}} de las variables.;Basado en distancia.
+Los modelos basados en árboles no requieren estrictamente {{c1::normalización}}.;No dependen de distancia.
+Imputar antes de dividir train/test produce {{c1::data leakage}}.;Contaminación.
+Asignar números arbitrarios a categorías nominales puede introducir {{c1::orden artificial}}.;Sesgo.
+La transformación de variables nominales permite aplicar algoritmos que requieren datos {{c1::numéricos}}.;Compatibilidad.
+Label Encoding asigna un {{c1::número entero}} a cada categoría.;Puede inducir orden artificial.
+One-Hot Encoding crea variables {{c1::binarias}} independientes.;Presencia/ausencia.
+Usar Label Encoding en variable nominal puede introducir {{c1::orden artificial}}.;Error frecuente.
+One-Hot aumenta la {{c1::dimensionalidad}} del dataset.;Coste computacional.
+El dummy variable trap genera {{c1::multicolinealidad}}.;Problema en modelos lineales.
+Eliminar una columna evita el {{c1::dummy variable trap}}.;Drop first.
+Los modelos lineales interpretan valores numéricos como {{c1::magnitud u orden}}.;Riesgo conceptual.
+Los árboles no asumen {{c1::relación lineal}} entre categorías.;Más robustos.
+Si el encoder se ajusta antes de dividir train/test se produce {{c1::data leakage}}.;Error metodológico.
+Muchas categorías pueden causar {{c1::curse of dimensionality}}.;Problema en alta dimensión.
+Target Encoding puede reducir {{c1::dimensionalidad}}.;Alternativa avanzada.
+Una categoría nueva en producción puede causar {{c1::error o inconsistencia}}.;Debe manejarse con cuidado.

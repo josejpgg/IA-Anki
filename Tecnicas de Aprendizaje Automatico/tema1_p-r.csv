@@ -1,0 +1,79 @@
+¿Qué es el aprendizaje supervisado (supervised learning)?;Es un enfoque donde el modelo aprende la relación entre entradas (features) y salidas (labels) usando ejemplos etiquetados para poder generalizar a nuevos datos.
+¿Cuál es el objetivo principal del aprendizaje supervisado?;Aprender automáticamente la función que relaciona entradas con salidas para realizar predicciones futuras.
+¿Qué diferencia fundamental existe entre regresión y clasificación?;La regresión predice valores numéricos continuos y la clasificación asigna categorías discretas.
+En un problema de regresión, ¿qué tipo de variable es la variable respuesta?;Es cuantitativa y continua.
+En un problema de clasificación, ¿qué característica debe tener la variable respuesta?;Debe ser categórica con al menos dos clases.
+¿Qué ocurre en la fase de entrenamiento (training phase)?;El modelo ajusta sus parámetros usando el conjunto de entrenamiento para aprender patrones.
+¿Para qué se usa el conjunto de test?;Para evaluar el rendimiento del modelo en datos no vistos.
+¿Por qué un error bajo en entrenamiento no garantiza bajo error en test?;Porque el modelo puede haber memorizado los datos (overfitting) sin generalizar.
+¿En qué consiste el método hold-out?;En dividir el dataset en un conjunto de entrenamiento y otro de test.
+¿Qué es k-fold cross-validation?;Es un método donde los datos se dividen en k particiones iguales y el modelo se entrena k veces usando cada partición como validación una vez.
+¿Qué es el overfitting?;Es cuando el modelo se ajusta demasiado al entrenamiento y pierde capacidad de generalización.
+¿Qué significa que un modelo generaliza?;Que mantiene buen rendimiento en datos nuevos no vistos.
+¿Por qué no debemos ajustar hiperparámetros con el conjunto de test?;Porque contaminaríamos la evaluación final y obtendríamos una estimación optimista irreal.
+Una empresa predice precios de viviendas. ¿Regresión o clasificación?;Regresión, porque el precio es un valor numérico continuo.
+Un banco detecta fraude en transacciones. ¿Regresión o clasificación?;Clasificación binaria.
+¿Cuál es la ventaja principal de k-fold frente a hold-out?;Reduce la varianza de la evaluación y usa mejor los datos.
+¿Qué problema puede indicar que el modelo tiene 99% accuracy en train y 60% en test?;Overfitting.
+¿Por qué el overfitting es peligroso en diagnóstico médico?;Porque puede fallar en pacientes reales pese a rendir bien en datos históricos.
+¿Qué ocurre si el conjunto de test se usa repetidamente para ajustar el modelo?;Se convierte indirectamente en parte del entrenamiento y deja de medir generalización real.
+¿Qué relación conceptual existe entre overfitting y la metáfora de memorizar un examen?;Memorizar respuestas exactas equivale a aprender ruido en lugar de patrones generales.
+Si un modelo tiene bajo error en train y alto error en test, ¿qué tipo de problema refleja?;Alta varianza (overfitting).
+Si un modelo tiene alto error en train y test, ¿qué problema sugiere?;Alta bias (underfitting).
+¿Por qué k-fold proporciona una estimación más estable del rendimiento?;Porque promedia resultados sobre múltiples particiones reduciendo dependencia de una sola división.
+¿Qué ocurre si entrenamos y evaluamos con exactamente los mismos datos?;No medimos generalización, solo memorización.
+¿Por qué generalización es el verdadero objetivo del machine learning?;Porque el propósito es predecir correctamente datos futuros, no solo los históricos.
+¿Qué diferencia conceptual hay entre modelo y algoritmo?;El algoritmo es el procedimiento de aprendizaje y el modelo es el resultado aprendido tras entrenar.
+¿Qué significa que un modelo capture ruido?;Que aprende patrones accidentales específicos del dataset en lugar de relaciones reales.
+¿Por qué un dataset pequeño aumenta riesgo de overfitting?;Porque el modelo puede adaptarse demasiado a patrones específicos y poco representativos.
+¿Qué es una validación honesta?;Una evaluación realizada sobre datos completamente no utilizados en entrenamiento ni ajuste.
+En clasificación multiclase, ¿cuántas categorías mínimas debe haber?;Al menos tres categorías.
+¿Un modelo con 100% de accuracy en entrenamiento es necesariamente un buen modelo?;No. Puede estar sobreajustado (overfitting) y no generalizar a nuevos datos.
+Si el error en entrenamiento y test es bajo pero en producción el rendimiento cae drásticamente, ¿qué podría estar ocurriendo?;Puede existir data drift o que los datos reales tengan una distribución distinta a la del entrenamiento.
+¿Es correcto decir que la regresión es un caso particular de clasificación?;No. Son tipos de problemas distintos: regresión predice valores continuos y clasificación categorías discretas.
+Si un modelo tiene muy pocos datos y muchos parámetros, ¿qué riesgo aumenta?;El riesgo de overfitting, porque el modelo tiene demasiada capacidad para memorizar.
+¿El método hold-out garantiza una estimación estable del rendimiento?;No. Depende fuertemente de cómo se haya hecho la partición.
+¿k-fold cross-validation elimina completamente el riesgo de overfitting?;No. Solo mejora la estimación del rendimiento, pero el modelo aún puede sobreajustarse.
+¿Puede existir overfitting aunque el error en test sea bajo?;Sí, si el conjunto de test ha sido usado indirectamente para ajustar el modelo.
+¿Qué problema ocurre si seleccionamos el modelo final basándonos en el rendimiento del test repetidamente?;Data leakage o contaminación del test.
+¿Un modelo simple siempre generaliza mejor que uno complejo?;No necesariamente. Depende del equilibrio entre bias y variance.
+Si un modelo tiene alto bias, ¿qué característica suele tener?;Es demasiado simple y no captura bien la relación subyacente.
+¿Un problema de clasificación puede tener salida numérica?;Puede representarse numéricamente, pero conceptualmente sigue siendo categórico.
+¿Por qué accuracy puede ser engañosa en datasets desbalanceados?;Porque puede ser alta simplemente prediciendo siempre la clase mayoritaria.
+¿Un modelo que memoriza ruido puede funcionar bien en validación cruzada?;Sí, si el ruido está distribuido de forma similar en todos los folds.
+¿Qué implica que un modelo tenga alta varianza?;Que pequeñas variaciones en los datos generan grandes cambios en el modelo.
+¿Generalización significa que el modelo funcionará perfectamente en cualquier contexto futuro?;No. Solo que funcionará bien en datos provenientes de la misma distribución.
+Si mezclamos datos de entrenamiento y test accidentalmente, ¿qué ocurre?;La evaluación deja de ser válida.
+¿Por qué usar el conjunto de test para elegir hiperparámetros es conceptualmente incorrecto?;Porque el test debe simular datos futuros completamente desconocidos.
+¿Qué es más grave en un sistema médico: alto bias o alta varianza?;Depende del contexto, pero ambos pueden ser críticos si afectan decisiones clínicas.
+¿Puede un modelo tener bajo error en validación cruzada y aún así fallar en producción?;Sí, si la distribución real cambia o si existe data drift.
+¿Qué relación existe entre overfitting y alta varianza?;El overfitting es una manifestación de alta varianza.
+¿Qué mide realmente la precision (precisión)?;De todas las predicciones positivas realizadas por el modelo, cuántas son realmente positivas.
+¿Qué mide el recall (sensibilidad)?;De todos los casos positivos reales, cuántos detecta correctamente el modelo.
+¿Cuál es la diferencia conceptual clave entre precision y recall?;Precision mide calidad de las predicciones positivas, recall mide cobertura de los positivos reales.
+En detección de cáncer, ¿qué métrica suele ser más crítica: precision o recall?;Recall, porque es más grave no detectar un caso positivo real.
+En detección de spam, ¿qué métrica suele ser más crítica: precision o recall?;Precision, para evitar marcar como spam correos legítimos.
+¿Puede un modelo tener recall alto y precision baja?;Sí, si predice muchos positivos incluyendo muchos falsos positivos.
+¿Puede un modelo tener precision alta y recall bajo?;Sí, si solo predice positivo cuando está muy seguro, perdiendo muchos positivos reales.
+¿Qué representa el F1-score?;La media armónica entre precision y recall.
+¿Por qué F1 usa media armónica y no media aritmética?;Porque penaliza fuertemente valores muy desbalanceados entre precision y recall.
+Si precision=1 y recall=0, ¿cuál es el F1?;0, porque la media armónica colapsa cuando uno de los valores es 0.
+¿Qué mide la curva ROC?;La relación entre True Positive Rate (recall) y False Positive Rate para distintos umbrales.
+¿Qué representa el AUC (Area Under the Curve)?;La probabilidad de que el modelo asigne mayor puntuación a un positivo que a un negativo.
+¿Puede un modelo tener buena accuracy y mal recall?;Sí, especialmente en datasets desbalanceados.
+¿Por qué accuracy es mala métrica en problemas con clases desbalanceadas?;Porque puede ser alta prediciendo siempre la clase mayoritaria.
+¿Qué ocurre si aumentamos el umbral de decisión en un clasificador probabilístico?;Aumenta la precision y disminuye el recall.
+¿Qué ocurre si disminuimos el umbral de decisión?;Aumenta el recall y disminuye la precision.
+¿Qué métrica es más sensible al desbalance de clases: accuracy o recall?;Accuracy.
+¿Cuál es el riesgo de optimizar solo recall?;Generar demasiados falsos positivos.
+¿Cuál es el riesgo de optimizar solo precision?;Perder muchos positivos reales.
+¿Qué significa que un modelo tenga AUC=0.5?;Que no discrimina mejor que el azar.
+¿Qué significa que un modelo tenga AUC cercano a 1?;Excelente capacidad discriminativa.
+En un sistema antifraude, ¿qué equilibrio suele buscarse?;Alto recall con precision aceptable, dependiendo del coste del falso positivo.
+¿Por qué ROC puede ser optimista en datasets muy desbalanceados?;Porque no refleja directamente el impacto de los falsos positivos en proporción real.
+¿Qué curva es más informativa en datasets altamente desbalanceados: ROC o Precision-Recall?;Precision-Recall.
+Si un modelo predice todo como positivo, ¿cómo serán recall y precision?;Recall=1, precision baja (dependiente del desbalance).
+Si un modelo predice todo como negativo, ¿cómo será recall?;Recall=0.
+¿Qué mide el True Positive Rate (TPR)?;Es equivalente al recall.
+¿Qué mide el False Positive Rate (FPR)?;La proporción de negativos mal clasificados como positivos.
+¿Por qué F1 no tiene en cuenta verdaderos negativos?;Porque se centra exclusivamente en el equilibrio entre precision y recall.

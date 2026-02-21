@@ -1,0 +1,25 @@
+¿Cuáles son los pasos fundamentales del método Bagging?;Generar múltiples conjuntos bootstrap, entrenar modelos base en paralelo y combinar predicciones.
+¿Qué tipo de muestreo utiliza Bagging?;Muestreo con reemplazo (bootstrap).
+¿Cómo se combinan las predicciones en Bagging para clasificación?;Mediante voto mayoritario.
+¿Cómo se combinan las predicciones en Bagging para regresión?;Mediante promedio.
+¿Qué problema principal intenta reducir Bagging?;La varianza.
+¿Por qué Bagging reduce varianza?;Porque promedia modelos no perfectamente correlacionados.
+¿Los modelos en Bagging se entrenan secuencialmente?;No, se entrenan en paralelo.
+¿Cuáles son los pasos fundamentales de Boosting?;Entrenamiento secuencial de modelos débiles ajustando pesos según el error previo.
+¿Qué problema principal intenta reducir Boosting?;El sesgo.
+¿Cómo combina Boosting los modelos?;Mediante combinación ponderada.
+¿Qué caracteriza al entrenamiento en Boosting?;Es secuencial y dependiente del modelo anterior.
+¿Qué algoritmo clásico pertenece a Boosting?;AdaBoost.
+¿Qué diferencia principal existe entre Bagging y Boosting?;Bagging reduce varianza en paralelo; Boosting reduce sesgo secuencialmente.
+¿Qué caracteriza a Stacking?;Combina modelos heterogéneos usando un modelo meta.
+¿Stacking entrena modelos base en paralelo o secuencialmente?;Generalmente entrena modelos base y luego un meta-modelo de forma secuencial.
+¿Qué tipo de aprendizaje utiliza Stacking?;Heterogéneo.
+¿Qué es XGBoost?;Una implementación eficiente de Gradient Boosting basada en árboles.
+¿Por qué XGBoost es tan popular?;Por su rendimiento, regularización y eficiencia computacional.
+¿Qué es el muestreo bootstrap?;Generar muestras con reemplazo para estimar variabilidad.
+¿Qué permite estimar el error OOB?;El rendimiento usando muestras no incluidas en cada bootstrap.
+¿Por qué OOB es útil en Bagging?;Porque evita necesidad de conjunto de validación separado.
+¿Qué ocurre si los modelos en Bagging están altamente correlacionados?;La reducción de varianza es limitada.
+¿Por qué Boosting puede sobreajustar si no se controla?;Porque puede adaptarse demasiado a errores del entrenamiento.
+¿Qué tipo de modelos suele usar Boosting como base?;Modelos débiles homogéneos.
+¿Qué caracteriza el aprendizaje homogéneo?;Uso del mismo tipo de modelo base.

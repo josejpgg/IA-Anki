@@ -1,0 +1,26 @@
+¿Qué es una matriz de confusión?;Una tabla que compara las predicciones del modelo con los valores reales mostrando TP, FP, TN y FN.
+¿Cuáles son los cuatro componentes básicos de una matriz de confusión binaria?;Verdaderos Positivos (TP), Falsos Positivos (FP), Verdaderos Negativos (TN) y Falsos Negativos (FN).
+¿Qué es un Verdadero Positivo (TP)?;Un caso positivo real correctamente identificado como positivo.
+¿Qué es un Falso Positivo (FP)?;Un caso negativo real incorrectamente clasificado como positivo.
+¿Qué es un Verdadero Negativo (TN)?;Un caso negativo real correctamente clasificado como negativo.
+¿Qué es un Falso Negativo (FN)?;Un caso positivo real incorrectamente clasificado como negativo.
+Metáfora médica: ¿qué representa un Falso Negativo?;Un paciente enfermo al que el test dice que está sano.
+Metáfora médica: ¿qué representa un Falso Positivo?;Un paciente sano al que el test dice que está enfermo.
+En detección de fraude, ¿qué sería un Falso Positivo?;Una transacción legítima bloqueada por sospecha de fraude.
+En detección de fraude, ¿qué sería un Falso Negativo?;Una transacción fraudulenta que el sistema deja pasar.
+¿Por qué los Falsos Negativos suelen ser más graves en medicina?;Porque implican no detectar una enfermedad real.
+¿Por qué los Falsos Positivos pueden ser costosos en sistemas antifraude?;Porque afectan a clientes legítimos y generan fricción.
+¿Cómo se calcula la accuracy usando la matriz de confusión?;Como (TP + TN) dividido por el total de casos.
+¿Cómo se calcula la precision usando la matriz?;TP dividido por (TP + FP).
+¿Cómo se calcula el recall usando la matriz?;TP dividido por (TP + FN).
+¿Por qué no basta con mirar solo la accuracy?;Porque no distingue el tipo de error cometido.
+Si un modelo predice todo como negativo, ¿cómo será la matriz?;TN alto, FN alto, TP=0, FP=0.
+Si un modelo predice todo como positivo, ¿cómo será la matriz?;TP alto, FP alto, TN=0, FN=0.
+¿Qué tipo de error reduce el recall?;Los Falsos Negativos.
+¿Qué tipo de error reduce la precision?;Los Falsos Positivos.
+¿Qué ocurre con la matriz cuando cambiamos el umbral de decisión?;Cambian las proporciones de TP, FP, TN y FN.
+Metáfora judicial: ¿qué sería un Falso Positivo?;Condenar a un inocente.
+Metáfora judicial: ¿qué sería un Falso Negativo?;Dejar libre a un culpable.
+¿Por qué la matriz de confusión es la base de todas las métricas de clasificación?;Porque todas las métricas se derivan de TP, FP, TN y FN.
+¿Qué indica una matriz con muchos FP y pocos FN?;Alta sensibilidad pero baja precisión.
+¿Qué indica una matriz con pocos FP pero muchos FN?;Alta precisión pero baja sensibilidad.

@@ -1,0 +1,19 @@
+El diagrama de dispersión muestra relación entre {{c1::variables numéricas}}.;Visualización básica.
+Pearson mide relación {{c1::lineal}}.;No mide relación no lineal.
+La correlación está acotada entre {{c1::-1}} y {{c2::1}}.;Normalización.
+La varianza se calcula respecto a la {{c1::media}}.;No respecto a la mediana.
+Q2 corresponde a la {{c1::mediana}}.;Centro del boxplot.
+El rango intercuartílico está entre {{c1::Q1}} y {{c2::Q3}}.;Representa dispersión central.
+La correlación no implica {{c1::causalidad}}.;Error frecuente.
+Si todos los valores son iguales, la varianza es {{c1::0}}.;Sin dispersión.
+La covarianza depende de la {{c1::escala}}.;No es estandarizada.
+Los outliers influyen fuertemente en la {{c1::correlación}}.;Sensibilidad estadística.
+Correlación no implica {{c1::causalidad}}.;Puede existir variable confusora.
+Una correlación cercana a cero no descarta relación {{c1::no lineal}}.;Limitación de Pearson.
+Un outlier puede distorsionar la {{c1::pendiente}} de la relación.;Sensibilidad.
+La covarianza no es comparable entre variables con distinta {{c1::escala}}.;No normalizada.
+Ignorar la dispersión puede llevar a conclusiones {{c1::engañosas}}.;Media insuficiente.
+Eliminar outliers sin análisis puede eliminar {{c1::información valiosa}}.;Riesgo metodológico.
+El valor absoluto de la correlación indica la {{c1::fuerza}} de la relación.;Signo indica dirección.
+Asumir linealidad puede ocultar patrones {{c1::curvilíneos}}.;Error frecuente.
+Un boxplot no indica automáticamente que un outlier sea {{c1::error}}.;Puede ser dato válido.

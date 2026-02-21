@@ -1,0 +1,27 @@
+Los árboles de decisión son modelos de aprendizaje {{c1::supervisado}}.;Requieren etiquetas.
+El nodo raíz realiza la primera {{c1::división}}.;Inicio del árbol.
+El árbol selecciona la variable más {{c1::predictiva}}.;Maximiza ganancia.
+El índice Gini mide la {{c1::impureza}}.;No es ganancia.
+Un nodo puro tiene Gini igual a {{c1::0}}.;Sin mezcla de clases.
+La ganancia de información mide reducción de {{c1::entropía}}.;Mejora tras división.
+La poda elimina {{c1::ramas}} poco útiles.;Reduce sobreajuste.
+Un árbol sin restricciones puede sufrir {{c1::sobreajuste}}.;Alta varianza.
+Los árboles dividen el espacio en {{c1::regiones}}.;Segmentación condicional.
+Las hojas representan la {{c1::predicción final}}.;Resultado del modelo.
+El criterio de parada controla el {{c1::crecimiento}}.;Evita complejidad excesiva.
+La entropía mide {{c1::incertidumbre}}.;Desorden en nodo.
+La poda mejora la {{c1::generalización}}.;Mejor rendimiento en test.
+Un árbol puede manejar variables {{c1::numéricas}} y {{c2::categóricas}}.;Flexible.
+Reglas del árbol son estructuras {{c1::if-else}}.;Interpretabilidad.
+Random Forest es un método de {{c1::ensemble}}.;Combina múltiples árboles.
+Utiliza {{c1::bootstrap}} para generar distintos subconjuntos.;Muestreo con reemplazo.
+En cada división se selecciona un subconjunto {{c1::aleatorio}} de variables.;Decorrelación.
+En clasificación, Random Forest usa {{c1::votación mayoritaria}}.;Decisión final.
+En regresión, combina mediante {{c1::promedio}}.;Predicción continua.
+Random Forest reduce principalmente la {{c1::varianza}}.;Menor sobreajuste.
+El error OOB se calcula usando muestras {{c1::no seleccionadas}} en bootstrap.;Validación interna.
+Si los árboles están muy correlacionados, el ensemble pierde {{c1::efectividad}}.;Menos reducción de varianza.
+Random Forest no requiere estrictamente {{c1::normalización}}.;Basado en árboles.
+La importancia de variables puede medirse por disminución de {{c1::impureza}}.;Feature importance.
+Un solo árbol tiene alta {{c1::varianza}}.;Inestabilidad.
+Más árboles reducen variabilidad hasta un punto de {{c1::estabilización}}.;Ley de grandes números.

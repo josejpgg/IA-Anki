@@ -1,0 +1,50 @@
+¿Qué tipo de aprendizaje utilizan los árboles de decisión?;Aprendizaje supervisado.
+¿Para qué tareas pueden utilizarse los árboles de decisión?;Para clasificación y regresión.
+¿Por qué es falso afirmar que los árboles siempre son robustos al sobreajuste?;Porque pueden crecer excesivamente y memorizar los datos si no se controla su complejidad.
+¿Qué función cumple el nodo raíz?;Realiza la primera división seleccionando la característica más predictiva.
+¿Cómo selecciona el árbol la mejor variable en cada división?;Maximizando la ganancia de información o minimizando la impureza.
+¿Qué significa que un árbol divida el espacio en regiones?;Que crea reglas condicionales que segmentan el espacio de características.
+¿Qué representa una hoja en un árbol de decisión?;Una predicción final o región homogénea.
+¿Qué es la poda en árboles de decisión?;La eliminación de ramas que no mejoran el rendimiento en test.
+¿Por qué la poda puede mejorar la generalización?;Porque reduce el sobreajuste.
+¿Cuándo se detiene el crecimiento de un árbol?;Cuando los nodos son puros, no quedan variables o se alcanza un tamaño predefinido.
+¿Qué mide el índice Gini?;La impureza de un nodo.
+¿Qué valor tiene el Gini cuando el nodo es puro?;0.
+¿Qué mide la entropía en un nodo?;El grado de desorden o incertidumbre.
+¿Qué es la ganancia de información?;La reducción de entropía tras una división.
+¿Cómo se calcula la ganancia de información?;Como la entropía del nodo padre menos la suma ponderada de las entropías de los nodos hijos.
+¿Por qué el índice Gini no es lo mismo que la ganancia de información?;Porque mide impureza directamente, no reducción de entropía.
+¿Qué problema puede surgir si un árbol crece sin restricciones?;Sobreajuste.
+¿Los árboles pueden manejar variables categóricas y numéricas?;Sí.
+¿Por qué los árboles son fáciles de interpretar?;Porque generan reglas if-else explícitas.
+¿Qué diferencia hay entre criterio de parada y poda?;El criterio de parada evita crecer más; la poda elimina ramas después del crecimiento.
+¿Por qué la poda suele mejorar el rendimiento en test?;Porque elimina ramas que capturan ruido.
+¿Un árbol siempre produce el modelo óptimo en precisión?;No.
+¿Qué ocurre si todas las hojas son puras?;El árbol puede estar sobreajustado.
+¿Qué significa que un nodo sea puro?;Que todos sus ejemplos pertenecen a la misma clase.
+¿Por qué los árboles no utilizan funciones kernel?;Porque no transforman el espacio, lo particionan mediante reglas.
+¿Qué es Random Forest?;Un modelo de ensemble que combina múltiples árboles de decisión entrenados sobre subconjuntos aleatorios de datos y variables.
+¿Por qué Random Forest se considera un método de ensemble?;Porque combina las predicciones de muchos modelos base (árboles).
+¿Cuál es la idea central detrás de Random Forest?;Reducir la varianza combinando múltiples árboles no correlacionados.
+¿Qué problema de los árboles individuales intenta resolver Random Forest?;El sobreajuste (alta varianza).
+¿Cómo introduce aleatoriedad Random Forest?;Mediante bootstrap de datos y selección aleatoria de subconjuntos de variables.
+¿Qué es el bootstrap en Random Forest?;Muestreo con reemplazo para generar distintos subconjuntos de entrenamiento.
+¿Qué significa que cada árbol vea un subconjunto diferente de variables?;Que en cada división solo se consideran algunas características seleccionadas aleatoriamente.
+¿Por qué reducir la correlación entre árboles mejora el modelo?;Porque errores no correlacionados tienden a cancelarse al promediar.
+¿Cómo se combinan las predicciones en clasificación?;Por votación mayoritaria.
+¿Cómo se combinan las predicciones en regresión?;Mediante promedio.
+¿Por qué Random Forest suele generalizar mejor que un árbol individual?;Porque reduce la varianza sin aumentar significativamente el sesgo.
+¿Random Forest elimina completamente el sobreajuste?;No, pero lo reduce considerablemente.
+¿Qué significa que Random Forest tenga menor varianza?;Que es menos sensible a pequeñas variaciones en los datos.
+¿Por qué un solo árbol es de alta varianza?;Porque pequeñas variaciones en datos pueden cambiar mucho su estructura.
+Metáfora: ¿Cómo se puede entender Random Forest intuitivamente?;Como pedir opinión a muchos expertos independientes en lugar de confiar en uno solo.
+¿Qué ocurre si todos los árboles son muy similares entre sí?;El ensemble pierde efectividad.
+¿Por qué se seleccionan aleatoriamente variables en cada split?;Para decorrelacionar los árboles.
+¿Qué ventaja tiene Random Forest respecto a la interpretabilidad?;Es menos interpretable que un árbol individual.
+¿Random Forest requiere normalización estricta?;No, porque está basado en árboles.
+¿Qué métrica interna puede usar Random Forest para medir importancia de variables?;Disminución promedio de impureza o importancia por permutación.
+¿Qué es Out-of-Bag (OOB) error?;Estimación interna del error usando muestras no incluidas en cada bootstrap.
+¿Por qué OOB es útil?;Permite evaluar el modelo sin necesidad de un conjunto de validación separado.
+¿Qué ocurre si aumentamos demasiado el número de árboles?;El rendimiento se estabiliza, pero aumenta el coste computacional.
+¿Random Forest reduce el sesgo o la varianza principalmente?;Principalmente la varianza.
+¿Por qué Random Forest es robusto frente a outliers?;Porque los árboles individuales son relativamente robustos y el promedio suaviza efectos extremos.

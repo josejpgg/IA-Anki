@@ -1,0 +1,16 @@
+MAE calcula el promedio de los errores {{c1::absolutos}}.;No eleva al cuadrado.
+MSE calcula el promedio de los errores {{c1::cuadrados}}.;Penaliza errores grandes.
+RMSE es la {{c1::raíz cuadrada}} del MSE.;Misma unidad que Y.
+MSE es más sensible a {{c1::outliers}}.;Debido al cuadrado.
+El coeficiente negativo indica relación {{c1::inversa}}.;X aumenta, Y disminuye.
+El intercepto representa el valor de Y cuando X es {{c1::0}}.;Punto de corte.
+R² mide proporción de {{c1::varianza explicada}}.;Bondad de ajuste.
+Agregar variables puede aumentar el {{c1::R²}} de entrenamiento.;Inflación posible.
+Alto sesgo produce {{c1::subajuste}}.;Modelo demasiado simple.
+Alta varianza produce {{c1::sobreajuste}}.;Modelo demasiado complejo.
+El gráfico de {{c1::residuos}} vs predichos ayuda a detectar problemas del modelo.;Diagnóstico.
+Un patrón no aleatorio en residuos indica posible {{c1::mala especificación}}.;Modelo incorrecto.
+RMSE está en las mismas {{c1::unidades}} que la variable objetivo.;Interpretabilidad.
+R² alto no garantiza {{c1::generalización}}.;Puede haber overfitting.
+Si R² en test es negativo, el modelo es peor que predecir la {{c1::media}}.;Rendimiento pobre.
+La heterocedasticidad implica varianza {{c1::no constante}} de los errores.;Violación de supuestos.

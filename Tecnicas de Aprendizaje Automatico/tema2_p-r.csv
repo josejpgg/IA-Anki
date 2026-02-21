@@ -1,0 +1,32 @@
+¿Qué información principal aporta un diagrama de dispersión (scatter plot)?;Permite visualizar la relación entre dos variables numéricas e identificar patrones o tendencias.
+¿Qué tipo de relación puede detectarse en un scatter plot?;Relaciones lineales positivas, negativas o ausencia de relación.
+¿Qué ventaja tiene una matriz de gráficos de dispersión?;Permite comparar múltiples variables simultáneamente para identificar dependencias.
+¿Qué mide el coeficiente de correlación de Pearson?;La fuerza y dirección de la relación lineal entre dos variables cuantitativas continuas.
+¿Qué significa un coeficiente de correlación de -1?;Correlación lineal negativa perfecta.
+¿Qué significa un coeficiente de correlación de 1?;Correlación lineal positiva perfecta.
+¿En qué se diferencia la correlación de Pearson de la covarianza?;La correlación está normalizada entre -1 y 1, la covarianza depende de la escala.
+¿La correlación implica causalidad?;No, solo indica asociación lineal.
+¿Cuál es el objetivo de las medidas de dispersión?;Describir cómo se distribuyen los datos alrededor de una medida central.
+¿Qué indica una varianza alta?;Alta dispersión respecto a la media.
+¿Cómo se calcula la varianza?;Promedio de los cuadrados de las desviaciones respecto a la media.
+¿Por qué la suma de desviaciones respecto a la media es cero?;Porque las desviaciones positivas y negativas se compensan.
+¿Qué diferencia hay entre variable nominal y ordinal?;La ordinal tiene orden inherente, la nominal no.
+¿Qué representa Q2 en un diagrama de cajas?;La mediana.
+¿Qué representa la caja en un boxplot?;El rango intercuartílico (Q1 a Q3).
+¿Qué es un valor atípico (outlier)?;Un dato que se aleja significativamente del patrón general.
+Si la correlación es cercana a 0, ¿qué implica?;No hay relación lineal significativa.
+¿Puede existir relación no lineal con correlación cercana a 0?;Sí.
+¿Qué ocurre con la varianza si todos los valores son iguales?;Es 0.
+¿Por qué los outliers afectan la correlación?;Porque son medidas sensibles a valores extremos.
+¿Por qué es incorrecto afirmar que una correlación alta implica causalidad?;Porque puede existir una variable oculta o relación espuria.
+¿Puede una correlación cercana a cero significar que no existe ninguna relación?;No, puede existir una relación no lineal.
+¿Por qué un outlier puede crear una correlación artificial?;Porque altera fuertemente la pendiente de la relación lineal.
+¿Qué error se comete al comparar covarianzas de variables con distinta escala?;Se interpreta como intensidad de relación cuando depende de la escala.
+¿Por qué interpretar solo la media puede ser engañoso?;Porque no refleja la dispersión ni la forma de la distribución.
+¿Qué error ocurre al ignorar la dispersión?;Se pueden considerar distribuciones muy distintas como similares.
+¿Por qué una varianza alta no siempre es negativa?;Porque puede reflejar diversidad natural en los datos.
+¿Qué problema hay al interpretar un boxplot sin contexto?;Que los outliers pueden ser valores válidos y no errores.
+¿Por qué una correlación negativa fuerte no implica relación débil?;Porque la fuerza depende del valor absoluto.
+¿Qué ocurre si se elimina automáticamente un outlier sin análisis previo?;Puede perderse información relevante.
+¿Por qué un scatter plot puede sugerir correlación inexistente?;Por agrupamientos visuales o sesgo de escala.
+¿Qué error conceptual hay al asumir linealidad por defecto?;Que muchas relaciones reales son no lineales.

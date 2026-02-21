@@ -1,0 +1,25 @@
+¿Qué tipo de algoritmo es Naïve Bayes?;Un algoritmo de aprendizaje supervisado para clasificación.
+¿Por qué Naïve Bayes es supervisado?;Porque requiere datos etiquetados para estimar probabilidades.
+¿Cuál es la suposición clave de Naïve Bayes?;Independencia condicional entre variables dado la clase.
+¿Qué significa independencia condicional?;Que las variables predictoras son independientes entre sí dado el valor de la clase.
+¿Por qué se llama “ingenuo” (naïve)?;Porque asume independencia entre variables aunque en la práctica no siempre sea cierto.
+¿Qué son eventos exhaustivos?;Eventos que cubren todos los posibles resultados, de modo que al menos uno debe ocurrir.
+¿Qué son eventos mutuamente excluyentes?;Eventos que no pueden ocurrir simultáneamente.
+¿Qué caracteriza a eventos dependientes?;Que la ocurrencia de uno afecta la probabilidad del otro.
+¿Qué papel juegan las tablas de frecuencias en Naïve Bayes?;Permiten estimar probabilidades a partir de datos históricos.
+¿Qué ocurre si una combinación de variables no aparece en entrenamiento?;Puede generar probabilidad cero y afectar la predicción.
+¿Qué técnica se utiliza para evitar probabilidades nulas?;Suavizado (por ejemplo, estimador de Laplace).
+¿Por qué es problemático tener probabilidad cero en una característica?;Porque anula el producto total de probabilidades.
+¿Qué hace el teorema de Bayes en clasificación?;Calcula la probabilidad posterior de cada clase dado el vector de características.
+¿Por qué Naïve Bayes es eficiente computacionalmente?;Porque la suposición de independencia simplifica el cálculo conjunto.
+¿Cómo maneja Naïve Bayes variables numéricas en su versión básica?;Mediante discretización.
+¿Qué es discretizar una variable?;Dividir una variable continua en intervalos o categorías.
+¿Por qué la discretización puede facilitar el uso de Naïve Bayes?;Porque transforma variables continuas en categóricas.
+¿Qué riesgo tiene discretizar excesivamente?;Perder información relevante.
+¿Qué significa probabilidad a posteriori?;La probabilidad de la clase dada la evidencia observada.
+¿Qué significa probabilidad a priori?;La probabilidad de la clase antes de observar los datos.
+¿Qué ventaja tiene Naïve Bayes en alta dimensión?;Funciona bien incluso con muchos atributos.
+¿Por qué puede funcionar bien aunque la independencia no sea totalmente cierta?;Porque la aproximación suele ser suficientemente buena en la práctica.
+¿Qué ocurre si las variables están fuertemente correlacionadas?;Puede violarse la suposición y afectar rendimiento.
+¿Por qué Naïve Bayes es común en clasificación de texto?;Porque las palabras pueden modelarse aproximadamente como independientes.
+¿Qué representa el vector de características en Naïve Bayes?;La evidencia utilizada para estimar la clase más probable.

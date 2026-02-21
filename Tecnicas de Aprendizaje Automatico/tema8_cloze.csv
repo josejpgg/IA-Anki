@@ -1,0 +1,14 @@
+Naïve Bayes es un algoritmo de aprendizaje {{c1::supervisado}}.;Requiere etiquetas.
+Asume {{c1::independencia condicional}} entre variables.;Suposición clave.
+Eventos mutuamente excluyentes no pueden ocurrir {{c1::simultáneamente}}.;No coexistencia.
+Eventos exhaustivos implican que al menos {{c1::uno}} debe ocurrir.;Cobertura total.
+Las tablas de {{c1::frecuencias}} permiten estimar probabilidades.;Base empírica.
+Si una probabilidad es cero, el producto total se vuelve {{c1::cero}}.;Problema grave.
+El suavizado de {{c1::Laplace}} evita probabilidades nulas.;Corrección común.
+La probabilidad a posteriori es P(clase | {{c1::evidencia}}).;Resultado final.
+La probabilidad a priori es P({{c1::clase}}).;Antes de observar datos.
+Discretizar implica dividir una variable {{c1::continua}} en intervalos.;Transformación.
+La eficiencia de Naïve Bayes proviene de la suposición de {{c1::independencia}}.;Simplificación.
+Puede funcionar bien incluso si la independencia no es completamente {{c1::cierta}}.;Robustez práctica.
+La correlación fuerte entre variables puede violar la suposición de {{c1::independencia}}.;Limitación.
+Naïve Bayes es popular en clasificación de {{c1::texto}}.;Aplicación común.

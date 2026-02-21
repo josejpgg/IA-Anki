@@ -1,0 +1,14 @@
+Una SVM busca maximizar el {{c1::margen}}.;Separación óptima.
+El hiperplano es el {{c1::límite de decisión}}.;Frontera entre clases.
+Los vectores de soporte son los puntos más {{c1::cercanos}} al hiperplano.;Definen modelo.
+El parámetro {{c1::C}} controla margen vs error.;Regularización.
+C grande penaliza más los {{c1::errores}}.;Riesgo de sobreajuste.
+C pequeño permite mayor {{c1::margen}}.;Mayor tolerancia.
+Soft margin introduce variables de {{c1::holgura}}.;Permite errores.
+Los kernels permiten fronteras {{c1::no lineales}}.;Mayor flexibilidad.
+El kernel polinomial mapea a mayor {{c1::dimensión}}.;Relaciones complejas.
+El kernel trick evita calcular explícitamente la {{c1::transformación}}.;Eficiencia.
+La optimización en SVM es {{c1::convexa}}.;Óptimo global.
+Hard margin requiere {{c1::separabilidad perfecta}}.;Sin errores.
+Maximizar margen mejora {{c1::generalización}}.;Menor varianza.
+Ningún kernel es universalmente {{c1::superior}}.;Depende del problema.
