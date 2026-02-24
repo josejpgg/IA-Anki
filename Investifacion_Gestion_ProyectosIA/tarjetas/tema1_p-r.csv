@@ -10,7 +10,7 @@
 ¿Por qué las ontologías son útiles en sistemas expertos?;Intuición: Organizan el conocimiento de forma estructurada. Técnica: Permiten modelar semánticamente conceptos y relaciones para facilitar el razonamiento automático.
 ¿Qué retos afronta el procesamiento del lenguaje natural?;Intuición: Diferentes idiomas, acentos y alta complejidad computacional. Técnica: Requiere gran capacidad de cómputo y debe manejar diversidad lingüística.
 ¿Se pueden usar técnicas de PLN en chatbots?;Intuición: Sí, son la base de su funcionamiento. Técnica: El PLN se aplica al diseño de agentes conversacionales.
-¿Qué hacen los algoritmos genéticos?;Intuición: Imitan la evolución para encontrar buenas soluciones. Técnica: Simulan selección natural para optimizar soluciones a problemas.
+¿Qué hacen los algoritmos genéticos?;Técnica de optimización y búsqueda inspirada en la evolución biológica y la selección natural para encontrar soluciones aproximadas a problemas complejos
 ¿El aprendizaje automático consiste en programar reglas explícitas?;Intuición: No, aprende de ejemplos. Técnica: Busca generalizar comportamientos y detectar patrones a partir de datos.
 ¿Incluye el aprendizaje automático a las redes neuronales?;Intuición: Sí, forman parte central del campo. Técnica: Las redes neuronales son una técnica dentro del aprendizaje automático.
 ¿Qué caracteriza la computación cognitiva?;Intuición: Usa grandes cantidades de datos con contexto. Técnica: Implica procesamiento de grandes volúmenes de datos considerando contexto adecuado.
