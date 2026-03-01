@@ -1,4 +1,4 @@
-¿Qué NO forma parte de un proyecto como característica esencial?;Intuición: El mantenimiento no es proyecto, es operación. Técnica: La fase de mantenimiento no forma parte del proyecto; un proyecto es un esfuerzo temporal para crear un producto o servicio único.
+¿Qué NO forma parte de un proyecto como característica esencial?;Intuición: El mantenimiento no es proyecto, es operación. Técnica: La fase de mantenimiento no forma parte del proyecto, un proyecto es un esfuerzo temporal para crear un producto o servicio único.
 ¿Qué caracteriza a un proyecto?;Intuición: Tiene principio y fin y crea algo único. Técnica: Es un esfuerzo temporal orientado a producir un producto o servicio único considerando a los interesados.
 ¿Cuándo comienza y termina el ciclo de vida del software?;Intuición: Desde que se concibe hasta que desaparece. Técnica: Abarca desde la concepción del producto hasta su retirada.
 ¿Cuál es la principal limitación del modelo en cascada?;Intuición: Los errores se detectan demasiado tarde. Técnica: No permite detección temprana de fallos en requisitos porque las pruebas se realizan al final.
